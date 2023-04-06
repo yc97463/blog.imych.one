@@ -2,28 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.imych.one/categories/</loc>
+    <lastmod>2023-04-07T00:09:10+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.imych.one/tags/ndhu/</loc>
+    <lastmod>2023-04-07T00:09:10+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.imych.one/categories/photography/</loc>
+    <lastmod>2023-04-07T00:09:10+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.imych.one/post/</loc>
+    <lastmod>2023-04-07T00:09:10+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.imych.one/tags/</loc>
+    <lastmod>2023-04-07T00:09:10+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.imych.one/</loc>
+    <lastmod>2023-04-07T00:09:10+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.imych.one/meet-at-ndhu/</loc>
+    <lastmod>2023-04-07T00:09:10+08:00</lastmod>
+  </url><url>
     <loc>https://blog.imych.one/about/</loc>
     <lastmod>2023-03-21T19:26:34+08:00</lastmod>
   </url><url>
     <loc>https://blog.imych.one/my-first-post/</loc>
     <lastmod>2022-11-10T20:51:34+08:00</lastmod>
   </url><url>
-    <loc>https://blog.imych.one/post/</loc>
-    <lastmod>2022-11-10T20:51:34+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.imych.one/</loc>
-    <lastmod>2022-11-10T20:51:34+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.imych.one/categories/</loc>
-    <lastmod>2020-08-23T08:51:34+08:00</lastmod>
-  </url><url>
     <loc>https://blog.imych.one/categories/coding/</loc>
     <lastmod>2020-08-23T08:51:34+08:00</lastmod>
   </url><url>
     <loc>https://blog.imych.one/tags/hakathon/</loc>
-    <lastmod>2020-08-23T08:51:34+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.imych.one/tags/</loc>
     <lastmod>2020-08-23T08:51:34+08:00</lastmod>
   </url><url>
     <loc>https://blog.imych.one/6th-hackathonjr-tw/</loc>
