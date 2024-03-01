@@ -46,3 +46,4 @@ jobs:
           publish_branch: public
           publish_dir: ./public
           force_orphan: true
+          cname: blog.imych.one
