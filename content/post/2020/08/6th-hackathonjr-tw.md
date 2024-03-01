@@ -2,6 +2,7 @@
 title: "第六屆台灣青年黑客松參賽紀錄"
 date: 2020-08-23T08:51:34+08:00
 draft: false
+slug: 6th-hackathonjr-tw
 tags: ["hakathon"]
 categories: ["Coding"]
 ---
@@ -21,7 +22,7 @@ categories: ["Coding"]
 來說說比賽過程吧。
 說實在的一收到競賽主題的時候，跟隊友悶了一段時間，因為真的拿這主題沒法子啊！
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*uYabf7xI0bvqt2Zz.png)
+![](../images/6th-hackathonjr-tw/0_uYabf7xI0bvqt2Zz.webp)
 
 疫情下的共享經濟，來題解一下：重點放在中間段，「**人們如何確保自己在使用共享經濟帶來的效益時，環境是被完全消毒的，讓自己在這波疫情中全身而退呢？**」
 共享經濟就是共享經濟（詞窮咩），共享經濟常見於 Airbnb、Uber 之類可能會與其他人間接接觸的事情，無論是實體服務或虛擬世界（主要還是現實服務），而在這波疫情爆發之際，這些共享經濟都很可能會因為安全衛生為由暫停服務，而請由參賽隊伍實作出一套解決方案。
