@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>嗨，Medium | YC Photography</title>
+<meta name="keywords" content="">
+<meta name="description" content="是的，我放棄 WordPress 了，陪伴我的那 8 年歲月暫時告一段落。
+還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。
+我所經歷的 WordPress 我對於 WordPress 的印象一直都很複雜。起初是使用 WordPress 架設，但發現很容易因為「外掛(Plugins)、主題(Themes)」等置換與設定，造成資料庫肥大，維護很難維護。而且版面感覺很壯碩，大雜燴的感覺，但我不喜歡這麼多東西，很有壓力。
+部落格工具、內容發佈平台及 CMS - WordPress.org Taiwan 正體中文
+我用 WordPress 架起來的第一個部落格，基於前述的資料庫肥大，我第一個部落格的資料庫就這麼損毀了（各種不同的設定覆蓋在內）。加上當時是「免費主機、空間」還算盛行的時代，但經常一家接著一家跑，每天都在換主機、網域的感覺，當時還真的是「體驗」WrodPress 啊！
+喔對了，我一直都是使用 WordPress.org，而非免費託管的 WordPress.com。我對 WordPress 的印象，只要有任何一丁點操作，都會直接影響到資料庫的規律。怎麼說咧，例如主題，每個主題都會有自己的編排，但如果一直換主題（第一個部落格），就會讓資料表除了一直產生新的資料列，還會跟之前沒被刪除的設定起衝突，如此一來除了會讓資料運算變慢，未來設定上起衝突的機率會更大。
+你可能會問我，用「整理資料庫」的外掛（WordPress 對擴充功能的稱呼）去整理就好了啊！「0，無法」**。**救回來算幸運，救不回來叫正常。我的經驗，用的外掛後，資料表不但沒有回歸正常，問題卻更加棘手了😂。撇除資料庫整理好了，舉「重新產生圖片縮圖」為例好了。先給大家科普一下，WordPress 在圖片上傳後，會按照原先設定、主題設定等，產生一連串的壓縮、剪裁，也就是說一張 4032x3024 的圖像透過媒體庫上傳到 WordPress，接著可能會被裁剪成 2000x1200、 1024x768 、 768x576 、 300x225 、 150x150 、 100x100 等尺寸，雖然單方面來講能夠省下瀏覽流量、提升使用者載入網頁的時間，卻無形佔用了主機額外的空間，可能會被裁成。
+有時候因為換主題，這些曾裁切的大小可能會不適用，What？不適用，這樣之前切好的圖片不就佔空間了嗎？嘿是的沒錯，所以要用外掛重新產生出符合佈景主題會用到的圖檔（例如首頁文章集錦的略縮圖、文章內頁封面圖通常會有另外的比例大小），但產生的過程很不幸的，有些沒刪掉、有些多產、有些產完，但首頁圖片全掛等等棘手的問題全部來跟你相見歡。
+WordPress 裁切功能驚人
+遇到這麼多狗屎事後，我發現我每次準備寫文時好像都在煩惱這些設定、圖片問題。我習慣裝「壓縮圖片大小」的外掛，萬一圖片檔案太大時，至少還有外掛頂著。回歸正題，例如在上傳前要記得先手動壓縮圖檔，因為上傳後雖然還會再壓縮一次，但原始檔案不會被刪除⋯⋯。也就是說會同時佔用主機空間，寫完一篇文還要再去主機的檔案管理後台刪除這些沒被刪除的原始檔，每次的事前作業都很心累。
+Medium，早安 因此我的第三個部落格就這麼誕生了，原先想使用 Medium 平台的 Custom Domain 服務，但當我興沖沖的我打理好網站，準備申請 CNAME 轉過來我的網域時，發現該服務竟然已經停止了¯(°_o)/¯，好⋯⋯看來又要回歸 WordPress 了是吧？只好暫時又繼續用 WordPress 了，但產文動力又更少了些。
+2021年年初，因為開發系統上遇到很多問題需要翻找說明文件或教學分享，刷下來的搜尋結果 Medium 出現比率說實在的算滿高的，而且很有品質，加上曾經喜歡 Medium 的風格，簡約，因此對 Medium 持續保持好感。">
+<meta name="author" content="yc97463">
+<link rel="canonical" href="http://127.0.0.1:5500/public/hello-medium-7e4a329f7f71/">
+<link crossorigin="anonymous" href="/public/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/public/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://imych.one/assets/youu.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://imych.one/assets/youu.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://imych.one/assets/youu.png">
+<link rel="apple-touch-icon" href="https://imych.one/assets/youu.png">
+<link rel="mask-icon" href="https://imych.one/assets/youu.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://127.0.0.1:5500/public/hello-medium-7e4a329f7f71/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="嗨，Medium" />
+<meta property="og:description" content="是的，我放棄 WordPress 了，陪伴我的那 8 年歲月暫時告一段落。
+還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。
+我所經歷的 WordPress 我對於 WordPress 的印象一直都很複雜。起初是使用 WordPress 架設，但發現很容易因為「外掛(Plugins)、主題(Themes)」等置換與設定，造成資料庫肥大，維護很難維護。而且版面感覺很壯碩，大雜燴的感覺，但我不喜歡這麼多東西，很有壓力。
+部落格工具、內容發佈平台及 CMS - WordPress.org Taiwan 正體中文
+我用 WordPress 架起來的第一個部落格，基於前述的資料庫肥大，我第一個部落格的資料庫就這麼損毀了（各種不同的設定覆蓋在內）。加上當時是「免費主機、空間」還算盛行的時代，但經常一家接著一家跑，每天都在換主機、網域的感覺，當時還真的是「體驗」WrodPress 啊！
+喔對了，我一直都是使用 WordPress.org，而非免費託管的 WordPress.com。我對 WordPress 的印象，只要有任何一丁點操作，都會直接影響到資料庫的規律。怎麼說咧，例如主題，每個主題都會有自己的編排，但如果一直換主題（第一個部落格），就會讓資料表除了一直產生新的資料列，還會跟之前沒被刪除的設定起衝突，如此一來除了會讓資料運算變慢，未來設定上起衝突的機率會更大。
+你可能會問我，用「整理資料庫」的外掛（WordPress 對擴充功能的稱呼）去整理就好了啊！「0，無法」**。**救回來算幸運，救不回來叫正常。我的經驗，用的外掛後，資料表不但沒有回歸正常，問題卻更加棘手了😂。撇除資料庫整理好了，舉「重新產生圖片縮圖」為例好了。先給大家科普一下，WordPress 在圖片上傳後，會按照原先設定、主題設定等，產生一連串的壓縮、剪裁，也就是說一張 4032x3024 的圖像透過媒體庫上傳到 WordPress，接著可能會被裁剪成 2000x1200、 1024x768 、 768x576 、 300x225 、 150x150 、 100x100 等尺寸，雖然單方面來講能夠省下瀏覽流量、提升使用者載入網頁的時間，卻無形佔用了主機額外的空間，可能會被裁成。
+有時候因為換主題，這些曾裁切的大小可能會不適用，What？不適用，這樣之前切好的圖片不就佔空間了嗎？嘿是的沒錯，所以要用外掛重新產生出符合佈景主題會用到的圖檔（例如首頁文章集錦的略縮圖、文章內頁封面圖通常會有另外的比例大小），但產生的過程很不幸的，有些沒刪掉、有些多產、有些產完，但首頁圖片全掛等等棘手的問題全部來跟你相見歡。
+WordPress 裁切功能驚人
+遇到這麼多狗屎事後，我發現我每次準備寫文時好像都在煩惱這些設定、圖片問題。我習慣裝「壓縮圖片大小」的外掛，萬一圖片檔案太大時，至少還有外掛頂著。回歸正題，例如在上傳前要記得先手動壓縮圖檔，因為上傳後雖然還會再壓縮一次，但原始檔案不會被刪除⋯⋯。也就是說會同時佔用主機空間，寫完一篇文還要再去主機的檔案管理後台刪除這些沒被刪除的原始檔，每次的事前作業都很心累。
+Medium，早安 因此我的第三個部落格就這麼誕生了，原先想使用 Medium 平台的 Custom Domain 服務，但當我興沖沖的我打理好網站，準備申請 CNAME 轉過來我的網域時，發現該服務竟然已經停止了¯(°_o)/¯，好⋯⋯看來又要回歸 WordPress 了是吧？只好暫時又繼續用 WordPress 了，但產文動力又更少了些。
+2021年年初，因為開發系統上遇到很多問題需要翻找說明文件或教學分享，刷下來的搜尋結果 Medium 出現比率說實在的算滿高的，而且很有品質，加上曾經喜歡 Medium 的風格，簡約，因此對 Medium 持續保持好感。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://127.0.0.1:5500/public/hello-medium-7e4a329f7f71/" /><meta property="og:image" content="http://127.0.0.1:5500/public/images/banner.webp"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-03T00:00:00+08:00" />
+<meta property="article:modified_time" content="2021-04-03T00:00:00+08:00" /><meta property="og:site_name" content="YC Photography" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://127.0.0.1:5500/public/images/banner.webp"/>
+
+<meta name="twitter:title" content="嗨，Medium"/>
+<meta name="twitter:description" content="是的，我放棄 WordPress 了，陪伴我的那 8 年歲月暫時告一段落。
+還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。
+我所經歷的 WordPress 我對於 WordPress 的印象一直都很複雜。起初是使用 WordPress 架設，但發現很容易因為「外掛(Plugins)、主題(Themes)」等置換與設定，造成資料庫肥大，維護很難維護。而且版面感覺很壯碩，大雜燴的感覺，但我不喜歡這麼多東西，很有壓力。
+部落格工具、內容發佈平台及 CMS - WordPress.org Taiwan 正體中文
+我用 WordPress 架起來的第一個部落格，基於前述的資料庫肥大，我第一個部落格的資料庫就這麼損毀了（各種不同的設定覆蓋在內）。加上當時是「免費主機、空間」還算盛行的時代，但經常一家接著一家跑，每天都在換主機、網域的感覺，當時還真的是「體驗」WrodPress 啊！
+喔對了，我一直都是使用 WordPress.org，而非免費託管的 WordPress.com。我對 WordPress 的印象，只要有任何一丁點操作，都會直接影響到資料庫的規律。怎麼說咧，例如主題，每個主題都會有自己的編排，但如果一直換主題（第一個部落格），就會讓資料表除了一直產生新的資料列，還會跟之前沒被刪除的設定起衝突，如此一來除了會讓資料運算變慢，未來設定上起衝突的機率會更大。
+你可能會問我，用「整理資料庫」的外掛（WordPress 對擴充功能的稱呼）去整理就好了啊！「0，無法」**。**救回來算幸運，救不回來叫正常。我的經驗，用的外掛後，資料表不但沒有回歸正常，問題卻更加棘手了😂。撇除資料庫整理好了，舉「重新產生圖片縮圖」為例好了。先給大家科普一下，WordPress 在圖片上傳後，會按照原先設定、主題設定等，產生一連串的壓縮、剪裁，也就是說一張 4032x3024 的圖像透過媒體庫上傳到 WordPress，接著可能會被裁剪成 2000x1200、 1024x768 、 768x576 、 300x225 、 150x150 、 100x100 等尺寸，雖然單方面來講能夠省下瀏覽流量、提升使用者載入網頁的時間，卻無形佔用了主機額外的空間，可能會被裁成。
+有時候因為換主題，這些曾裁切的大小可能會不適用，What？不適用，這樣之前切好的圖片不就佔空間了嗎？嘿是的沒錯，所以要用外掛重新產生出符合佈景主題會用到的圖檔（例如首頁文章集錦的略縮圖、文章內頁封面圖通常會有另外的比例大小），但產生的過程很不幸的，有些沒刪掉、有些多產、有些產完，但首頁圖片全掛等等棘手的問題全部來跟你相見歡。
+WordPress 裁切功能驚人
+遇到這麼多狗屎事後，我發現我每次準備寫文時好像都在煩惱這些設定、圖片問題。我習慣裝「壓縮圖片大小」的外掛，萬一圖片檔案太大時，至少還有外掛頂著。回歸正題，例如在上傳前要記得先手動壓縮圖檔，因為上傳後雖然還會再壓縮一次，但原始檔案不會被刪除⋯⋯。也就是說會同時佔用主機空間，寫完一篇文還要再去主機的檔案管理後台刪除這些沒被刪除的原始檔，每次的事前作業都很心累。
+Medium，早安 因此我的第三個部落格就這麼誕生了，原先想使用 Medium 平台的 Custom Domain 服務，但當我興沖沖的我打理好網站，準備申請 CNAME 轉過來我的網域時，發現該服務竟然已經停止了¯(°_o)/¯，好⋯⋯看來又要回歸 WordPress 了是吧？只好暫時又繼續用 WordPress 了，但產文動力又更少了些。
+2021年年初，因為開發系統上遇到很多問題需要翻找說明文件或教學分享，刷下來的搜尋結果 Medium 出現比率說實在的算滿高的，而且很有品質，加上曾經喜歡 Medium 的風格，簡約，因此對 Medium 持續保持好感。"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://127.0.0.1:5500/public/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "嗨，Medium",
+      "item": "http://127.0.0.1:5500/public/hello-medium-7e4a329f7f71/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "嗨，Medium",
+  "name": "嗨，Medium",
+  "description": "是的，我放棄 WordPress 了，陪伴我的那 8 年歲月暫時告一段落。\n還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。\n我所經歷的 WordPress 我對於 WordPress 的印象一直都很複雜。起初是使用 WordPress 架設，但發現很容易因為「外掛(Plugins)、主題(Themes)」等置換與設定，造成資料庫肥大，維護很難維護。而且版面感覺很壯碩，大雜燴的感覺，但我不喜歡這麼多東西，很有壓力。\n部落格工具、內容發佈平台及 CMS - WordPress.org Taiwan 正體中文\n我用 WordPress 架起來的第一個部落格，基於前述的資料庫肥大，我第一個部落格的資料庫就這麼損毀了（各種不同的設定覆蓋在內）。加上當時是「免費主機、空間」還算盛行的時代，但經常一家接著一家跑，每天都在換主機、網域的感覺，當時還真的是「體驗」WrodPress 啊！\n喔對了，我一直都是使用 WordPress.org，而非免費託管的 WordPress.com。我對 WordPress 的印象，只要有任何一丁點操作，都會直接影響到資料庫的規律。怎麼說咧，例如主題，每個主題都會有自己的編排，但如果一直換主題（第一個部落格），就會讓資料表除了一直產生新的資料列，還會跟之前沒被刪除的設定起衝突，如此一來除了會讓資料運算變慢，未來設定上起衝突的機率會更大。\n你可能會問我，用「整理資料庫」的外掛（WordPress 對擴充功能的稱呼）去整理就好了啊！「0，無法」**。**救回來算幸運，救不回來叫正常。我的經驗，用的外掛後，資料表不但沒有回歸正常，問題卻更加棘手了😂。撇除資料庫整理好了，舉「重新產生圖片縮圖」為例好了。先給大家科普一下，WordPress 在圖片上傳後，會按照原先設定、主題設定等，產生一連串的壓縮、剪裁，也就是說一張 4032x3024 的圖像透過媒體庫上傳到 WordPress，接著可能會被裁剪成 2000x1200、 1024x768 、 768x576 、 300x225 、 150x150 、 100x100 等尺寸，雖然單方面來講能夠省下瀏覽流量、提升使用者載入網頁的時間，卻無形佔用了主機額外的空間，可能會被裁成。\n有時候因為換主題，這些曾裁切的大小可能會不適用，What？不適用，這樣之前切好的圖片不就佔空間了嗎？嘿是的沒錯，所以要用外掛重新產生出符合佈景主題會用到的圖檔（例如首頁文章集錦的略縮圖、文章內頁封面圖通常會有另外的比例大小），但產生的過程很不幸的，有些沒刪掉、有些多產、有些產完，但首頁圖片全掛等等棘手的問題全部來跟你相見歡。\nWordPress 裁切功能驚人\n遇到這麼多狗屎事後，我發現我每次準備寫文時好像都在煩惱這些設定、圖片問題。我習慣裝「壓縮圖片大小」的外掛，萬一圖片檔案太大時，至少還有外掛頂著。回歸正題，例如在上傳前要記得先手動壓縮圖檔，因為上傳後雖然還會再壓縮一次，但原始檔案不會被刪除⋯⋯。也就是說會同時佔用主機空間，寫完一篇文還要再去主機的檔案管理後台刪除這些沒被刪除的原始檔，每次的事前作業都很心累。\nMedium，早安 因此我的第三個部落格就這麼誕生了，原先想使用 Medium 平台的 Custom Domain 服務，但當我興沖沖的我打理好網站，準備申請 CNAME 轉過來我的網域時，發現該服務竟然已經停止了¯(°_o)/¯，好⋯⋯看來又要回歸 WordPress 了是吧？只好暫時又繼續用 WordPress 了，但產文動力又更少了些。\n2021年年初，因為開發系統上遇到很多問題需要翻找說明文件或教學分享，刷下來的搜尋結果 Medium 出現比率說實在的算滿高的，而且很有品質，加上曾經喜歡 Medium 的風格，簡約，因此對 Medium 持續保持好感。",
+  "keywords": [
+    
+  ],
+  "articleBody": "是的，我放棄 WordPress 了，陪伴我的那 8 年歲月暫時告一段落。\n還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。\n我所經歷的 WordPress 我對於 WordPress 的印象一直都很複雜。起初是使用 WordPress 架設，但發現很容易因為「外掛(Plugins)、主題(Themes)」等置換與設定，造成資料庫肥大，維護很難維護。而且版面感覺很壯碩，大雜燴的感覺，但我不喜歡這麼多東西，很有壓力。\n部落格工具、內容發佈平台及 CMS - WordPress.org Taiwan 正體中文\n我用 WordPress 架起來的第一個部落格，基於前述的資料庫肥大，我第一個部落格的資料庫就這麼損毀了（各種不同的設定覆蓋在內）。加上當時是「免費主機、空間」還算盛行的時代，但經常一家接著一家跑，每天都在換主機、網域的感覺，當時還真的是「體驗」WrodPress 啊！\n喔對了，我一直都是使用 WordPress.org，而非免費託管的 WordPress.com。我對 WordPress 的印象，只要有任何一丁點操作，都會直接影響到資料庫的規律。怎麼說咧，例如主題，每個主題都會有自己的編排，但如果一直換主題（第一個部落格），就會讓資料表除了一直產生新的資料列，還會跟之前沒被刪除的設定起衝突，如此一來除了會讓資料運算變慢，未來設定上起衝突的機率會更大。\n你可能會問我，用「整理資料庫」的外掛（WordPress 對擴充功能的稱呼）去整理就好了啊！「0，無法」**。**救回來算幸運，救不回來叫正常。我的經驗，用的外掛後，資料表不但沒有回歸正常，問題卻更加棘手了😂。撇除資料庫整理好了，舉「重新產生圖片縮圖」為例好了。先給大家科普一下，WordPress 在圖片上傳後，會按照原先設定、主題設定等，產生一連串的壓縮、剪裁，也就是說一張 4032x3024 的圖像透過媒體庫上傳到 WordPress，接著可能會被裁剪成 2000x1200、 1024x768 、 768x576 、 300x225 、 150x150 、 100x100 等尺寸，雖然單方面來講能夠省下瀏覽流量、提升使用者載入網頁的時間，卻無形佔用了主機額外的空間，可能會被裁成。\n有時候因為換主題，這些曾裁切的大小可能會不適用，What？不適用，這樣之前切好的圖片不就佔空間了嗎？嘿是的沒錯，所以要用外掛重新產生出符合佈景主題會用到的圖檔（例如首頁文章集錦的略縮圖、文章內頁封面圖通常會有另外的比例大小），但產生的過程很不幸的，有些沒刪掉、有些多產、有些產完，但首頁圖片全掛等等棘手的問題全部來跟你相見歡。\nWordPress 裁切功能驚人\n遇到這麼多狗屎事後，我發現我每次準備寫文時好像都在煩惱這些設定、圖片問題。我習慣裝「壓縮圖片大小」的外掛，萬一圖片檔案太大時，至少還有外掛頂著。回歸正題，例如在上傳前要記得先手動壓縮圖檔，因為上傳後雖然還會再壓縮一次，但原始檔案不會被刪除⋯⋯。也就是說會同時佔用主機空間，寫完一篇文還要再去主機的檔案管理後台刪除這些沒被刪除的原始檔，每次的事前作業都很心累。\nMedium，早安 因此我的第三個部落格就這麼誕生了，原先想使用 Medium 平台的 Custom Domain 服務，但當我興沖沖的我打理好網站，準備申請 CNAME 轉過來我的網域時，發現該服務竟然已經停止了¯(°_o)/¯，好⋯⋯看來又要回歸 WordPress 了是吧？只好暫時又繼續用 WordPress 了，但產文動力又更少了些。\n2021年年初，因為開發系統上遇到很多問題需要翻找說明文件或教學分享，刷下來的搜尋結果 Medium 出現比率說實在的算滿高的，而且很有品質，加上曾經喜歡 Medium 的風格，簡約，因此對 Medium 持續保持好感。\n因為對我來說，Medium 的每一篇文章都是享受。\n2021年年中，翻閱 Medium 有一段時間了，整體來說我對 Medium 的「Follow」很感興趣，可以在一個高品質的平台上，串成一個社群，相較以往 WordPress 自顧自的來得有溫度許多。前幾天 Medium 傳來的好消息，Custom Domain 服務再次回歸，雖然是訂閱制的，但換算後其實跟以往租用虛擬主機的費用差不多，就當作是負擔主機空間吧，但至少我不用再花腦力煩惱容量和資料庫及設定問題了。\n",
+  "wordCount" : "85",
+  "inLanguage": "en",
+  "datePublished": "2021-04-03T00:00:00+08:00",
+  "dateModified": "2021-04-03T00:00:00+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "yc97463"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://127.0.0.1:5500/public/hello-medium-7e4a329f7f71/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "YC Photography",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://imych.one/assets/youu.png"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://127.0.0.1:5500/public/" accesskey="h" title="YC Photography (Alt + H)">YC Photography</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://127.0.0.1:5500/public/categories/" title="分類">
+                    <span>分類</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/public/tags/" title="標籤">
+                    <span>標籤</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/public/about/" title="關於">
+                    <span>關於</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      嗨，Medium
+    </h1>
+    <div class="post-meta">yc油成 · 2021 年 04 月 03 日
+
+</div>
+  </header> 
+  <div class="post-content"><p>是的，我放棄 <a href="https://tw.wordpress.org/">WordPress</a> 了，陪伴我的那 8 年歲月暫時告一段落。</p>
+<p><img loading="lazy" src="../images/hello-medium-7e4a329f7f71/Untitled.png" alt="Untitled"  />
+</p>
+<p>還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。</p>
+<h1 id="我所經歷的-wordpress"><strong>我所經歷的 WordPress</strong><a hidden class="anchor" aria-hidden="true" href="#我所經歷的-wordpress">#</a></h1>
+<p>我對於 WordPress 的印象一直都很複雜。起初是使用 <a href="https://tw.wordpress.org/">WordPress</a> 架設，但發現很容易因為「外掛(Plugins)、主題(Themes)」等置換與設定，造成資料庫肥大，維護很難維護。而且版面感覺很壯碩，大雜燴的感覺，但我不喜歡這麼多東西，很有壓力。</p>
+<p><a href="https://tw.wordpress.org/">部落格工具、內容發佈平台及 CMS - WordPress.org Taiwan 正體中文</a></p>
+<hr>
+<p>我用 WordPress 架起來的第一個部落格，基於前述的資料庫肥大，我第一個部落格的資料庫就這麼損毀了（各種不同的設定覆蓋在內）。加上當時是「免費主機、空間」還算盛行的時代，但經常一家接著一家跑，每天都在換主機、網域的感覺，當時還真的是「體驗」WrodPress 啊！</p>
+<p>喔對了，我一直都是使用 WordPress.org，而非免費託管的 WordPress.com。我對 WordPress 的印象，只要有任何一丁點操作，都會直接影響到資料庫的規律。怎麼說咧，例如主題，每個主題都會有自己的編排，但如果一直換主題（第一個部落格），就會讓資料表除了一直產生新的資料列，還會跟之前沒被刪除的設定起衝突，如此一來除了會讓資料運算變慢，未來設定上起衝突的機率會更大。</p>
+<p>你可能會問我，用「整理資料庫」的外掛（WordPress 對擴充功能的稱呼）去整理就好了啊！「<strong>0，無法</strong>」**。**救回來算幸運，救不回來叫正常。我的經驗，用的外掛後，資料表不但沒有回歸正常，問題卻更加棘手了😂。撇除資料庫整理好了，舉「重新產生圖片縮圖」為例好了。先給大家科普一下，WordPress 在圖片上傳後，會按照原先設定、主題設定等，產生一連串的壓縮、剪裁，也就是說一張 4032x3024 的圖像透過媒體庫上傳到 WordPress，接著可能會被裁剪成 <code>2000x1200</code>、 <code>1024x768</code> 、 <code>768x576</code> 、 <code>300x225</code> 、 <code>150x150</code> 、 <code>100x100</code> 等尺寸，雖然單方面來講能夠省下瀏覽流量、提升使用者載入網頁的時間，卻無形佔用了主機額外的空間，可能會被裁成。</p>
+<p>有時候因為換主題，這些曾裁切的大小可能會不適用，What？不適用，這樣之前切好的圖片不就佔空間了嗎？嘿是的沒錯，所以要用外掛重新產生出符合佈景主題會用到的圖檔（例如首頁文章集錦的略縮圖、文章內頁封面圖通常會有另外的比例大小），但產生的過程很不幸的，有些沒刪掉、有些多產、有些產完，但首頁圖片全掛等等棘手的問題全部來跟你相見歡。</p>
+<p><img loading="lazy" src="../images/hello-medium-7e4a329f7f71/Untitled%201.png" alt="WordPress 裁切功能驚人"  />
+</p>
+<p>WordPress 裁切功能驚人</p>
+<p>遇到這麼多狗屎事後，我發現我每次準備寫文時好像都在煩惱這些設定、圖片問題。我習慣裝「壓縮圖片大小」的外掛，萬一圖片檔案太大時，至少還有外掛頂著。回歸正題，例如在上傳前要記得先手動壓縮圖檔，因為上傳後雖然還會再壓縮一次，但原始檔案不會被刪除⋯⋯。也就是說會同時佔用主機空間，寫完一篇文還要再去主機的檔案管理後台刪除這些沒被刪除的原始檔，每次的事前作業都很心累。</p>
+<h1 id="medium早安"><strong>Medium，早安</strong><a hidden class="anchor" aria-hidden="true" href="#medium早安">#</a></h1>
+<p>因此我的第三個部落格就這麼誕生了，原先想使用 Medium 平台的 Custom Domain 服務，但當我興沖沖的我打理好網站，準備申請 CNAME 轉過來我的網域時，發現該服務竟然已經停止了¯(°_o)/¯，好⋯⋯看來又要回歸 WordPress 了是吧？只好暫時又繼續用 WordPress 了，但產文動力又更少了些。</p>
+<p>2021年年初，因為開發系統上遇到很多問題需要翻找說明文件或教學分享，刷下來的搜尋結果 Medium 出現比率說實在的算滿高的，而且很有品質，加上曾經喜歡 Medium 的風格，簡約，因此對 Medium 持續保持好感。</p>
+<blockquote>
+<p>因為對我來說，Medium 的每一篇文章都是享受。</p>
+</blockquote>
+<p>2021年年中，翻閱 Medium 有一段時間了，整體來說我對 Medium 的「Follow」很感興趣，可以在一個高品質的平台上，串成一個社群，相較以往 WordPress 自顧自的來得有溫度許多。前幾天 Medium 傳來的<a href="https://blog.medium.com/custom-domains-are-back-2dee29560d59">好消息</a>，Custom Domain 服務再次回歸，雖然是訂閱制的，但換算後其實跟以往租用虛擬主機的費用差不多，就當作是負擔主機空間吧，但至少我不用再花腦力煩惱容量和資料庫及設定問題了。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://127.0.0.1:5500/public/">YC Photography</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
