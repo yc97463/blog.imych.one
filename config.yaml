@@ -1,6 +1,7 @@
 baseURL: "https://blog.imych.one/"
 title: "YC Photography"
 languageCode: "zh-TW"
+theme: papermod
 
 permalinks:
   # post: /posts/:year/:month/:title/
