@@ -2,40 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on YC Photography</title>
-    <link>https://blog.imych.one/post/</link>
+    <link>https://yc97463.github.io/blog.imych.one/post/</link>
     <description>Recent content in Posts on YC Photography</description>
     <image>
-      <url>https://blog.imych.one/images/banner.webp</url>
-      <link>https://blog.imych.one/images/banner.webp</link>
+      <url>https://yc97463.github.io/blog.imych.one/images/banner.webp</url>
+      <link>https://yc97463.github.io/blog.imych.one/images/banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Fri, 07 Apr 2023 00:09:10 +0800</lastBuildDate><atom:link href="https://blog.imych.one/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 07 Apr 2023 00:09:10 +0800</lastBuildDate><atom:link href="https://yc97463.github.io/blog.imych.one/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>東華，我遇見⋯⋯</title>
-      <link>https://blog.imych.one/meet-at-ndhu/</link>
+      <link>https://yc97463.github.io/blog.imych.one/meet-at-ndhu/</link>
       <pubDate>Fri, 07 Apr 2023 00:09:10 +0800</pubDate>
       
-      <guid>https://blog.imych.one/meet-at-ndhu/</guid>
+      <guid>https://yc97463.github.io/blog.imych.one/meet-at-ndhu/</guid>
       <description>&lt;p&gt;「東華，我遇見 ⋯⋯」是我在東華大一下中文與涵養課程中的作業，以一本書 、人、 事，甚至一堂課為題，紀錄在東華上學期所經歷的所見所聞。&lt;/p&gt;
 &lt;p&gt;除了抒發回顧之情，期待也能透過分享幫助未來學子了解對此地生活的想像。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>https://blog.imych.one/my-first-post/</link>
-      <pubDate>Thu, 10 Nov 2022 20:51:34 +0800</pubDate>
-      
-      <guid>https://blog.imych.one/my-first-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>第六屆台灣青年黑客松參賽紀錄</title>
-      <link>https://blog.imych.one/6th-hackathonjr-tw/</link>
+      <link>https://yc97463.github.io/blog.imych.one/6th-hackathonjr-tw/</link>
       <pubDate>Sun, 23 Aug 2020 08:51:34 +0800</pubDate>
       
-      <guid>https://blog.imych.one/6th-hackathonjr-tw/</guid>
+      <guid>https://yc97463.github.io/blog.imych.one/6th-hackathonjr-tw/</guid>
       <description>&lt;p&gt;今年與朋友參加了名為青年黑客松的比賽，參賽對象是高中職為主，比賽在短時間內做出一個概念品（有點創意專案賽），而今年的競賽主題是「&lt;strong&gt;疫情下的共享經濟&lt;/strong&gt;」。&lt;/p&gt;</description>
     </item>
     

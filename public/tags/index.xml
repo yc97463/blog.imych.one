@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on YC Photography</title>
-    <link>https://blog.imych.one/tags/</link>
+    <link>https://yc97463.github.io/blog.imych.one/tags/</link>
     <description>Recent content in Tags on YC Photography</description>
     <image>
-      <url>https://blog.imych.one/images/banner.webp</url>
-      <link>https://blog.imych.one/images/banner.webp</link>
+      <url>https://yc97463.github.io/blog.imych.one/images/banner.webp</url>
+      <link>https://yc97463.github.io/blog.imych.one/images/banner.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Fri, 07 Apr 2023 00:09:10 +0800</lastBuildDate><atom:link href="https://blog.imych.one/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 07 Apr 2023 00:09:10 +0800</lastBuildDate><atom:link href="https://yc97463.github.io/blog.imych.one/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ndhu</title>
-      <link>https://blog.imych.one/tags/ndhu/</link>
+      <title>Ndhu</title>
+      <link>https://yc97463.github.io/blog.imych.one/tags/ndhu/</link>
       <pubDate>Fri, 07 Apr 2023 00:09:10 +0800</pubDate>
       
-      <guid>https://blog.imych.one/tags/ndhu/</guid>
+      <guid>https://yc97463.github.io/blog.imych.one/tags/ndhu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hakathon</title>
-      <link>https://blog.imych.one/tags/hakathon/</link>
+      <title>Hakathon</title>
+      <link>https://yc97463.github.io/blog.imych.one/tags/hakathon/</link>
       <pubDate>Sun, 23 Aug 2020 08:51:34 +0800</pubDate>
       
-      <guid>https://blog.imych.one/tags/hakathon/</guid>
+      <guid>https://yc97463.github.io/blog.imych.one/tags/hakathon/</guid>
       <description></description>
     </item>
     
