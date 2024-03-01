@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Github Pages Deploy
 
 on:
   # Runs on pushes targeting the default branch
@@ -30,13 +30,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        submodules: true
+      - name: Setup Hugo
+          uses: peaceiris/actions-hugo@latest
+          with: 
+            hugo-version: 'latest'
+            extended: true
+      - name: Build
+        run: hugo --gc --minify --cleanDestinationDir
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # Upload entire repository
-          path: './public'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: public
+          publish_dir: ./public
+          force_orphan: true
