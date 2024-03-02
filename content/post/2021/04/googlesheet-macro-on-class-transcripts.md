@@ -92,7 +92,13 @@ tags: ["Google", "Javascript"]
 1. 將 Coding Part 滑到最下面，通常新的程式碼會從最下面加上去。
 2. 找 `G1（剛剛執行篩選「生物」的儲存格編號）` ，會發現這段程式碼：
 
-[https://gist.github.com/yc97463/342a277bea32a398b1b1a9836d8ba50f](https://gist.github.com/yc97463/342a277bea32a398b1b1a9836d8ba50f)
+```javascript
+function myFunction5() {
+  var spreadsheet = SpreadsheetApp.getActive();
+  spreadsheet.getRange('G1').activate();
+  spreadsheet.getActiveSheet().getFilter().sort(7, false);
+};
+```
 
 這段程式碼，就是剛剛錄製「排序生物成績」的程式碼組合包 `function {}`，簡單來說他會先連結這份試算表 `var spreadsheet 制定變數`，接著找到 `G1` 這個儲存格，接著執行篩選 `getFilter` ，接著我們就來加上「寫迴圈讓這段巨集能重複執行」的迴圈程式碼吧！
 
@@ -103,7 +109,19 @@ tags: ["Google", "Javascript"]
 
 而下面程式碼中的 `loop_i` 是我們設定的計次變數，我們指定迴圈在 `loop_i <= 100` 前一直執行這段「排序生物成績」的程式碼，當 `loop_i` 被從 0 加到 100 的時候才會停下來。
 
-[https://gist.github.com/yc97463/440978ae1509c757d10e0a3a9fa14fcc](https://gist.github.com/yc97463/440978ae1509c757d10e0a3a9fa14fcc)
+```javascript
+//這是剛剛錄的巨集，可以從裡面觀察到「生物」這一格座標是G1，所以這個function是剛剛的篩選
+function myFunction5() { //function你可以想成他是一個模組、功能，只要觸發這個function，就會執行裡面的code
+  //但因為觸發是一次性的（工具>巨集>執行某巨集），因此我們要讓他在觸發後，會重複執行
+  var loop_i = 0;//先設定一個變數 loop_i，用於計次的
+  for(loop_i = 0 ; loop_i <= 100 ; loop_i++) { //迴圈code用 ";"來區分，因此我們先設定 loop_i 計次為0，第二格為當他達到 loop_i = 100 次條件前都不停止，最後是執行完這一組function後，設定將 loop_i 變數 加 1
+    var spreadsheet = SpreadsheetApp.getActive();
+    spreadsheet.getRange('G1').activate();
+    spreadsheet.getActiveSheet().getFilter().sort(7, false);
+    loop_i = loop_i+1; //當code將前面一大串的「篩選」動作執行完，將計次變數 loop_i 加1。
+  }
+};
+```
 
 這時，我們就可以來執行看看，看一下成效如何。依序點選上方選單的「工具」->「巨集」->名為「排序生物成績」的巨集，接著就會開始執行了。這個畫面呈現另一隻手機正在輸入大家的成績，但成績排序即時被調整為成績最高到最低的狀況。
 
