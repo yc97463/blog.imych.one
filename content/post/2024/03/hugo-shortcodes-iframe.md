@@ -43,7 +43,12 @@ iframe 標籤在還沒有被定義前的編譯結果：shortcode "iframe" not fo
 <iframe src="{{ .Get 0 }}"></iframe>
 ```
 
-這時文章的 `<iframe` 在指令 `hugo` 編譯時就能正確解析，內嵌視窗出現了！
+這時 `iframe` 的簡短原始碼就被定義好了，我們回到文章加入下列程式碼即可嵌入想要的網頁進來。使用指令 `hugo` 編譯時就能正確解析，內嵌視窗出現了！
+
+```md
+{{  < iframe "the url" >  }}
+# ⭡空格去掉              ⭡空格去掉
+```
 
 ![](../images/hugo-shortcodes-iframe/SCR-20240302-mgpa.png)
 
