@@ -77,4 +77,5 @@ iframe {
 
 - [Embedding Iframe in Hugo Site](https://stackoverflow.com/questions/68036749/embedding-iframe-in-hugo-site)
 - [Hugo Shortcodes](https://gohugo.io/content-management/shortcodes/)
+- [creating a 16:9 aspect ratio iframe based on browser size (percentage)](https://stackoverflow.com/questions/32664971/creating-a-169-aspect-ratio-iframe-based-on-browser-size-percentage)
 - [aspect-ratio - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
