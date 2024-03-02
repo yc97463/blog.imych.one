@@ -3,7 +3,7 @@ title: "對學生會的殘存印象"
 date: 2021-07-27T00:00:00+08:00
 slug: smsu10th-retire
 draft: false
-categories: ["Student Association"]
+categories: ["Student Association", "Thinkings"]
 ---
 
 剛剛，我們家副會長轉傳了下一屆美宣的詢問給我：「限動上手捧燈泡的圖檔是否還在？我們覺得這個設計還不錯，感覺可以沿用，但我們想要改個色彩。」
