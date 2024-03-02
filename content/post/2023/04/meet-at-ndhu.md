@@ -4,7 +4,7 @@ date: 2023-04-07T00:09:10+08:00
 slug: meet-at-ndhu
 draft: false
 categories: ["Photography"]
-tags: ["ndhu", "iPhone"]
+tags: ["NDHU", "iPhone"]
 ---
 
 「東華，我遇見 ⋯⋯」是我在東華大一下中文與涵養課程中的作業，以一本書 、人、 事，甚至一堂課為題，紀錄在東華上學期所經歷的所見所聞。
