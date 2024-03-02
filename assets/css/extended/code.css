@@ -1,0 +1,8 @@
+.highlight {
+    padding: 1em;
+    margin: 1em 0;
+    overflow: auto;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    border: 1px solid #e1e1e1;
+}
