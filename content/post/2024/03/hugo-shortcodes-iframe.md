@@ -10,7 +10,7 @@ categories: ["Coding", "Website"]
 
 <!--more-->
 
-昨天把部落格從 [nobelium](https://github.com/craigary/nobelium) 又再遷回來 Hugo。由於 Hugo 沒有內建 embde iframe 的功能，讓原先嵌入的 Google 簡報都無法使用，所以我查了一點資料實作。
+昨天把部落格從 [nobelium](https://github.com/craigary/nobelium) 又再遷回來 Hugo。由於 Hugo 沒有內建 embde iframe 的功能，讓原先嵌入的 Google 簡報都無法使用，所以我查了一點資料實作和整理成我喜歡的樣子。
 
 
 # 寫一段 Hugo Shortcodes
