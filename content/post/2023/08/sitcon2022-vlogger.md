@@ -40,7 +40,7 @@ SITCON 2024 負一籌，在國立臺灣大學應用力學館舉辦。
 
 ![Screenshot 2023-08-31 at 3.08.14 PM.jpeg](../images/sitcon2022-vlogger/Screenshot_2023-08-31_at_3.08.14_PM.jpeg)
 
-{{< youtube qjlakrRa >}}
+{{< youtube qjlakrRa-kM >}}
 
 SITCON 2022 閉幕影片，是一部同時使用 iPhone、單眼及業務機拍攝成的 SDE 快播快剪。
 
