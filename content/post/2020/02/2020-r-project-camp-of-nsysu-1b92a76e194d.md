@@ -140,7 +140,7 @@ OK，課程都教完了，接下來就是最精采的「小組競賽」！小組
 
 前置作業處理好後，來到了各組發表時間，各組的發表真的很讚，有些組將分析做動態泡泡圖、有些做動態圖，這些都比我做最一般的黑白點圖繽紛色彩多了，也是因為這樣，所以認定自己這組的發表更需要透過內容來充實突顯特色。
 
-[https://www.youtube.com/watch?v=yzn5cFGVn7g](https://www.youtube.com/watch?v=yzn5cFGVn7g)
+{{< youtube yzn5cFGVn7g >}}
 
 在聆聽別組發表，自己也可以學習別人的行為，例如他就靠著不用看稿，可以直接就投影幕上的資料做解說，並與台下觀眾製造互動，這同時也是營造好台風的必備關鍵因素！
 
@@ -172,7 +172,7 @@ OK，課程都教完了，接下來就是最精采的「小組競賽」！小組
 > *教授預期的分析圖：可以從多面向去一次顯現出不同的差別，再逐項進行陳述。*
 > 
 
-[https://www.youtube.com/watch?v=uTukb3nhZVE](https://www.youtube.com/watch?v=uTukb3nhZVE)
+{{< youtube uTukb3nhZVE >}}
 
 ![Untitled](../images/2020-r-project-camp-of-nsysu-1b92a76e194d/Untitled%2023.png)
 
