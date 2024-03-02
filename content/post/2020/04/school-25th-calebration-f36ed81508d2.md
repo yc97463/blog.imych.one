@@ -4,6 +4,7 @@ date: 2020-04-26T00:00:00+08:00
 slug: school-25th-calebration-f36ed81508d2
 draft: false
 categories: ["Photography"]
+tags: ["Canon"]
 ---
 
 # **封面故事**

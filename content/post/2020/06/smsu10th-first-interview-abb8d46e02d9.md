@@ -4,6 +4,7 @@ date: 2020-06-14T00:00:00+08:00
 slug: smsu10th-first-interview-abb8d46e02d9
 draft: false
 categories: ["Student Association"]
+tags: ["interview"]
 ---
 
 在學期初，原先有決定徵選天文社的幹部，想當攝影，但因為當時課業的問題，一直癥結著上幹的抉擇，最後仍投遞班聯會的幹部徵選。

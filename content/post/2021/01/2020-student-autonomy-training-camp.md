@@ -4,6 +4,7 @@ date: 2021-01-26T00:00:00+08:00
 slug: 2020-student-autonomy-training-camp
 draft: false
 categories: ["Student Association"]
+tags: ["workshop"]
 ---
 
 ![大概在去年 7 月，因緣際會下參加了由國教署主辦的 [高級中學學生自治培力營](https://sites.google.com/a/chsc.tw/109sapc/plan/wubiaotidewenzhang) ，最後在報名截止前一小時才搭上這班培力列車。](../images/2020-student-autonomy-training-camp/0_0KCw56PksJ8aHM1G.webp)

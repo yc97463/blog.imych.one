@@ -4,6 +4,7 @@ date: 2020-05-17T00:00:00+08:00
 slug: using-trello-to-participation-and-arrangement-method-3437ad2056e5
 status: Published
 categories: ["Tool"]
+tags: ["108課綱"]
 ---
 
 [108課綱](https://flipedu.parenting.com.tw/article/4680) 的實施，除了對 [111學測的高中生選組](https://flipedu.parenting.com.tw/article/5881) 造成影響，對「申請大學」也產生了重大變革。而其中最大影響就是「學習歷程檔案」

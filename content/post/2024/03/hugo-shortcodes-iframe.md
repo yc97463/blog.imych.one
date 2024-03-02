@@ -4,6 +4,7 @@ date: 2024-03-02T13:21:00+08:00
 slug: hugo-shortcodes-iframe
 draft: false
 categories: ["Coding", "Website"]
+tags: ["hugo"]
 ---
 
 你也想在你的 Hugo 部落格裡嵌入其他網站的畫面，但因為 Hugo 不支援 iframe 功能而放棄嗎？這篇教學會一步一步教你在 Hugo 裡新增自訂的簡短原始碼。如果你也相同的需求，照著這篇教學就能解決了。

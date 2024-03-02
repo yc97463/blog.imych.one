@@ -4,6 +4,7 @@ date: 2020-02-09T00:00:00+08:00
 draft: false
 slug: 2020-r-project-camp-of-nsysu-1b92a76e194d
 categories: ["Coding"]
+tags: ["R", "hackathon"]
 ---
 
 tl;dr: 這篇文章紀錄我高一參加中山大學商業智慧日體驗營的經歷，營隊主要教授R語言基礎資料分析和資料視覺化，並進行小組競賽，在營隊中學習和探索大數據處理的方法。

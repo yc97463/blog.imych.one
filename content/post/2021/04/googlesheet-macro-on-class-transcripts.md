@@ -4,6 +4,7 @@ date: 2021-04-04T00:00:00+08:00
 slug: googlesheet-macro-on-class-transcripts
 draft: false
 categories: ["Coding"]
+tags: ["Google", "Javascript"]
 ---
 
 段考結束後，大家總要面臨段考成績的折磨（嗚嗚嗚），我們班總是會在段考完就瘋狂跟老師要成績，但只有貼進群組，沒有人統整、規劃這些成績，成績可能還真的只是那一次段考，沒有太大作用吧。

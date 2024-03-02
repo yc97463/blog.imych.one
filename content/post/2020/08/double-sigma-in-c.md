@@ -4,6 +4,7 @@ date: 2020-08-17T00:00:00+08:00
 slug: double-sigma-in-c
 draft: false
 categories: ["Coding"]
+tags: ["math", "C"]
 ---
 
 # **Σ 小簡介**

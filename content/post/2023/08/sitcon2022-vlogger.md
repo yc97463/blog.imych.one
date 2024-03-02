@@ -4,6 +4,7 @@ date: 2023-08-31T00:00:00+08:00
 slug: sitcon2022-vlogger
 draft: false
 categories: ["Community", "Photography"]
+tags: ["iPhone"]
 ---
 
 tl;dr: 這一篇文章將分享在 SITCON 2022 學生計算機年會對動態攝影新挑戰的嘗試。

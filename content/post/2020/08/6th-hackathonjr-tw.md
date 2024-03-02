@@ -3,8 +3,8 @@ title: "第六屆台灣青年黑客松參賽紀錄"
 date: 2020-08-23T08:51:34+08:00
 draft: false
 slug: 6th-hackathonjr-tw
-tags: ["hakathon"]
 categories: ["Coding"]
+tags: ["hackathon", "API"]
 ---
 
 今年與朋友參加了名為青年黑客松的比賽，參賽對象是高中職為主，比賽在短時間內做出一個概念品（有點創意專案賽），而今年的競賽主題是「**疫情下的共享經濟**」。

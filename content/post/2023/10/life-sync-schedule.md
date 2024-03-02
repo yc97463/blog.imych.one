@@ -4,6 +4,7 @@ date: 2023-10-10T00:00:00+08:00
 slug: life-sync-schedule
 draft: false
 categories: ["Life"]
+tags: ["Google"]
 ---
 
 tl;dr: 我覺得行事曆很好用，之所以稱作行事曆，就是因為照表行事。安排行事曆讓我能專注在當下的時間段，事先安排好「睡覺」的時間，在接近睡覺時間時能準備收拾去睡覺。

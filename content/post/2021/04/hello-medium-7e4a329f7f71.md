@@ -4,6 +4,7 @@ date: 2021-04-03T00:00:00+08:00
 slug: hello-medium-7e4a329f7f71
 draft: false
 categories: ["Website"]
+tags: ["medium"]
 ---
 
 是的，我放棄 [WordPress](https://tw.wordpress.org/) 了，陪伴我的那 8 年歲月暫時告一段落。

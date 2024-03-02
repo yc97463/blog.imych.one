@@ -3,7 +3,8 @@ title: "改善、翻新輔導室網站"
 date: 2020-07-20T00:00:00+08:00
 slug: renew-guidance-websites-ceab0b426d56
 draft: false
-categories: ["UI/UX"]
+categories: ["UIUX"]
+tags: ["WordPress"]
 ---
 
 tl;dr: 從舊版 Google Site 搬遷到 WordPress 的紀錄和改變。

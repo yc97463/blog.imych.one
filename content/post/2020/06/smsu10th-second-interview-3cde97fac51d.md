@@ -4,6 +4,7 @@ date: 2020-06-24T00:00:00+08:00
 slug: smsu10th-second-interview-3cde97fac51d
 draft: false
 categories: ["Student Association"]
+tags: ["interview"]
 ---
 
 距離 [班聯會的第一次面試](/smsu10th-first-interview-abb8d46e02d9) 大概過了幾天後，班聯會發布了一面的篩選結果。當時以為一面就定生死的me，突然感到恐慌⋯
