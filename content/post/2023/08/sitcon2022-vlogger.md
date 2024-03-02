@@ -10,7 +10,7 @@ tl;dr: 這一篇文章將分享在 SITCON 2022 學生計算機年會對動態攝
 
 <!--more-->
 
-[https://docs.google.com/presentation/d/1RyMEafKlgOeKD8a7cJZb6Ii3T8OxvSjjCn-AJEGOCZE/embed](https://docs.google.com/presentation/d/1RyMEafKlgOeKD8a7cJZb6Ii3T8OxvSjjCn-AJEGOCZE/embed)
+{{< iframe "https://docs.google.com/presentation/d/1RyMEafKlgOeKD8a7cJZb6Ii3T8OxvSjjCn-AJEGOCZE/embed" >}}
 
 這是一份在 SITCON 2024 負一籌時分享的簡報，簡報連結：[https://imych.one/sitcon2022-vlogger](https://imych.one/sitcon2022-vlogger)。
 
