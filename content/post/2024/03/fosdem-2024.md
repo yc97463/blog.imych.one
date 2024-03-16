@@ -13,8 +13,6 @@ tags: ["FOSDEM"]
 
 <!--more-->
 
-{{< iframe "https://docs.google.com/presentation/d/1ZcVSnB6d5Kr57ZuDiLr8DjuxzHsIKwnzHBmXF-U9Y68/embed" >}}
-
 # FOSDEM 介紹
 
 FOSDEM 全名 **Free and Open source Software Developers' European Meeting**，是歐洲的開源、自由軟體會議。
@@ -172,6 +170,14 @@ FOSSASIA 是亞洲地區幫助自由和開源技術開發者和 maker 的非營�
 # 總結
 
 我覺得參與 FOSDEM 是很不一樣的體驗，身邊的人、人數⋯⋯etc
+
+# SITCON 2024 年會議程
+
+同場加映 SITCON 學生計算機年會 2024 的議程「[開源社群探險 Go Go！從 FOSDEM 到臺灣的社群分享](https://sitcon.org/2024/agenda/e58595/)」。
+
+由於下一段獎助計畫所述的權利義務中需要舉辦一場實體活動，所以我也投了年會議程，並和 Timothy 一起分享我們出訪的心得經驗。
+
+{{< iframe "https://docs.google.com/presentation/d/1ZcVSnB6d5Kr57ZuDiLr8DjuxzHsIKwnzHBmXF-U9Y68/embed" >}}
 
 # OCF 國際會議獎助計畫
 
