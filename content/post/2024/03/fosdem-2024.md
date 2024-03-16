@@ -1,11 +1,230 @@
 ---
 title: "FOSDEM 2024 開源社群探險，"
-date: 2024-03-01T11:30:00+08:00
+date: 2024-03-16T11:30:00+08:00
 slug: fosdem-2024
-draft: true
+draft: false
+build:
+    list: never
 categories: ["Community", "Photography"]
 tags: ["FOSDEM"]
 ---
 
+第一次申請 OCF 開放文化基金會的國際獎助會議計畫，獲選獎助金去比利時看看歐洲最大的開放原始碼研討會 FOSDEM (Free and Open source Software Developers' European Meeting)。
+
+<!--more-->
+
 {{< iframe "https://docs.google.com/presentation/d/1ZcVSnB6d5Kr57ZuDiLr8DjuxzHsIKwnzHBmXF-U9Y68/embed" >}}
 
+# FOSDEM 介紹
+
+FOSDEM 全名 **Free and Open source Software Developers' European Meeting**，是歐洲的開源、自由軟體會議。
+
+<!-- todos: 介紹 FOSDEM、出訪前聽說的盛況 -->
+
+<!-- todos: FOSDEM 開幕資訊揭露 -->
+
+# FOSDEM 議程
+
+FOSDEM 的議程安排與 COSCUP 臺灣開源人年會相似，每個議程軌（Devroom）都有一個主題，會由淺而深地安排議程。因此會眾可以選擇喜歡的主題待一整天，也可以在不同 devroom 之間切換選擇想聽的議程。
+
+我聽了幾個議程軌：
+- [Community devroom](https://fosdem.org/2024/schedule/track/community/)
+- [Open Source Design devroom](https://fosdem.org/2024/schedule/track/open-source-design/)
+- [Lightning talks](https://fosdem.org/2024/schedule/track/lightning_talks/)
+- [Keynotes](https://fosdem.org/2024/schedule/track/keynote/)
+
+## Community devroom
+
+社群的議程軌的人數很不一定，不過這裡卻是好玩的議程！
+
+這個議程軌我提早來，所以先進來看看 [Building an Open Source Community One Friend at a Time](https://fosdem.org/2024/schedule/event/fosdem-2024-2776-building-an-open-source-community-one-friend-at-a-time/)。
+
+我覺得這個議程很有趣，講者 Bill 分享在參與眾多社群交友的經驗與對生活的結合幫助、效益，以及向在場會眾分享 BUZZING ACROSS SPACE 的教材，裡面以視覺化的方式介紹 Linux Kernel。
+
+![](../images/fosdem-2024/fosdem2024-building-an-open-source-community-one-friend-at-a-tile-lecture.jpeg)
+
+{{<figure src="../images/fosdem-2024/fosdem2024-building-an-open-source-community-one-friend-at-a-tile-books.jpg" title="BUZZING ACROSS SPACE 教材，視覺化呈現 Linux Kernel">}}
+
+休息時間中還遇到上一場休息時間的發糖果環節，主持人從下方講台大聲問：「誰要糖果～」觀眾席的會眾大聲喊：「我要～～」主持人從台下把一包糖果拋向會眾的位置，讓糖果飛高高！這是個相較臺灣研討會很不一樣的體驗，在臺灣的互動相對保守一些，比較不會像這邊所營造輕鬆的氛圍。
+
+接著我來聽指定的 [Building an Open Source Community One Friend at a Time](https://fosdem.org/2024/schedule/event/fosdem-2024-1938-strategies-for-building-healthy-open-source-communities/) 議程。議程中分享面對人類協作時健康的社群參與，然而清楚的「文件主導治理（documented governance）」讓人們更容易共同協作，好的入門文件讓開放合作更容易達成。
+
+我覺得在演講中講到一個重要的事：「人類是脆弱的，有情緒也有心情不好的時候。」因此講者也提出以鼓勵參與的方式，以及在開放環境工作的方法。
+
+![](../images/fosdem-2024/Strategies_Healthy_OSS_Communities_FOSDEM_2024_page4_compress.jpeg)
+
+[ref: Strategies for Building Healthy Open Source Communities](https://fastwonderblog.com/wp-content/uploads/2024/02/Strategies_Healthy_OSS_Communities_FOSDEM_2024.pdf)
+
+## Open Source Design devroom
+
+Rasshi Saxena 在 [Web-accessibility for open-source privacy & security tools](https://fosdem.org/2024/schedule/event/fosdem-2024-3326-web-accessibility-for-open-source-privacy-security-tools/) 介紹無障礙設計對有需求者的重要，並從「所有人都能使用（A world that includes everyone）」的可用性的角度切入產品設計的分析及網頁設計無障礙。
+
+在這個議程結束後，我也向 Rasshi 分享臺灣大多政府的資訊服務並無照顧到面對電子設備的弱勢族群，他除了誇讚喜歡臺灣，如果有需要他也樂意幫忙。
+
+## Lightning Talks
+
+我覺得我這場 FOSDEM 團隊的 [FOSDEM infrastructure review](https://fosdem.org/2024/schedule/event/fosdem-2024-3025-fosdem-infrastructure-review/) 相較一般的議程有趣許多。
+
+他們分享在今年 FOSDEM 影片與直播串流的基礎建設，其中介紹他們自製的「視訊盒（Video box）」，將攝影機、講者電腦畫面的訊號串流至自建的算圖農場（Render farm）來處理，包括給即時串流的影像合成、畫面裁切，以及最終上架至官網的有頭有尾版都會在這裡自動處理完。
+
+![](../images/fosdem-2024/fosdem2024-fosdem-infrastructure-review-videoboxs.jpg)
+
+![](../images/fosdem-2024/fosdem2024-fosdem-infrastructure-review-renderfarm.jpg)
+
+[ref: Infrastructure Review](https://fosdem.org/2024/events/attachments/fosdem-2024-3025-fosdem-infrastructure-review/slides/22918/2024-02-04--Monitoring_and_observability_devroo_3jGxyyI.pdf)
+
+我覺得這很有趣，因為對於現場幫忙攝影機的志工來說，只需要確認攝影機有對準拍攝目標、講者有確實插上畫面投影線即可，剩下的都交給農場來處理。
+
+這跟臺灣很不一樣，就我參加的 COSCUP 2022 來說，每個議程廳有獨立的導播處理計時、控制畫面、議程錄影，待整天活動結束後才開始剪輯每一場的議程片段。光是處理這些，每個 room 的導播忙都忙翻天了！
+
+{{<figure src="../images/fosdem-2024/fosdem2024-fosdem-infrastructure-review-dashboard.jpg" title="農場端來自各議程軌訊號輸入即時串流板板，講者 cam、議程簡報的訊號都是獨立傳入">}}
+
+[ref: Infrastructure Review](https://fosdem.org/2024/events/attachments/fosdem-2024-3025-fosdem-infrastructure-review/slides/22918/2024-02-04--Monitoring_and_observability_devroo_3jGxyyI.pdf)
+
+{{<figure src="../images/fosdem-2024/coscup2022-director-workstation.jpg" title="COSCUP 2022 導播工作區，有超大螢幕來監控輸入訊號、畫面輸出、直播排版">}}
+
+[ref: 📷 COSCUP 2022 Day 1 on Flickr](https://www.flickr.com/photos/coscup/52304876729/in/album-72177720301524008/)
+
+## Keynotes
+
+我在 Keynotes 聽了 [Opening](https://fosdem.org/2024/schedule/event/fosdem-2024-3023-welcome-to-fosdem-2024/), [Highlights](https://fosdem.org/2024/schedule/event/fosdem-2024-3723-fosdem-2024-highlights/), [Closing](https://fosdem.org/2024/schedule/event/fosdem-2024-3024-closing-fosdem-2024/)，其中最有意思的是 Highlights，也就是此活動的亮點✨。
+
+臺灣 COSCUP 會是以籌備單位的角度出發，介紹今年年會的大小事，而在 FOSDEM 的 Highlights 則交給會眾投稿發表。
+
+第一位進行照片分享，分享他在研討會中看到的大家，有興趣的話可以去看這場的[錄影存檔](https://video.fosdem.org/2024/janson/fosdem-2024-3723-fosdem-2024-highlights.av1.webm)。
+
+![](../images/fosdem-2024/fosdem2024-hightlight-photosharing.jpg)
+
+還有在舞台上自拍的 🤳，現場歡樂氣氛滿滿。
+
+![](../images/fosdem-2024/fosdem2024-hightlight-meme-selfie.jpg)
+
+這位則是在台上表演魔術 🪄👀✨。
+
+{{< youtube bi0OCM_A9ak >}}
+
+不忘推廣開源的 Matrix 通訊協定，現場開啟了一場即時視訊會議室，大家蜂擁而入結果都連不進去，現階段與商用的視訊會議平台相較的穩定度還是有差。
+
+![](../images/fosdem-2024/fosdem2024-highlight-matrix.jpg)
+
+# FOSDEM 攤位
+
+FOSDEM 的社群攤位也是很多，而且還使用建築物來區分種類。例如 K 棟包含電腦與開源軟體，以及社群宣傳；H 棟則是跟教育、桌面環境、全球資訊網（World wide web）相關；AW 棟則是作業系統為主。
+
+## AW building 作業系統
+
+{{<figure src="../images/fosdem-2024/fosdem2024-stands-aw-building.jpeg" title="AW 棟的社群攤位 - 作業系統區">}}
+
+{{<figure src="../images/fosdem-2024/fosdem2024-stands-fedora.jpg" title="Fedora 攤位、貼紙">}}
+
+我們看到這個攤位超酷，他們的將遊戲最佳化讓就算是樹莓派也可以順暢執行，我跟同行者 Timothy 在現場連線對戰打起了遊戲。
+{{<figure src="../images/fosdem-2024/fosdem2024-stands-gaming-on-raspberrypi.jpeg" title="在樹莓派上連線對戰">}}
+
+我們還在 Linux on mobile 攤位上看到很酷的手錶，這個手錶的作業系統不是原生出場的作業系統，出廠的作業系統往往會有些限制。
+
+他們套用開源的作業系統在智慧型手錶上，只要硬體也相容，就能做有別於原始普通穿戴式手錶的功能、在穿戴裝置上**自由開發**，例如在手錶上玩 2048 遊戲？
+{{<figure src="../images/fosdem-2024/fosdem2024-stands-linux-on-mobile-watch-2048.jpeg" title="在穿戴式手錶上用魔改的作業系統玩 2048 遊戲">}}
+
+這裡的 Pixel Tablet 也不是裝著單純的 Android OS，而是主打隱私、安全的 CalyxOS，其中包含自由和開源軟體。可見這裡在使用與開發軟體上是相較注重自由、安全與隱私的。
+
+{{<figure src="../images/fosdem-2024/fosdem2024-stands-CalyxOS.jpeg" title="">}}
+
+## K building 社群宣傳
+
+接著來到社群宣傳的 K 棟，這裡也有來自臺灣的 OCF 開放文化基金會和臺灣社群～
+
+{{<figure src="../images/fosdem-2024/fosdem2024-stands-ocftw-and-yc97463.jpg" title="yc 正和 OCF 攤位合照呢！✌️">}}
+
+K 棟有很多有趣的社群，有販賣作品的，也有展示作品的。
+
+![](../images/fosdem-2024/fosdem2024-stands-k-building.jpeg)
+
+正巧來了 PostgreSQL 的吉祥物 Slonik，藉機教他一個臺灣「被正妹 coser 忽略的愛心手勢（比讚＋一半愛心）」，他們都覺得很有趣！
+![](../images/fosdem-2024/fosdem2024-photo-with-postgresql-slonik.jpg)
+
+FOSSASIA 是亞洲地區幫助自由和開源技術開發者和 maker 的非營利組織，他們販售著 LED 跑馬燈。
+
+一個純紅色跑馬燈 20 歐元，彩色版則 25 歐元。在第一天早上時，我跟 Timothy 都覺得太貴了，有接觸過這領域的人一定知道這玩意的成本，~~賣到 20 歐元盤子才買~~，結果到第二天時，目測有三成的人身上都戴著這個 LED 跑馬燈，甚至在手臂上掛一排閃亮亮✨，真是跌破眼鏡。
+
+我跟我預想的很不一樣，可以稱得上文化差異吧！我發現歐洲人值得為智慧的產出買單，但臺灣人（或亞洲人？）比較重視物體本身的成本價，能有多低就多低，往往忽略了人類創造它的智慧價值。
+
+然而購買也是對社群的支持，金錢的流入是對於社群營運實實在在的資助，這比起計較物品本身的價值來得有意義許多。
+
+{{<figure src="../images/fosdem-2024/fosdem2024-fossasia.jpeg" title="一個普通的 LED 賣到 20 歐元（大約新台幣 700 元），竟然還有不少人買單？！">}}
+
+{{< iframe "https://www.youtube.com/embed/videoseries?si=cz0Cl_zOvCJTEwFP&amp;list=PLG3HqCy3pqVHzGLvw0AkRTZXu6OlzUAd9" >}}
+
+
+
+# 一日志工
+
+# 校區環境
+
+
+# 觀察到的小地方
+
+智慧的標誌系統、佈告欄牛皮紙佈置簡約功能性為重
+
+![](../images/fosdem-2024/fosdem2024-venue-bulletin-board.jpeg)
+
+議程相關附件、連結會接近完整地被整理在議程單頁
+
+# 總結
+
+我覺得參與 FOSDEM 是很不一樣的體驗，身邊的人、人數⋯⋯etc
+
+# OCF 國際會議獎助計畫
+
+這次的~~出遊~~探訪行程，是源自於 [OCF 開放文化基金會](https://ocf.tw/)的[國際會議獎助計畫](https://ocf.tw/p/intldonate/)。
+
+> OCF 國際會議獎助計畫： https://ocf.tw/p/intldonate/ 。
+
+今年度的獎助計畫為 NT$40000 機酒補助。除了要具備中英溝通能力，OCF 也會提供社群領航員 1 小時的專業諮詢。
+
+在比利時布魯塞爾自由大學舉辦的 [FOSDEM 2024](https://fosdem.org/2024/)，是一場由社群志工共同籌備、歐洲最大的開源社群年度聚會。這兩天活動不需要報名，對所有人開放，預計吸引超過 8000 名來自不同領域的開源開發者、使用者和推廣者，他們將共聚一堂、分享新知，創造一個宏大且熱鬧的場面。
+
+除了主辦單位安排的主要議程，活動還包括由開源專案或相關組織主持的 developer rooms、攤位展示、同好聚會（BoFs）、閃電講（Lightning Talks）及 FOSDEM 周邊活動（The FOSDEM Fringe）等豐富多元的議程。
+
+參與者也有機會成為現場的一日志工。此次，OCF 不僅期望在議程中獲得新知，還計畫申請攤位，開放臺灣在地的開源社群進行寄攤宣傳，希望與台灣的社群夥伴一起，在現場推廣及介紹臺灣的開源活動與相關組織的發展。
+
+![](../images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png)
+
+## 申請過程
+
+申請採用表單的方式收件，主要填答個人介紹，以及從社群貢獻的參與經驗、所屬社群助益來評估。表單中提供的部分個人資料，包括但不限於姓名、聯絡方式、專業技能及興趣領域。
+
+除此之外，申請者需要詳細描述其在所屬社群中的貢獻，包括參與過的項目、具體貢獻內容、以及這些經驗如何影響或增益於社群，並分享過去經驗對學習與成長的幫助與展現出對社群發展的積極影響。
+
+申請過程中，申請者需要大略規劃在會議期間的產出，例如向會議參與者介紹臺灣社群專案或開源經驗，以及預計參與的 FOSDEM 議程，因為這是權利與義務的其中一個項目。
+
+填寫表單時，某些題目的未來兌現要求讓我感到緊張，尤其是考慮到我雖然在社群中有一定的經驗，但仍然擔心是否能夠順利實現這些承諾。這種不確定性引起的緊張感，讓我在面對需要預測或承諾未來行為的題目時，感到些許不安。
+
+## 入選權利義務
+
+領取香噴噴的補助也需要完成一些義務。基本上只要參與會議和完成指定經驗分享，就算達到領取補助的義務了。
+
+1. 報名會議、簽署義務同意書
+2. 領航員會議、出訪前工作會議
+3. 全程參與國際會議
+4. 公開分享
+    - a. 提供至少 5 張照片
+    b. 一場公開經驗分享活動
+    c. 一篇線上出訪心得文章（就是這篇）
+    - 💡 免費公開釋出
+5. 核銷補助
+
+![](../images/fosdem-2024/ocftw-2024intldonate-obligation-screenshot.png)
+
+最後，感謝 [OCF 開放文化基金會](https://ocf.tw/)的獎助和領航員資源，讓我有機會造訪位在歐洲的 FOSDEM 開源研討會，以及在出訪前即能快速掌握會議資訊、歐洲生活型態，並且將臺灣的社群們展示給歐洲的開源參與者們交流。
+
+---
+
+> 本次 FOSDEM 2024 出訪由「OCF 開放文化基金會」贊助出訪活動。
+
+> 本文章採取 CC By-4.0 釋出，引用時敬請顯名「yc油成」。
+
+# 參考資料
+
+- [FOSSASIA Wikipedia](https://zh.wikipedia.org/zh-tw/FOSSASIA)
+- [FOSDEM Stands](https://fosdem.org/2024/stands/)
+- [Github FOSDEM/video](https://github.com/FOSDEM/video)
