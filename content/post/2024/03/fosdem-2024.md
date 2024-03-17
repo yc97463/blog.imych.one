@@ -17,10 +17,11 @@ tags: ["FOSDEM"]
 
 FOSDEM 全名 **Free and Open source Software Developers' European Meeting**，是歐洲的開源、自由軟體會議。
 
-<!-- todos: 2024 年地點時間資訊、平面圖 -->
-<!-- todos: 介紹 FOSDEM、出訪前聽說的盛況 -->
+2024 年一樣在比利時的布魯塞爾自由大學舉辦，2/3 - 2/4 為期兩天的會議，免費參與。
 
-<!-- todos: FOSDEM 開幕資訊揭露 -->
+{{<figure src="../images/fosdem-2024/fosdem2024-homepage-screenshot.jpeg" title="FOSDEM.org 官網">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-campusmap.png" title="會議場地範圍，幾乎覆蓋整個自由大學校區">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-opening.jpg" title="FOSDEM 開幕">}}
 
 # FOSDEM 議程
 
@@ -209,9 +210,12 @@ ref: https://fosdem.org/2024/news/2024-01-28-call-for-volunteers/
 
 1. 在臺灣各種年會研討會的「主議程軌」不被容許有差錯，一定會是最華麗登場的，通常也會配有一位議程助理，這相較 FOSDEM 的作法是很大的不同。
 2. J 議程廳沒有固定的主持人。可能是因為 Jason 議程廳不屬於任何 devroom 而沒有主題的主持人，所以交給志工來完成。如果沒有招到志工（主持人）開場，那就由講者自己來。
-2. 聽 Timothy 分享，他觀察到 FOSDEM 販賣的週邊商品跟志工休息室的空間共用，但他們卻不怕有人會偷竊。
+3. 聽 Timothy 分享，他觀察到 FOSDEM 販賣的週邊商品跟志工休息室的空間共用，但他們卻不怕有人會偷竊。
+4. 閉幕時，就算是擔任一日志工，你的名字也會被放在簡報上，超感動。
 
 我覺得這是一種開放參與，以及信任人們的最佳實踐方式。
+
+{{<figure src="../images/fosdem-2024/fosdem2024-closing-173volunteers.jpg" title="一日志工也有被列名在閉幕簡報上">}}
 
 # 校區環境、生活
 
@@ -247,21 +251,39 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 {{<figure src="../images/fosdem-2024/fosdem2024-elevator.jpeg" title="推拉門的電梯">}}
 
-
-
-
-
 # 觀察到的小地方
 
-智慧的標誌系統、佈告欄牛皮紙佈置簡約功能性為重
+## 工作人員衣服顏色
+
+他們使用衣服顏色來區分志工身份別，我覺得這對於會眾或講者來說很容易依照需求辨識。
+
+例如綠色是影片相關；橘色則是一般志工；黃色則是主辦單位，所有 [Code of Conduct 事件](https://fosdem.org/2024/practical/conduct/)都找他們。
+
+![](../images/fosdem-2024/fosdem2024-closing-dancing.jpeg)
+
+## 標誌、佈告
+
+我發現他們的會場佈置講求功能性為重，例如標誌系統製作成通用性的設計，臺灣則會做得比較精緻、吻合該處的指引。
+
+{{<figure src="../images/fosdem-2024/fosdem2024-signpost.jpeg" title="聰明的標誌系統，就算貼反也不用怕指錯路或難以閱讀">}}
+
+佈告欄也是用牛皮紙直接覆蓋原先的佈告欄，如此一來就可以張貼會場的文宣了。
 
 ![](../images/fosdem-2024/fosdem2024-venue-bulletin-board.jpeg)
+![](../images/fosdem-2024/fosdem2024-venue-bulletin-board-2.jpeg)
+![](../images/fosdem-2024/fosdem2024-venue-bulletin-board-3.jpeg)
 
-議程相關附件、連結會接近完整地被整理在議程單頁
+## 公車轉彎死角貼紙
+
+布魯塞爾雙節公車，在車體貼貼紙示警危險範圍。
+
+![](../images/fosdem-2024/fosdem2024-bus-safe-distance-sticker.jpeg)
 
 # 總結
 
-我覺得參與 FOSDEM 是很不一樣的體驗，身邊的人、人數⋯⋯etc
+我覺得參與 FOSDEM 是很不一樣的體驗，有許多在臺灣無法興起的議題，例如隱私、人權等議題的實際保障和談論空間，在這裡都能感受到被高度重視。
+
+
 
 # SITCON 2024 年會議程
 
@@ -326,3 +348,4 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 - [FOSSASIA Wikipedia](https://zh.wikipedia.org/zh-tw/FOSSASIA)
 - [FOSDEM Stands](https://fosdem.org/2024/stands/)
 - [Github FOSDEM/video](https://github.com/FOSDEM/video)
+- [FOSDEM Transportation](https://fosdem.org/2024/practical/transportation/)
