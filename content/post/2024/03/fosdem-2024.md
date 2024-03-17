@@ -17,6 +17,7 @@ tags: ["FOSDEM"]
 
 FOSDEM 全名 **Free and Open source Software Developers' European Meeting**，是歐洲的開源、自由軟體會議。
 
+<!-- todos: 2024 年地點時間資訊、平面圖 -->
 <!-- todos: 介紹 FOSDEM、出訪前聽說的盛況 -->
 
 <!-- todos: FOSDEM 開幕資訊揭露 -->
@@ -152,11 +153,102 @@ FOSSASIA 是亞洲地區幫助自由和開源技術開發者和 maker 的非營�
 
 {{< iframe "https://www.youtube.com/embed/videoseries?si=cz0Cl_zOvCJTEwFP&amp;list=PLG3HqCy3pqVHzGLvw0AkRTZXu6OlzUAd9" >}}
 
+## H building 全球資訊網（World wide web）
 
+長毛象也有來！
+
+![](../images/fosdem-2024/fosdem2024-mastodon.jpeg)
 
 # 一日志工
 
-# 校區環境
+## 報名方式
+
+我們這次去最有趣的體驗是「一日志工」。一日志工是一個自願性質的任務，只要在 [FOSDEM Volunteers](https://volunteers.fosdem.org/) 志工系統上打勾報名即可，全程可以自由安排，在平台上報名的數量也很踴躍，大部分的需求項目都有找滿協助者。
+
+![](../images/fosdem-2024/fosdem2024-volunteers-selfie.jpg)
+
+{{<figure src="../images/fosdem-2024/fosdem2024-volunteers-task-list.png" title="FOSDEM Volunteers Task 上的任務列表，可以一覽任務類型、幫忙時間、需求人數">}}
+
+我和 Timothy 決定去試試看議程主持人（Heralding）的任務，主要負責 J 棟（主議程軌）議程的開場介紹、時間控制，以及最後的問答引導。
+
+```text
+Call for volunteers
+
+- Heralding - Briefly introduce the speakers and the topics of their talks, make sure all talks end on time by giving speakers cues near the end of their time slot. Keep an eye out on room safety and report potential issues such as overcrowded rooms before it becomes more than a "potential" issue.
+
+ref: https://fosdem.org/2024/news/2024-01-28-call-for-volunteers/
+```
+
+## 大地遊戲小插曲
+
+我們那時候發生的的意外小插曲，原本我們 14:00 的場次，從 F 棟經過 AW 棟前往議程的 J 棟，結果因為繞路在進場時議程早已開始。
+
+由於我們尚未著裝，所以我們再決定去 K 棟志工服務處拿衣服，準備在 14:30 場次登場。結果又因為繞路，加上在當場溝通不順利耗了一點時間，在場的志工跟我們說：「如果是要去 14:30 的議程，你們已經來不及了！你們要現在出發，衣服就不用拿了。」我們隨之準備離開。
+
+「不對耶，就算來不及了，我們還是可以拿完衣服再報下一場。」我們當時討論了一下，覺得可以選擇下一場來代替趕場，因此我們又將上一場的申請取消打勾（根本志工蟑螂），改成 15:00 的場次。
+
+順帶一提，我覺得在這裡的環境是能夠**友善包容不完美的人**。我們第一次在服務處遇到的是言語功能障礙的志工，儘管無法像其他人一樣的溝通方式，他也很努力透過比手畫腳向我們表達他所知道的資訊。
+
+{{<figure src="../images/fosdem-2024/fosdem2024-volunteers-application-screenshot.jpg" title="我們當時不斷繞路，經歷三次取消與申請才正式登台">}}
+
+關於一日志工的制度，我覺得這又是一個文化差異了。在臺灣的 COSCUP 從 2020 年開始試行「[志工任務](https://volunteer.coscup.org/tasks/)」的一日志工，直至 2023 年，仍有許多任務無法招滿人，僅有零星會眾參與。
+
+## 志工福利
+
+說到當志工，不得不需要分享一下志工休息室內的福利。
+
+在他們志工休息室內，有好幾箱各式各樣的零食與水果，超豪華ㄉ，只要想吃都可以自取。
+
+
+![](../images/fosdem-2024/fosdem2024-volunteers-lounge-fruit.jpg)
+![](../images/fosdem-2024/fosdem2024-volunteers-lounge-snack.jpg)
+
+## 對人的信任
+
+從當一日志工來看，我發現幾個跟臺灣很不一樣的觀察：
+
+1. 在臺灣各種年會研討會的「主議程軌」不被容許有差錯，一定會是最華麗登場的，通常也會配有一位議程助理，這相較 FOSDEM 的作法是很大的不同。
+2. J 議程廳沒有固定的主持人。可能是因為 Jason 議程廳不屬於任何 devroom 而沒有主題的主持人，所以交給志工來完成。如果沒有招到志工（主持人）開場，那就由講者自己來。
+2. 聽 Timothy 分享，他觀察到 FOSDEM 販賣的週邊商品跟志工休息室的空間共用，但他們卻不怕有人會偷竊。
+
+我覺得這是一種開放參與，以及信任人們的最佳實踐方式。
+
+# 校區環境、生活
+
+他們的校區很大（但應該不比東華大），沿途也會看到不少攤位與景色。
+
+## 人物觀察
+{{<figure src="../images/fosdem-2024/fosdem2024-corridor.jpeg" title="穿越走廊，匯集許多人">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-traffic-cone-hat.jpeg" title="交通錐帽帽！">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-wireless-access-point.jpeg" title="有人在現場自架基地台">}}
+
+## 餐食
+
+FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的酒品。
+
+{{<figure src="../images/fosdem-2024/fosdem2024-diet-menu.jpg" title="一進門就看到各式各樣的酒類菜單">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-diet-fosdembear-and-sandwich.jpg" title="FOSDEM 年度主題酒、超長的三明治">}}
+
+除了餐廳販賣的食物，現場也會有各種餐車。
+
+{{<figure src="../images/fosdem-2024/fosdem2024-diner.jpeg" title="擺攤餐車，販賣各式餐食">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-diner-firefox.jpeg" title="Firefox cookie">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-diner-in-rain.jpg" title="雨中的餐車街">}}
+
+## 風景 📸
+
+{{<figure src="../images/fosdem-2024/fosdem2024-campus-doorway.jpeg" title="ULB 的校門口，開放自由的大門相較臺灣校園的圍牆友善許多">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-campus.jpeg" title="餐廳旁的校園景緻">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-j-building.jpeg" title="J 棟建築物，主議程廳">}}
+{{<figure src="../images/fosdem-2024/fosdem2024-road-outside.jpeg" title="校外道路，C 級路權讓路面電車、汽車、自行車共用道路">}}
+
+## 電梯
+在這裡有看到很酷的推拉門電梯，跟建築物本體很融合，我們好幾次沒有注意到這裡有電梯。
+
+{{<figure src="../images/fosdem-2024/fosdem2024-elevator.jpeg" title="推拉門的電梯">}}
+
+
+
 
 
 # 觀察到的小地方
