@@ -1,10 +1,8 @@
 ---
 title: "FOSDEM 2024 開源社群探險：技術、社群、文化"
-date: 2024-03-16T11:30:00+08:00
+date: 2024-03-19T12:30:00+08:00
 slug: fosdem-2024
 draft: false
-build:
-    list: never
 categories: ["Community", "Photography"]
 tags: ["FOSDEM"]
 ---
@@ -347,3 +345,5 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 - [FOSDEM Stands](https://fosdem.org/2024/stands/)
 - [Github FOSDEM/video](https://github.com/FOSDEM/video)
 - [FOSDEM Transportation](https://fosdem.org/2024/practical/transportation/)
+
+這篇文章使用 ChatGPT 輔助撰寫。
