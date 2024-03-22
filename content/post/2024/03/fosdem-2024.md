@@ -339,6 +339,12 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 > 本文章採取 CC By-4.0 釋出，引用時敬請顯名「yc油成」。
 
+# 同行者分享
+
+同時分享同行 Timothy 的文章。在閱讀他的分享後，我發現儘管同行，我們所看見的 FOSDEM 卻有很大的不同，歡迎也去他那邊看看👀✨～
+
+- [FOSDEM 旅程分享心得](https://hackmd.io/@hts1/HJnGYRg26)
+
 # 參考資料
 
 - [FOSSASIA Wikipedia](https://zh.wikipedia.org/zh-tw/FOSSASIA)
