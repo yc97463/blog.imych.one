@@ -386,6 +386,72 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 ![](../images/fosdem-2024/ocftw-2024intldonate-obligation-screenshot.png)
 
+## 領航員會議
+
+在通知入選後，OCF 緊接著安排領航員會議。會議主要內容是介紹 FOSDEM 會議的參與經驗，包括會議的地點、時間、議程、交通方式、住宿、飲食等，並且提供一些出國前的注意事項。
+
+這次的領航員是[雁子](https://yannest.com/d59affccea59)，他同時也有在 COSCUP 2023 上分享「[在 FOSDEM 除了聽演講你還可以做些什麼其他事情](https://coscup.org/2023/zh-TW/session/SBSR93)」。
+
+我們受獎助者可以會前提出一些問題，領航員會在會議交流中回答，例如我因為第一次出國，所以問了關於飛行、當地生活、交通、攜帶文件，以及趣事分享等等的問題。
+
+{{<figure src="../images/fosdem-2024/ocftw-2024intldonate-pilot-yannest-fosdem2023-outline.png" title="雁子簡報大綱">}}
+
+### 這一趟的任務
+
+在交流中也有提醒今年度出行的任務。
+
+> 任務：我參與的 FOSDEM，參考帶回的東西回臺灣的社群、比較臺灣與 FOSDEM 文化、處事。
+
+- 臺灣的問題：Community 到底是什麼？Community 的參與？
+    - 育兒參與？
+    - 指標 patch，偶有出錯 or 臺灣完美的指標？
+- 文化差異
+
+## 出國前工作會議
+
+第二次的會議實體舉辦在出國前夕，主要是針對出國前的注意事項、行程安排、以及在當地的生活方式進行介紹。
+
+### 社群議程
+
+由於我們的出訪意義是把歐洲的開源文化帶回臺灣，特別是 FOSDEM 有不少社群經營的議程，因此去聽一場指定社群經營議程也是我們的任務之一。
+
+{{<figure src="../images/fosdem-2024/ocftw-2024intldonate-pre-departure-community-session.png" title="">}}
+
+### 社群攤位
+
+OCF 在今年也在 [FOSDEM 擺攤](https://fosdem.org/2024/stands/)，所以在工作會議也有介紹今年的文宣品策略、逛攤位攻略。
+
+{{<figure src="../images/fosdem-2024/ocftw-2024intldonate-pre-departure-interact-guideline.png" title="逛攤位攻略，主打多跟外國人會眾互動">}}
+
+OCF 準備發放的文宣也有小巧思，文宣模仿租屋廣告的小紙條，讓人看到能撕了就走。
+
+{{<figure src="../images/fosdem-2024/ocftw-2024intldonate-pre-departure-poster.png" title="到處張貼的文宣做成可以撕的小紙條，方便大家拿取 → 時常需要補 ⇒ 成效不彰">}}
+
+逛攤位總結：
+
+1. 多拿一點文宣品、準備名片、多拍照。
+2. Twitter、LinkedIn、Mastodon 準備一下：準備英文自我介紹，方便他人觀看。
+3. 交流時可以蒐集彼此的 Email，方便後續交流。
+
+### 出訪會議備註
+
+1. 毛帽要記得帶。
+2. 大學室內沒有暖氣，需要注意保暖。
+3. 歐洲在流行新的 Covid 病毒。
+4. 印成紙本的文件：護照、緊急事項、機票、車票。
+5. 比利時特產
+    - 巧克力
+    - 啤酒
+    - 薯條
+    - 列日鬆餅 / 比利時鬆餅
+6. FOSDEM 現場
+    - 現場有 FOSDEM 特有的啤酒、逛攤位拿紀念品。
+    - 可以帶臺灣的茶包、川貝枇杷喉糖、臺灣明信片去 FOSDEM。
+    - FOSDEM 有規劃城市旅遊團，可以 follow 官網。
+
+
+## 特別感謝
+
 最後，感謝 [OCF 開放文化基金會](https://ocf.tw/)的獎助和領航員資源，讓我有機會造訪位在歐洲的 FOSDEM 開源研討會，以及在出訪前即能快速掌握會議資訊、歐洲生活型態，並且將臺灣的社群們展示給歐洲的開源參與者們交流。
 
 ---
@@ -402,9 +468,12 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 # 參考資料
 
+- [OCF 國際會議獎助計畫](https://ocf.tw/p/intldonate/)
 - [FOSSASIA Wikipedia](https://zh.wikipedia.org/zh-tw/FOSSASIA)
 - [FOSDEM Stands](https://fosdem.org/2024/stands/)
 - [Github FOSDEM/video](https://github.com/FOSDEM/video)
 - [FOSDEM Transportation](https://fosdem.org/2024/practical/transportation/)
+- [雁子 FOSDEM 2023 參與經驗分享](https://yannest.com/d59affccea59)
+- [COSCUP2023 https://coscup.org/2023/zh-TW/session/SBSR93](https://coscup.org/2023/zh-TW/session/SBSR93)
 
 這篇文章使用 ChatGPT 輔助撰寫。
