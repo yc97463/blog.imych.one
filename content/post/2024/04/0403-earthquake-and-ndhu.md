@@ -51,6 +51,8 @@ tags: ["smartphone", "生活步調", "心理健康"]
 
 資訊中心辦公室也是一片混亂，許多物品掉落在地，天花板的輕鋼架和空調管線也掉落在地。
 
+我與計中老朋友一起快速整理現場，職員們則回到位子上搶修校園網路。
+
 ![](../images/0403-earthquake-and-ndhu/ndhu-information-office-orderless.jpeg)
 
 東華是花蓮區網，據 [iThome 粉專快訊](https://www.facebook.com/ithomeonline/posts/pfbid0FNAux5hGaahPaSoB6gAtwJbDU7hhzezxD1Svw8ycX9zTdzdgUahHizk3iqJiifyPl)，東華對外的三條骨幹光纖全斷，在搶修後恢復部分。做網路維運的朋友當時都在向我關心東華的對外網路狀況，因為他們都看到東華 0 流量出入。
