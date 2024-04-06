@@ -1,6 +1,7 @@
 ---
 title: "FOSDEM 2024 開源社群探險：技術、社群、文化"
 date: 2024-03-19T12:30:00+08:00
+lastmod: 2024-04-07
 slug: fosdem-2024
 draft: false
 categories: ["Community", "Photography"]
