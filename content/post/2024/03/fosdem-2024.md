@@ -277,6 +277,61 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 ![](../images/fosdem-2024/fosdem2024-bus-safe-distance-sticker.jpeg)
 
+# 花費
+
+這次的花費大約是新台幣六萬，其中機票約三萬，住宿約一萬，其餘的是吃喝玩樂，以及交通、治裝和生活所需。
+
+{{<iframe "https://e.infogram.com/18ccb970-934b-4837-a248-35d844c61c07?src=embed" >}}
+
+## 機票
+
+> 機票日期先定下去，規劃當地行程才有意義。
+
+### Google Travel 查看降落城市
+
+我使用 [Google Travel](https://www.google.com/travel/explore) 快速彙整機票日期、降落地點對機票的影響。
+
+{{<figure src="../images/fosdem-2024/google-travel-overview.png" title="用 Google Travel 能快速瀏覽不同降落地點與日期對上的來回機票價格。">}}
+
+在瀏覽後，我快速選定了數個價格較低的城市，再分別使用日期表格比較最低價的日期與天數。
+
+{{<figure src="../images/fosdem-2024/google-travel-low-price-places.png" title="當時選定的低價城市，大城市比較有機會。">}}
+
+### 日期比較表格
+
+切換到該城市以「航班」搜尋後，可以展開「日期網格」的功能，這樣可以快速比較不同日期的價格。
+
+{{<figure src="../images/fosdem-2024/google-travel-flights-tpe-paris.png" title="切換到「航班」搜尋，使用「日期網格」功能">}}
+
+在表格中，可以快速得知去回程組合的機票最低價價格，當時比較了幾個城市，巴黎、阿姆斯特丹、科隆、法蘭克福。
+
+{{<figure src="../images/fosdem-2024/google-travel-price-compare-by-date-tpe-paris.png" title="臺北巴黎 9 天">}}
+{{<figure src="../images/fosdem-2024/google-travel-price-compare-by-date-tpe-amsterdam.png" title="臺北阿姆斯特丹 9 天">}}
+{{<figure src="../images/fosdem-2024/google-travel-price-compare-by-date-tpe-cologne.png" title="臺北科隆 9 天">}}
+{{<figure src="../images/fosdem-2024/google-travel-price-compare-by-date-tpe-frankfurt.png" title="臺北美因河畔法蘭克福 10 天">}}
+
+比較完後就能大致確認日期，只不過最低價的狀況，可能會遇到中國的航空公司的低價競爭，中國的航班可能需要在中國轉機和申辦台胞證，所以當時改挑了其他的航空公司。
+
+### 價格
+
+最後選擇國泰航空，來回機票價格約新台幣三萬元。
+
+{{<figure src="../images/fosdem-2024/google-travel-tpe-ams-cathaypacific.jpeg" title="">}}
+
+## 住宿
+
+2/2/ - 2/7 的住宿是兩人均攤，大約花費新台幣五千元；2/7 - 2/9 是四人均攤青旅包房，大約花費 68 歐元（約新台幣 2400 元）。
+
+值得一提的是，歐洲有些國家在入住旅店會收旅遊稅，大概花了 10 歐元，詳細計算方式可以上網查查。
+
+## 交通
+
+在布魯塞爾、鹿特丹、阿姆斯特丹的移動，我使用了火車、路面電車與公車，大約是 80 歐元（約新台幣 3000 元）。
+
+## 餐飲
+
+餐飲總計大約 350 歐元（約新台幣 12000 元），可以分成去超市買的食物（大約是 146 歐元，約新台幣 5000 元）、吃餐廳（大約 200 歐元，約新台幣 7000 元）。
+
 # 總結
 
 我覺得參與 FOSDEM 是很不一樣的體驗，有許多在臺灣無法興起的議題，例如隱私、人權等議題的實際保障和談論空間，在這裡都能感受到被高度重視。
