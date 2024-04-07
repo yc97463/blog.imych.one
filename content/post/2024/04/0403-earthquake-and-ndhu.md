@@ -91,6 +91,14 @@ tags: ["smartphone", "生活步調", "心理健康"]
 
 ## 0406 火災後
 
+## 0407 宣布遠距教學至 4/26
+
+秘書室 4/7 12:29 宣布 4 月 10 日至 4 月 26 日採線上上課。
+
+https://announce.ndhu.edu.tw/mail_display.php?timestamp=1712464172
+
+![](../images/0403-earthquake-and-ndhu/ndhu-announcement-0407-remote-teaching.png)
+
 ## 我日常的理工一館
 
 # 學生會的努力
