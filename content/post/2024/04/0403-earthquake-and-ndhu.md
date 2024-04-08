@@ -2,6 +2,8 @@
 title: "0403 強震後的東華，我們的理工一館"
 date: 2024-04-09T00:35:00+08:00
 draft: false
+build: 
+    list: never
 categories: ["Life", "Photography"]
 tags: ["Photos📸", "NDHU"]
 ---
@@ -109,7 +111,7 @@ tags: ["Photos📸", "NDHU"]
 
 ### 實驗室
 
-從理工一館 D 側來看，建築外燒得一片焦黑。不過[五千萬的防鴿網](https://news.ltn.com.tw/news/life/paper/1583741)倒是屹立不搖 🤔。
+從理工一館 D 側來看，建築外燒得一片焦黑。不過[六千萬的防鴿網](https://news.ltn.com.tw/news/life/paper/1583741)倒是屹立不搖 🤔。
 
 以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。
 
@@ -184,3 +186,4 @@ tags: ["Photos📸", "NDHU"]
 - [國立東華大學 副總統當選人蕭美琴女士抵東華大學視察地震災情](https://www.ndhu.edu.tw/p/406-1000-221829,r4956.php?Lang=zh-tw)
 - [公視 東華大學實驗室大火 近5億元設備付之一炬](https://news.pts.org.tw/article/688920)
 - [花蓮最速報 花蓮縣消防局針對東華大學火災傳言作出嚴正澄清](https://www.hsnews.com.tw/life/25955-2024-04-06-12-00-47.html)
+- [自由時報 東華大學防鴿作戰 5年花6千萬](https://news.ltn.com.tw/news/life/paper/1583741)
