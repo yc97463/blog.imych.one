@@ -65,7 +65,7 @@ tags: ["Photos📸", "NDHU"]
 
 我們當時從新宿區移動到舊宿區的大草地避難，路上有看到理工一館前停放多輛消防車輛，當時只覺得是因為地震而來，沒想到隨著濃煙越來越劇烈才知道理工一館實驗室發生火災，正在向空氣釋放有害物質。
 
-![](../images/0403-earthquake-and-ndhu/ndhu-science-building-dark-smoke.jpg)
+![](../images/0403-earthquake-and-ndhu/ndhu-science-building-dark-smoke.jpeg)
 
 ## 學生會辦公室櫃子倒塌
 
@@ -129,7 +129,7 @@ tags: ["Photos📸", "NDHU"]
 
 [國立東華大學公告 -【緊急通知】因地震損壞校園硬體設備4月10日至4月26日全校採線上上課](https://announce.ndhu.edu.tw/mail_display.php?timestamp=1712464172)
 
-![](../images/0403-earthquake-and-ndhu/ndhu-announcement-0407-remote-teaching.png)
+![](../images/0403-earthquake-and-ndhu/ndhu-announcement-0407-remote-teaching.jpeg)
 
 ## 0407 宣布化學館預定地
 
