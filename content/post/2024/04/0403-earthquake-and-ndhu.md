@@ -111,7 +111,7 @@ tags: ["Photos📸", "NDHU"]
 
 從理工一館 D 側來看，建築外燒得一片焦黑。不過[六千萬的防鴿網](https://news.ltn.com.tw/news/life/paper/1583741)倒是屹立不搖 🤔。
 
-以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。
+以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。照片均於封鎖線及建築物外拍攝。
 
 {{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-1-combine.jpeg" title="理工一館 D 側側拍">}}
 {{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-2-lab.jpeg" title="理工一館 D 側實驗室">}}
