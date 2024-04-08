@@ -99,7 +99,7 @@ tags: ["Photos📸", "NDHU"]
 
 建築物外觀也傷得很嚴重，建築物的走廊、教室都已經燒毀，地上散落著燒焦的碎片，還有水線。
 
-以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。
+以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。照片均於封鎖線及建築物外拍攝。
 
 {{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-1-classroom.jpeg" title="理工一館內側教室">}}
 {{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-2-hallway.jpeg" title="理工一館內側走廊">}}
