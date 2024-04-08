@@ -148,7 +148,7 @@ tags: ["Photos📸", "NDHU"]
 {{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-1.jpeg" title="理工一館 D 側旁的吳全道">}}
 {{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-2.jpeg" title="理工一館 A 側與 D 側轉角旁的吳全道，可以清楚看到燒毀前的建築物 D 側">}}
 {{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-3.jpeg" title="理工一館 C 側的物理系">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-4.jpeg" title="理工一館 A 側 4 樓應用數學系實驗室拍出去的風景，是東華最早建築物的歲月痕跡">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-4.jpeg" title="理工一館 A 側 4 樓應用數學系實驗室拍出去的風景，是東華早期建築物的歲月痕跡">}}
 {{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-5.jpeg" title="理工一館 D 側旁的吳全道，上課時面對的山景十分美麗">}}
 {{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-6.jpeg" title="理工一館 A 側靠近湖畔，當時秋季的落葉灑滿地">}}
 {{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-7.jpeg" title="理工一館外觀，從理工二館拍攝">}}
