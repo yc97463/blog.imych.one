@@ -37,9 +37,13 @@ tags: ["smartphone", "生活步調", "心理健康"]
 
 {{< figure src="../images/0403-earthquake-and-ndhu/dorm-open-space.jpeg" title="一早地震後，同學們到宿舍中庭避難，忙於確認消息與外界聯絡">}}
 
-# 0403 強震後的東華
+# 0403 強震後的東華 📸
 
 強烈的地震造成建築物有些破損，我跟室友們當時騎腳踏車快速在校園中穿梭，看到一些建築物的外牆有裂縫、舊宿區傳出居住災情。
+
+地震發生後一個小時內，東華的三條光纖全數中斷。由於校園網路斷線、資訊機房與網路服務、行政辦公室的網路電話服務中斷，附近基地台的收訊也不穩定。行政無法透過公告系統發布全校公告，網路總機也無法使用，同學們只能依靠社群媒體互相通報。
+
+這時候的東華顯得脆弱，對外、對內的通訊幾乎全數中斷。
 
 ## 圖書館塔樓破損
 
@@ -51,7 +55,7 @@ tags: ["smartphone", "生活步調", "心理健康"]
 
 資訊中心辦公室也是一片混亂，許多物品掉落在地，天花板的輕鋼架和空調管線也掉落在地。
 
-我與計中老朋友一起快速整理現場，職員們則回到位子上搶修校園網路。
+我與計中老朋友一起快速幫忙整理現場，運出，工程師們也在簡單整理後回到位子上搶修校園網路。
 
 ![](../images/0403-earthquake-and-ndhu/ndhu-information-office-orderless.jpeg)
 
@@ -89,19 +93,70 @@ tags: ["smartphone", "生活步調", "心理健康"]
 
 夜幕降臨後，火勢趨緩。隨著實驗室中的藥品燃燒殆盡，火勢逐漸熄滅，但是理工一館的建築物已經燒成空殼。
 
-## 0406 火災後
+## 0404 火災後 📸
+
+火災後，理工一館的建築物已經燒成空殼，只剩下鋼筋結構，實驗室的設備與成果全數燒毀，財損估計高達 4 億元。
+
+### 建築物與教室
+
+建築物外觀也傷得很嚴重，建築物的走廊、教室都已經燒毀，地上散落著燒焦的碎片，還有水線。
+
+以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。
+
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-1-classroom.jpeg" title="理工一館內側教室">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-2-hallway.jpeg" title="理工一館內側走廊">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-3-hallway.jpeg" title="理工一館內側走廊">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-4-stairs-fire-extinguisher.jpeg" title="理工一館內側階梯與滅火器">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-5-waterline.jpeg" title="理工一館內側地板上的水管">}}
+
+### 實驗室
+
+從理工一館 D 側來看，建築外燒得一片焦黑。不過[五千萬的防鴿網](https://news.ltn.com.tw/news/life/paper/1583741)倒是屹立不搖 🤔。
+
+以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。
+
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-1-combine.jpeg" title="理工一館 D 側側拍">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-2-lab.jpeg" title="理工一館 D 側實驗室">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-3-lab.jpeg" title="理工一館 D 側實驗室">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-4-lab.jpeg" title="理工一館 D 側實驗室">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-5-lab.jpeg" title="理工一館 D 側實驗室">}}
+
+社群媒體上也有實驗室燒毀後的照片分享，載自 [@minrhome 在 Threads 上的串文](https://www.threads.net/@minrhome/post/C5V834SPGrf)。
+
+![](../images/0403-earthquake-and-ndhu/threads-minrhome-20240404-ndhu-science-building-after-fire.jpeg)
 
 ## 0407 宣布遠距教學至 4/26
 
 因應403 地震損壞校園硬體設備，秘書室 4/7 12:29 宣布 4/10 至 4/26 採線上上課。
 
-https://announce.ndhu.edu.tw/mail_display.php?timestamp=1712464172
+[國立東華大學公告 -【緊急通知】因地震損壞校園硬體設備4月10日至4月26日全校採線上上課](https://announce.ndhu.edu.tw/mail_display.php?timestamp=1712464172)
 
 ![](../images/0403-earthquake-and-ndhu/ndhu-announcement-0407-remote-teaching.png)
 
-## 我日常的理工一館
+## 0407 宣布化學館預定地
 
-# 學生會的努力
+[東華大學粉絲專頁 2024/04/07 16:38 宣布](https://www.facebook.com/ndhu.page/posts/pfbid0gFAbFdvieXcPAG8owKe7zMhAgRw92LBd2bxxrqqv6B39BToxZqfLLYAKyDtQNTUol)，將在東華學生活動中心及理工二館間空地，異地重建理工學院化學館，預定於明年 9 月落成啟用。
+
+![](../images/0403-earthquake-and-ndhu/facebook-ndhu-20240407-new-chemical-building.jpeg)
+
+## 我日常的理工一館 📸
+
+災後理工一館燒毀，我整理照片的時，我才猛然發現 D 側化學系在我的理一日常中僅是通過的地方。
+
+我很少為這一側拍照，或許是因為過於平凡，才忘記好好記錄吧。
+
+這是一些 2022 到 2024 年間拍攝的照片，我想剛好藉這一次機會，好好分享我曾經拍攝的理工一館日常。
+
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-1.jpeg" title="理工一館 D 側旁的吳全道">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-2.jpeg" title="理工一館 A 側與 D 側轉角旁的吳全道，可以清楚看到燒毀前的建築物 D 側">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-3.jpeg" title="理工一館 C 側的物理系">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-4.jpeg" title="理工一館 A 側 4 樓應用數學系實驗室拍出去的風景，是東華最早建築物的歲月痕跡">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-5.jpeg" title="理工一館 D 側旁的吳全道，上課時面對的山景十分美麗">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-6.jpeg" title="理工一館 A 側靠近湖畔，當時秋季的落葉灑滿地">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-7.jpeg" title="理工一館外觀，從理工二館拍攝">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-8.jpeg" title="理工一館 C 側與 D 側銜接走廊">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-9.jpeg" title="理工一館 A 側與圖書館間的行人徒步區">}}
+{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-10.jpeg" title="理工一館 A 側高處眺望（左）與教室走廊（右）">}}
 
 # 東華重建捐款專戶
 
