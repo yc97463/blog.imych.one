@@ -1,11 +1,9 @@
 ---
 title: "0403 強震後的東華，我們的理工一館"
-date: 2024-04-06T11:50:00+08:00
+date: 2024-04-09T00:35:00+08:00
 draft: false
-build:
-    list: never
-categories: ["Life", "Student Association"]
-tags: ["smartphone", "生活步調", "心理健康"]
+categories: ["Life", "Photography"]
+tags: ["Photos📸", "NDHU"]
 ---
 
 或許是因為過於平凡，才忘記好好記錄吧。
