@@ -2,8 +2,6 @@
 title: "0403 強震後的東華，我們的理工一館"
 date: 2024-04-09T00:35:00+08:00
 draft: false
-build: 
-    list: never
 categories: ["Life", "Photography"]
 tags: ["Photos📸", "NDHU"]
 ---
