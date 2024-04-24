@@ -2,10 +2,8 @@
 title: "如何使用簡潔的 @ndhu.edu.tw 電子郵件地址寄信"
 date: 2024-04-25T01:40:22+08:00
 draft: false
-build: 
-    list: never
 categories: [""]
-tags: [""]
+tags: ["Google Workspace"]
 ---
 
 想像一下，當你收到來自 `@facebook.com` 和 `@gsk.facebook.com` 的信件時，你的直覺會信任哪封信呢？
