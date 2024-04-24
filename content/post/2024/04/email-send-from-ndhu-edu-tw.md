@@ -1,6 +1,6 @@
 ---
 title: "如何使用簡潔的 @ndhu.edu.tw 電子郵件地址寄信"
-date: 2024-04-24T19:04:22+08:00
+date: 2024-04-25T01:40:22+08:00
 draft: false
 categories: [""]
 tags: [""]
