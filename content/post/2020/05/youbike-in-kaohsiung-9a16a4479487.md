@@ -1,9 +1,11 @@
 ---
 title: "YouBike微笑單車施工"
 date: 2020-05-14T00:00:00+08:00
+lastmod: 2024-07-22T21:15:00+08:00
 slug: youbike-in-kaohsiung-9a16a4479487
 draft: false
 categories: ["Life"]
+tags: ["YouBike", "Kaohsiung"]
 ---
 
 近期高雄市政府（韓國瑜市長執政時）與微笑單車廠商簽約，汰換掉 City Bike ，進而布建 YouBike 2.0，預計在 2020 年 7 月啟用。
