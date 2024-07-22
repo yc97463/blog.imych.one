@@ -1,7 +1,7 @@
 ---
 title: "FOSDEM 2024 開源社群探險：技術、社群、文化"
 date: 2024-03-19T12:30:00+08:00
-lastmod: 2024-04-07
+lastmod: 2024-07-22
 slug: fosdem-2024
 draft: false
 categories: ["Community", "Photography"]
@@ -349,7 +349,7 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 這次的~~出遊~~探訪行程，是源自於 [OCF 開放文化基金會](https://ocf.tw/)的[國際會議獎助計畫](https://ocf.tw/p/intldonate/)。
 
-詳細的獎助計畫申請，可以參考我的申請歷程。➡️ [OCF 開放文化基金會國際會議補助計畫 申請歷程 (FOSDEM 2024)](/ocf-apply-international-conference-grants-program/)
+詳細的獎助計畫申請，可以參考我的申請歷程。➡️ [OCF 開放文化基金會國際會議補助計畫 申請歷程 (FOSDEM 2024)](/apply-ocf-international-conference-grants-program/)
 
 ## 特別感謝
 
