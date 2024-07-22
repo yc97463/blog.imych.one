@@ -12,6 +12,9 @@ tags: ["FOSDEM"]
 
 <!--more-->
 
+這篇文章會記載我在 FOSDEM 2024 的探險，包括議程、攤位、社群，以及一些有趣的事情。
+如果你對特定主題有興趣，或是想了解 OCF 國際會議獎助計畫的申請歷程，可以透過上方目錄直接跳到相關章節。
+
 # FOSDEM 介紹
 
 FOSDEM 全名 **Free and Open source Software Developers' European Meeting**，是歐洲的開源、自由軟體會議。
