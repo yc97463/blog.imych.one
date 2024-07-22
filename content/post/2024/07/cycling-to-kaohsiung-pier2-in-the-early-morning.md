@@ -7,7 +7,7 @@ categories: ["Life"]
 tags: ["YouBike", "Kaohsiung", "駁二", "Tram", "鹽埕區"]
 ---
 
-早上 5 點多，我騎著 YouBike 相揪朋友從愛河之心出發，前往高雄駁二藝術特區。
+清晨 5 點多，我騎著 YouBike 相揪朋友從愛河之心出發，前往高雄駁二藝術特區。
 
 這早已不是我們第一次沿著愛河騎到駁二附近了，在我當時高中考分科測驗的前兩週，我們每天清晨相約騎車到鹽埕區吃早餐。
 
@@ -35,11 +35,11 @@ tags: ["YouBike", "Kaohsiung", "駁二", "Tram", "鹽埕區"]
 
 基本上一如往常地沿著愛河騎下去，途中經過同盟路、中都溼地公園、中都磚窯場、二二八紀念公園等等。在離開高雄出外讀書的數年間，這些地點附近都有了一些更新。
 
-## 九如陸橋 拆卸完畢
+## 九如陸橋 拆除完畢
 
 聽聞九如陸橋在拆掉後，一直沒時間晃過來看看，印象中這裡因為覆蓋陸橋的關係，視覺上有些擁擠。這次經過這裡時還有些不習慣，總覺得天空開闊許多，原先陸橋的佔地也先以槽化區替代。
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/SCR-20240722-pjpe.png" title="2024 九如陸橋拆卸新聞" >}}
+{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/SCR-20240722-pjpe.png" title="2024 九如陸橋拆除新聞" >}}
 
 {{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2595.jpeg" title="拆掉陸橋後，視野一片開闊" >}}
 
