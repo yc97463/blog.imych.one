@@ -1,6 +1,7 @@
 ---
 title: "iPhone 使用者同時分享照片給拿 iPhone 和 Android 手機的朋友"
 date: 2024-06-24T02:30:00+08:00
+lastmod: 2024-07-28T21:35:00+08:00
 draft: false
 categories: ["Life"]
 tags: ["iPhone", "iCloud"]
@@ -56,9 +57,14 @@ tags: ["iPhone", "iCloud"]
 
 ![](../images/share-photo-by-icloud-link/view-shared-link.jpeg)
 
+# 「iCloud Link」和「iCloud 相簿」的差異
+
+- iCloud Link 是一個為期 30 天的照片分享連結，只能分享單張或多張照片和影片，不過**照片不會被壓縮畫質**。
+- iCloud 相簿是一個永久的照片分享連結，可以分享一個相簿，裡面可以包含多次新增的照片和影片，但**照片會被壓縮畫質**。
+
 # 總結
 
-這樣，你就可以輕鬆地使用 iCloud Link 分享照片給拿 iPhone 和 Android 手機的朋友，讓他們可以透過一條連結查看和下載照片。
+如此一來，你就可以輕鬆地使用 iCloud Link 分享照片給拿 iPhone 和 Android 手機的朋友，讓他們可以透過一條連結查看和下載照片。
 
 # 參考資料
 
