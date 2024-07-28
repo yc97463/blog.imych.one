@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Software Engineer on YC Photography</title><link>https://blog.imych.one/tags/software-engineer/</link><description>Recent content in Software Engineer on YC Photography</description><image><url>https://blog.imych.one/images/banner.webp</url><link>https://blog.imych.one/images/banner.webp</link></image><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://blog.imych.one/tags/software-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>覺揚軟體工程師（全端）面試心得</title><link>https://blog.imych.one/wizigo-software-engineer-interview/</link><pubDate>Tue, 23 Jul 2024 00:00:00 +0800</pubDate><guid>https://blog.imych.one/wizigo-software-engineer-interview/</guid><description>起因 覺揚在花蓮有軟體工程的辦公室，自家的產品是新課綱的共學教育平台，涵蓋了很多功能，包括教材、教案、測驗、作業、討論區等等。在高中時期，我也曾經接觸相關的平台和開發構想，所以對這個領域有一些興趣。
+聽聞學長介紹，在 104 上發現他們的軟體工程 Team 主打嘗試新技術，並且有一些開發的自由度，加上刊出的薪資好像還算正常（$40000 - $100000），因此我決定來挑戰一下。
+D+0 寄出履歷：軟體工程師（全端） 雖然職缺開在 104 上，不過我覺得最棒的是他們有留 Email 的投遞管道，這點對習慣用電子郵件往來的我來說很加分。
+5/30 透過 Email 寄出履歷 5/31 收到主管回覆 D+4 約面試 由於我當時在國外，所以約面試在我期末結束的隔週後。
+D+19 面試 6/18 下午前往面試 辦公室的位置在慈科大那裡，老實說那裡不太方便，大眾運輸尚未完善，不過這也是花蓮的特色之一。
+交通規劃 大眾運輸僅有早上與下午各 2 班公車，我從學校搭臺鐵過去，一定得要算好時間，不然很可能會錯過能轉乘的機會（好歹那裡有間大學？），動輒一個小時起跳。
+從花蓮火車站轉乘過去的規劃 面試過程 簡單來說就是去聊聊天，大概聊了 1 個小時多一點。
+自我介紹 我以高中做過的專案起頭，介紹自己的經歷。 討論之前做過的專案 共事經驗、角色 使用的工具、技術 在專案中遇到的困難 量化成果：使用者數、使用成效、擴及範圍 HTTP Service 認知 RESTful API HTTP Method 白板實作（15 分鐘） 題目：回傳指定數值在陣列中的索引，若無則回傳插入後的位置。 限制：不限制呈現的程式語言，pseudocode 也可以。 重點：討論表達邏輯的清晰度 = 處理題目的方式、執行程式的斷點、程式運作的合理性。 升學關心 暫停學業：人資也提醒我，臺灣仍是看重學歷的社會，所以我在暫停學業的打算要多加注意。 兵役：4 個月，我在此說明我的處理方式，在場的人很訝異是 4 個月的兵役。 反倒是一些常見的問題（？）沒有被問到，例如吸引我來這間公司的原因、我對公司的期待等等。入職時間、薪水、福利等等也沒有被提及。
+整體來看，我們在我以前參與做過的專案聊得滿久的，其中在角色、工具、技術、困難、成果等等都有談到。
+D+26 寄信詢問面試結果 &amp;amp; 接到來電談薪 先說結果：錄取，但我最後沒有接受。</description></item></channel></rss>
