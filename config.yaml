@@ -1,4 +1,4 @@
-baseURL: "https://blog.imych.one/"
+baseURL: "http://127.0.0.1:5500/public/"
 title: "YC Photography"
 languageCode: "zh-TW"
 theme: papermod
@@ -15,15 +15,19 @@ menu:
     - identifier: about
       name: 關於
       url: /about/
-      weight: 0
+      weight: 99
     - identifier: categories
       name: 分類
       url: /categories/
-      weight: 10
+      weight: 2
     - identifier: tags
       name: 標籤
       url: /tags/
-      weight: 20
+      weight: 3
+    - identifier: invitation-code
+      name: 邀請碼
+      url: /invitation-code/
+      weight: 1
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
