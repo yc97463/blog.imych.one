@@ -287,6 +287,8 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 {{<iframe "https://e.infogram.com/18ccb970-934b-4837-a248-35d844c61c07?src=embed" >}}
 
+> 如果內嵌的圖表無法顯示，請連結到 [這裡](https://infogram.com/2024-1hnp27emojq5n4g) 來瀏覽完整的資訊。
+
 ## 機票
 
 > 機票日期先定下去，規劃當地行程才有意義。
