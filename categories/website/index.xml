@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Website on YC Photography</title><link>https://blog.imych.one/categories/website/</link><description>Recent content in Website on YC Photography</description><image><url>https://blog.imych.one/images/banner.webp</url><link>https://blog.imych.one/images/banner.webp</link></image><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sat, 02 Mar 2024 13:21:00 +0800</lastBuildDate><atom:link href="https://blog.imych.one/categories/website/index.xml" rel="self" type="application/rss+xml"/><item><title>在 Hugo Site 中插入 iframe 內嵌視窗</title><link>https://blog.imych.one/hugo-shortcodes-iframe/</link><pubDate>Sat, 02 Mar 2024 13:21:00 +0800</pubDate><guid>https://blog.imych.one/hugo-shortcodes-iframe/</guid><description>&lt;p>你也想在你的 Hugo 部落格裡嵌入其他網站的畫面，但因為 Hugo 不支援 iframe 功能而放棄嗎？這篇教學會一步一步教你在 Hugo 裡新增自訂的簡短原始碼。如果你也相同的需求，照著這篇教學就能解決了。&lt;/p></description></item><item><title>嗨，Medium</title><link>https://blog.imych.one/hello-medium-7e4a329f7f71/</link><pubDate>Sat, 03 Apr 2021 00:00:00 +0800</pubDate><guid>https://blog.imych.one/hello-medium-7e4a329f7f71/</guid><description>&lt;p>是的，我放棄 
+&lt;a
+href = "https://tw.wordpress.org/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+>
+&lt;span>
+WordPress
+&lt;/span>
+&lt;/a> 了，陪伴我的那 8 年歲月暫時告一段落。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="../images/hello-medium-7e4a329f7f71/Untitled.png" alt="Untitled" />
+&lt;/p>
+&lt;p>還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。&lt;/p>
+&lt;h1 id="我所經歷的-wordpress">&lt;strong>我所經歷的 WordPress&lt;/strong>&lt;/h1>
+&lt;p>我對於 WordPress 的印象一直都很複雜。起初是使用 
+&lt;a
+href = "https://tw.wordpress.org/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+>
+&lt;span>
+WordPress
+&lt;/span>
+&lt;/a> 架設，但發現很容易因為「外掛(Plugins)、主題(Themes)」等置換與設定，造成資料庫肥大，維護很難維護。而且版面感覺很壯碩，大雜燴的感覺，但我不喜歡這麼多東西，很有壓力。&lt;/p>
+&lt;p>
+&lt;a
+href = "https://tw.wordpress.org/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+>
+&lt;span>
+部落格工具、內容發佈平台及 CMS - WordPress.org Taiwan 正體中文
+&lt;/span>
+&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>我用 WordPress 架起來的第一個部落格，基於前述的資料庫肥大，我第一個部落格的資料庫就這麼損毀了（各種不同的設定覆蓋在內）。加上當時是「免費主機、空間」還算盛行的時代，但經常一家接著一家跑，每天都在換主機、網域的感覺，當時還真的是「體驗」WrodPress 啊！&lt;/p>
+&lt;p>喔對了，我一直都是使用 WordPress.org，而非免費託管的 WordPress.com。我對 WordPress 的印象，只要有任何一丁點操作，都會直接影響到資料庫的規律。怎麼說咧，例如主題，每個主題都會有自己的編排，但如果一直換主題（第一個部落格），就會讓資料表除了一直產生新的資料列，還會跟之前沒被刪除的設定起衝突，如此一來除了會讓資料運算變慢，未來設定上起衝突的機率會更大。&lt;/p>
+&lt;p>你可能會問我，用「整理資料庫」的外掛（WordPress 對擴充功能的稱呼）去整理就好了啊！「&lt;strong>0，無法&lt;/strong>」**。**救回來算幸運，救不回來叫正常。我的經驗，用的外掛後，資料表不但沒有回歸正常，問題卻更加棘手了😂。撇除資料庫整理好了，舉「重新產生圖片縮圖」為例好了。先給大家科普一下，WordPress 在圖片上傳後，會按照原先設定、主題設定等，產生一連串的壓縮、剪裁，也就是說一張 4032x3024 的圖像透過媒體庫上傳到 WordPress，接著可能會被裁剪成 &lt;code>2000x1200&lt;/code>、 &lt;code>1024x768&lt;/code> 、 &lt;code>768x576&lt;/code> 、 &lt;code>300x225&lt;/code> 、 &lt;code>150x150&lt;/code> 、 &lt;code>100x100&lt;/code> 等尺寸，雖然單方面來講能夠省下瀏覽流量、提升使用者載入網頁的時間，卻無形佔用了主機額外的空間，可能會被裁成。&lt;/p></description></item></channel></rss>
