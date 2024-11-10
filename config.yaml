@@ -143,4 +143,4 @@ markup:
     renderer:
       unsafe: true
 
-ignoreErrors: ["warning-goldmark-raw-html"]
+ignoreErrors: ["warning-goldmark-raw-html", "deprecated"]
