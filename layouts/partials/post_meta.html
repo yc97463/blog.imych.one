@@ -20,8 +20,8 @@
 {{- delimit . "&nbsp;·&nbsp;" -}}
 {{- end -}} -->
 
-{{- if or .Params.Author .Site.Author.name }}
-{{- .Params.Author | default .Site.Author.name }} · {{ end }}
+{{- if or .Params.Author .Site.Params.Author.name }}
+{{- .Params.Author | default .Site.Params.Author.name }} · {{ end }}
 {{- .Date.Format "2006 年 01 月 02 日" }} 發布
 {{ if not (eq .Lastmod .Date) }}
 ，{{- .Lastmod.Format "2006 年 01 月 02 日" }} 更新
