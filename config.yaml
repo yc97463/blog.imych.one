@@ -34,12 +34,17 @@ params:
   title: "YC Photography"
   description: "願以照片攝下生活，一場人生中的旅行，從此展開。"
   keywords: [Blog, Technologic, CTF, Program]
-  author: yc97463
+  author: 
+    name: "油成"
   # author: ["Me", "You"] # multiple authors
   images: ["./images/banner.webp"]
   # DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+
+  # Social
+  social: 
+    facebook_admin: ""
 
   # ShowReadingTime: true
   # ShowShareButtons: true
@@ -87,6 +92,8 @@ params:
     Title: "Hi there \U0001F44B"
     Content: "願以照片攝下生活，一場人生中的旅行，從此展開。"
     imageUrl: "./images/banner.webp"
+
+  
 
   # socialIcons:
   #   - name: website
