@@ -36,7 +36,9 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true
+          extended: true    
+      - name: Clear Hugo Cache
+        run: hugo --gc       
       - name: Build
         run: hugo --gc --minify --cleanDestinationDir
       - name: Deploy
