@@ -1,7 +1,7 @@
 ---
-title: "SDGs Game 遊玩紀錄"
+title: "2030 SDGs Game 遊玩紀錄"
 date: 2025-03-02T00:00:00+08:00
-slug: sdgs-game
+slug: 2030-sdgs-game
 draft: false
 categories: ["Thinkings"]
 tags: ["修課紀錄", "SDGs"]
