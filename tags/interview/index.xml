@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Interview on YC Photography</title><link>https://blog.imych.one/tags/interview/</link><description>Recent content in Interview on YC Photography</description><image><url>https://blog.imych.one/images/banner.webp</url><link>https://blog.imych.one/images/banner.webp</link></image><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://blog.imych.one/tags/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>覺揚軟體工程師（全端）面試心得</title><link>https://blog.imych.one/wizigo-software-engineer-interview/</link><pubDate>Tue, 23 Jul 2024 00:00:00 +0800</pubDate><guid>https://blog.imych.one/wizigo-software-engineer-interview/</guid><description>&lt;h1 id="起因">起因&lt;/h1>
+&lt;p>覺揚在花蓮有軟體工程的辦公室，自家的產品是新課綱的共學教育平台，涵蓋了很多功能，包括教材、教案、測驗、作業、討論區等等。在高中時期，我也曾經接觸相關的平台和開發構想，所以對這個領域有一些興趣。&lt;/p>
+&lt;p>聽聞學長介紹，在 104 上發現他們的軟體工程 Team 主打嘗試新技術，並且有一些開發的自由度，加上刊出的薪資好像還算正常（$40000 - $100000），因此我決定來挑戰一下。&lt;/p>
+&lt;h1 id="d0-寄出履歷軟體工程師全端">D+0 寄出履歷：軟體工程師（全端）&lt;/h1>
+&lt;p>雖然職缺開在 104 上，不過我覺得最棒的是他們有留 Email 的投遞管道，這點對習慣用電子郵件往來的我來說很加分。&lt;/p>
+&lt;ul>
+&lt;li>5/30 透過 Email 寄出履歷&lt;/li>
+&lt;li>5/31 收到主管回覆&lt;/li>
+&lt;/ul>
+&lt;h1 id="d4-約面試">D+4 約面試&lt;/h1>
+&lt;p>由於我當時在國外，所以約面試在我期末結束的隔週後。&lt;/p>
+&lt;h1 id="d19-面試">D+19 面試&lt;/h1>
+&lt;ul>
+&lt;li>6/18 下午前往面試&lt;/li>
+&lt;/ul>
+&lt;p>辦公室的位置在慈科大那裡，老實說那裡不太方便，大眾運輸尚未完善，不過這也是花蓮的特色之一。&lt;/p>
+&lt;h2 id="交通規劃">交通規劃&lt;/h2>
+&lt;p>大眾運輸僅有早上與下午各 2 班公車，我從學校搭臺鐵過去，一定得要算好時間，不然很可能會錯過能轉乘的機會（好歹那裡有間大學？），動輒一個小時起跳。&lt;/p>
+&lt;figure>
+&lt;img loading="lazy" src="../images/wizigo-software-engineer-interview/SCR-20240723-qfay.png"/> &lt;figcaption>
+從花蓮火車站轉乘過去的規劃
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="面試過程">面試過程&lt;/h2>
+&lt;p>簡單來說就是去聊聊天，大概聊了 1 個小時多一點。&lt;/p>
+&lt;ul>
+&lt;li>自我介紹
+&lt;ul>
+&lt;li>我以高中做過的專案起頭，介紹自己的經歷。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>討論之前做過的專案
+&lt;ul>
+&lt;li>共事經驗、角色&lt;/li>
+&lt;li>使用的工具、技術&lt;/li>
+&lt;li>在專案中遇到的困難&lt;/li>
+&lt;li>量化成果：使用者數、使用成效、擴及範圍&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>HTTP Service 認知
+&lt;ul>
+&lt;li>RESTful API&lt;/li>
+&lt;li>HTTP Method&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>白板實作（15 分鐘）
+&lt;ul>
+&lt;li>題目：回傳指定數值在陣列中的索引，若無則回傳插入後的位置。&lt;/li>
+&lt;li>限制：不限制呈現的程式語言，pseudocode 也可以。&lt;/li>
+&lt;li>重點：討論表達邏輯的清晰度 = 處理題目的方式、執行程式的斷點、程式運作的合理性。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>升學關心
+&lt;ul>
+&lt;li>暫停學業：人資也提醒我，臺灣仍是看重學歷的社會，所以我在暫停學業的打算要多加注意。&lt;/li>
+&lt;li>兵役：4 個月，我在此說明我的處理方式，在場的人很訝異是 4 個月的兵役。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>反倒是一些常見的問題（？）沒有被問到，例如吸引我來這間公司的原因、我對公司的期待等等。入職時間、薪水、福利等等也沒有被提及。&lt;/p>
+&lt;p>整體來看，我們在我以前參與做過的專案聊得滿久的，其中在角色、工具、技術、困難、成果等等都有談到。&lt;/p>
+&lt;h1 id="d26-寄信詢問面試結果--接到來電談薪">D+26 寄信詢問面試結果 &amp;amp; 接到來電談薪&lt;/h1>
+&lt;blockquote>
+&lt;p>先說結果：錄取，但我最後沒有接受。&lt;/p></description></item><item><title>班聯會第二次面試</title><link>https://blog.imych.one/smsu10th-second-interview-3cde97fac51d/</link><pubDate>Wed, 24 Jun 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/smsu10th-second-interview-3cde97fac51d/</guid><description>&lt;p>距離 
+&lt;a
+href = "/smsu10th-first-interview-abb8d46e02d9"
+>
+&lt;span>
+班聯會的第一次面試
+&lt;/span>
+&lt;/a> 大概過了幾天後，班聯會發布了一面的篩選結果。當時以為一面就定生死的me，突然感到恐慌⋯&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>收到通過一階面試的我，真的是無盡感謝學長姐的賞識與愛戴&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;p>
+&lt;a
+href = "https://blog.imych.one/smsu10th-first-interview-abb8d46e02d9"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+>
+&lt;span>
+班聯會的第一次面試
+&lt;/span>
+&lt;/a>&lt;/p>
+&lt;h1 id="一面結果二面通知">&lt;strong>一面結果二面通知&lt;/strong>&lt;/h1>
+&lt;p>距離 
+&lt;a
+href = "https://travel.imych.one/2020/06/163/%e7%ac%ac%e4%b8%80%e6%ac%a1%e9%9d%a2%e8%a9%a6/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+>
+&lt;span>
+一面
+&lt;/span>
+&lt;/a>大概過了幾天後，班聯會發布了一面的篩選結果。&lt;/p>
+&lt;p>當時以為一面就定生死的me，突然感到恐慌⋯&lt;/p>
+&lt;p>&lt;img alt="Untitled" loading="lazy" src="../images/smsu10th-second-interview-3cde97fac51d/Untitled.png">&lt;/p>
+&lt;h1 id="當天面試">&lt;strong>當天面試&lt;/strong>&lt;/h1>
+&lt;p>二面真的也很緊張，因為一面各種情境題的考驗，收到通知後開始猜測幹部們會問什麼，我的自傳有漏洞？幹部名字？誰是xx職位？之類千奇百怪的情境題。&lt;/p>
+&lt;p>順帶一提，在班聯公布一面結果同時，學長姐隱藏掉了版上的各幹部介紹，才會讓我們有上述的猜想。&lt;/p>
+&lt;p>進去面試後，因為高三學長姊都畢業了，小房間裡面只剩高二的幹部。&lt;/p>
+&lt;p>第一個問題：講一個笑話，挖咧當時腦袋已經在事前猜測轉到一片空白了(qwqq)，結果就很乾得直接回答想不出來。&lt;/p>
+&lt;p>後面就是各幹部精心準備的情境題登場啦～&lt;/p>
+&lt;p>二階有 4 個幹部面試我，啊我同學只有 2 個，可能要看一面表現吧？&lt;/p>
+&lt;p>我覺得我二面除了文書跟總務以外，其他就都普普。文書主要問了「彙整」的定義，我就回答定義跟我的分類模式，總務感覺滿挑釁的：「我有看到你把總務填在你的志願序的最後一個，啊但是我今天就是想選你當總務，你要怎麼應對」哇哇超挑釁欸😳，其他像是副會長就簡單問了「如果會議資料流到抱怨版上，你要怎麼應對」與公關跟廠商接洽的情境題（細節有點忘了）&lt;/p>
+&lt;p>二面完，回想當時在門口等面試跟同學的對話真的很無腦，傻到去背誰誰誰是哪個名字xd，結果我們困擾的，幹部們完全沒有問，取而代之的是更出乎意料的情境題，哇哇哇公關問到的時候我整個就招架不住了 (;´༎ຶД༎ຶ`)&lt;/p></description></item><item><title>班聯會的第一次面試</title><link>https://blog.imych.one/smsu10th-first-interview-abb8d46e02d9/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/smsu10th-first-interview-abb8d46e02d9/</guid><description>&lt;p>在學期初，原先有決定徵選天文社的幹部，想當攝影，但因為當時課業的問題，一直癥結著上幹的抉擇，最後仍投遞班聯會的幹部徵選。&lt;/p>
+&lt;p>但大概在二段後，些許科目的成績有比較穩定，雖然成績還在龜速進步，但我認為我可以給自己在高中的挑戰，不想就這麼空手離開高中，而決定加入班聯，就去徵選班聯幹部了（很瞎趴對吧）&lt;/p>
+&lt;h1 id="選幹通知">&lt;strong>選幹通知&lt;/strong>&lt;/h1>
+&lt;p>在面試前一週，班聯會有發下選幹意願書，上頭大概有註記各幹部的工作內容與責任，當時我很快填完就送出了（我只記得我第一個填文書，最後一個填總務。）&lt;/p>
+&lt;p>&lt;img alt="班聯會選幹意願書" loading="lazy" src="../images/smsu10th-first-interview-abb8d46e02d9/Untitled.png">&lt;/p>
+&lt;p>班聯會選幹意願書&lt;/p>
+&lt;h1 id="一面通知">&lt;strong>一面通知&lt;/strong>&lt;/h1>
+&lt;p>在面試之前，班聯有要求要寄自傳，讓幹部能了解你，再搭配現場面試進行篩選～&lt;/p>
+&lt;p>在公布前，每天都抱持著戰戰兢兢等通知的心情滑 IG，等待通知。&lt;/p>
+&lt;p>&lt;img alt="Untitled" loading="lazy" src="../images/smsu10th-first-interview-abb8d46e02d9/Untitled%201.png">&lt;/p>
+&lt;p>&lt;img alt="班聯會通知" loading="lazy" src="../images/smsu10th-first-interview-abb8d46e02d9/Untitled%202.png">&lt;/p>
+&lt;p>班聯會通知&lt;/p>
+&lt;h1 id="撰寫自傳">&lt;strong>撰寫自傳&lt;/strong>&lt;/h1>
+&lt;p>收到面試通知後，我才開始做自傳。&lt;/p>
+&lt;p>我覺得「自我介紹」 根本是我的天敵，每次寫自傳都要為自己體檢一次，常常會覺得不如他人，想破頭也還是想不出要放什麼內容在自傳上，但想出來也很容易被自己打槍掉（會覺得這也沒什麼值得好對面試官炫耀的）。&lt;/p>
+&lt;p>不過我稍微向身邊的朋友同學調查了我的特點，大部分都是我之前打槍掉自己覺得不值得炫耀的特色，沒想到在大家眼裡，這些是我最大的特色，但這也有可能是比上不足比下有餘，對他們而言這些很屌，但事實上這在同溫層可就差多了呢！ 🤯&lt;/p>
+&lt;p>我的自傳是用 Canva 做的，我的設計感比較差，Canva 可以製作美美的報告或簡報 ٩(๑´3｀๑)۶&lt;/p>
+&lt;p>我大概刻了兩個晚上，截稿當天做最後的確認，而我的自傳主要分成這幾項：&lt;/p>
+&lt;ul>
+&lt;li>自我介紹、個人特質&lt;/li>
+&lt;li>社團幹部經歷&lt;/li>
+&lt;li>個人經歷&lt;/li>
+&lt;li>徵選動機&lt;/li>
+&lt;li>未來目標&lt;/li>
+&lt;/ul>
+&lt;p>班聯官方是只有要求前 4 項，啊為了增加說服及對自己的期許，所以就加了第五項（怪人？&lt;/p>
+&lt;p>在製作自傳的時候真的會不斷問自己，自己到底有哪些特質能被上級看好，哪些會是大家想看到的以及有說服力之類的。&lt;/p>
+&lt;p>&lt;img alt="利用 Canva 製作自傳版面" loading="lazy" src="../images/smsu10th-first-interview-abb8d46e02d9/Untitled%203.png">&lt;/p>
+&lt;p>利用 Canva 製作自傳版面&lt;/p>
+&lt;h1 id="當天面試">&lt;strong>當天面試&lt;/strong>&lt;/h1>
+&lt;p>當天面試真的緊張到爆炸，外頭大排長龍顯得緊張兮兮的。&lt;/p>
+&lt;p>在漫長等待時，我與同學一直在猜測進去面試可能會被問什麼問題，眼看著一位接一位的面試出來，下一個終於輪到我⋯&lt;/p>
+&lt;p>進到會議室後，下屆會長、上屆幹部與這屆幹部一字排開，開始有不同的學長姐問我有關該職位的問題。我不得不說學長姐真的很用心準備面試考驗，絕大部分是情境題，感覺是他們在這個職位曾經遇過的困難，對我們而言是疾風勁草的考驗啊！！&lt;/p>
+&lt;p>在面試中，可能是因為我很緊張的關係，講話不斷結結巴巴的，想解決方案也想得比較慢（畢竟是不同的考驗），不過也還好我自己涉略的領域還算廣，在大多問題還是能硬掰看似合理的答案出來（？）&lt;/p>
+&lt;p>與其稱作是「答案」，不如叫做「解決方案」吧！畢竟都已經是情境題了，沒有一定的解決方式，舉例前陣子的學生會總務一職，有人選擇 
+&lt;a
+href = "https://www.ettoday.net/news/20200610/1734374.htm"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+>
+&lt;span>
+輕生
+&lt;/span>
+&lt;/a> ，也有人選擇負債還清。&lt;/p>
+&lt;p>最讓我印象深刻的是會長的魔王題：啊你是天文幹部，你怎麼不去選你們的天文幹，而要選班聯幹？還好我已經給自己合理的答案了（就期初課業沒準備好，後來準備好了！）&lt;/p>
+&lt;p>面試結束後，當然要擺出神秘表情給下一位同學 (⓿_⓿)，讓他們接受神秘的拷問xdd&lt;/p>
+&lt;h1 id="後續">&lt;strong>後續&lt;/strong>&lt;/h1>
+&lt;p>面試結束後，跟同學到處鬼混，很神奇的是我不斷自省自己剛的表現，我覺得我真的回答得滿很廢的www，不過也還是希望還是可以有機會能進入班聯。&lt;/p>
+&lt;p>
+&lt;a
+href = "https://blog.imych.one/smsu10th-second-interview-3cde97fac51d"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+>
+&lt;span>
+班聯會第二次面試
+&lt;/span>
+&lt;/a>&lt;/p></description></item></channel></rss>
