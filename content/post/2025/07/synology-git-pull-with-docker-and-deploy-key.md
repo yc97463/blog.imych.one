@@ -248,6 +248,7 @@ sh /volume1/<your_repo_name>/git_pull_env/git-pull-in-docker.sh
 - [Connecting to GitHub with SSH - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 - [Git Server - Synology 知識中心](https://kb.synology.com/zh-hk/DSM/help/Git/git?version=7)
 - [SSH Key Authentication on Synology - Reddit](https://www.reddit.com/r/synology/comments/12drqpz/ssh_key_authentication_on_synology/)
+- [在群暉 Synology NAS DSM7.0 上安裝套件管理器](https://natlee.github.io/Blog/posts/53cbcaf3/)
 
 
 這篇文章與程式碼使用 ChatGPT 和 Claude-4-sonnet by Cursor 輔助撰寫。
