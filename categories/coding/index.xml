@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Coding on YC Photography</title><link>https://blog.imych.one/categories/coding/</link><description>Recent content in Coding on YC Photography</description><image><url>https://blog.imych.one/images/banner.webp</url><link>https://blog.imych.one/images/banner.webp</link></image><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://blog.imych.one/categories/coding/index.xml" rel="self" type="application/rss+xml"/><item><title>踩坑紀錄：在 Synology DSM 上實作 Git Private Repository 自動更新（使用 GitHub Deploy Key、DSM 環境無 git CLI）</title><link>https://blog.imych.one/synology-git-pull-with-docker-and-deploy-key/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0800</pubDate><guid>https://blog.imych.one/synology-git-pull-with-docker-and-deploy-key/</guid><description>&lt;p>有些人想在自己的 Synology NAS 上架網站，並且讓程式碼能自動版本更新。如果在純 Linux 環境裡操作，這樣的需求不算太麻煩，通常可以搭配 crontab + git 來自動更新程式碼，就算是 Private Repository 也不是太大的問題。&lt;/p>
+&lt;p>不過如果想要在 Synology DSM （以下稱 DSM）上實作，由於 DSM 和終端預設沒有內建 Git CLI，除了套件中心不支援，自行安裝也需要擔心污染環境或被覆寫。除了直接把 code 手動放到專案目錄裡，我們要來用一些土炮的方式繞過這些限制。&lt;/p>
+&lt;p>這篇將示範：&lt;/p>
+&lt;ul>
+&lt;li>使用 GitHub Deploy Key 進行權限驗證&lt;/li>
+&lt;li>使用 Docker container 執行 &lt;code>git pull&lt;/code>&lt;/li>
+&lt;li>自動更新 repo 至指定資料夾&lt;/li>
+&lt;li>可整合 DSM 任務排程器定時執行&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-前置準備建立資料夾結構">🧱 前置準備：建立資料夾結構&lt;/h2>
+&lt;p>在 Synology 上建立以下目錄結構，將會用到的 SSH 設定檔、腳本等都放在這個資料夾裡。&lt;/p>
+&lt;p>請搭配 SSH 連線來操作在根目錄建立資料夾。&lt;/p>
+&lt;blockquote>
+&lt;p>如果 SSH 連線的功能還沒啟用，請先到 Synology 的控制台 → 安全性 → 遠端存取 → 啟用遠端存取。&lt;/p>&lt;/blockquote>
+&lt;blockquote>
+&lt;p>volume1 是我這台 Synology 上的根目錄，如果你有其他選擇，你可以改成其他目錄，例如 /volume2/ 或 /volume3/。&lt;/p></description></item><item><title>在 Hugo Site 中插入 iframe 內嵌視窗</title><link>https://blog.imych.one/hugo-shortcodes-iframe/</link><pubDate>Sat, 02 Mar 2024 13:21:00 +0800</pubDate><guid>https://blog.imych.one/hugo-shortcodes-iframe/</guid><description>&lt;p>你也想在你的 Hugo 部落格裡嵌入其他網站的畫面，但因為 Hugo 不支援 iframe 功能而放棄嗎？這篇教學會一步一步教你在 Hugo 裡新增自訂的簡短原始碼。如果你也相同的需求，照著這篇教學就能解決了。&lt;/p></description></item><item><title>當班上段考成績遇上試算表巨集，還能即時更新排名</title><link>https://blog.imych.one/googlesheet-macro-on-class-transcripts/</link><pubDate>Sun, 04 Apr 2021 00:00:00 +0800</pubDate><guid>https://blog.imych.one/googlesheet-macro-on-class-transcripts/</guid><description>&lt;p>段考結束後，大家總要面臨段考成績的折磨（嗚嗚嗚），我們班總是會在段考完就瘋狂跟老師要成績，但只有貼進群組，沒有人統整、規劃這些成績，成績可能還真的只是那一次段考，沒有太大作用吧。&lt;/p>
+&lt;p>因此我們班有了線上成績表（每次段考進化中），會不定期推出各種分析功能，最近想挑戰更刺激的：「在 A裝置 key 入成績時，投影在黑板上的 B裝置 呈現著成績試算表並&lt;strong>即時更新某科的排名&lt;/strong>」，讓大家考完試也無法逃出成績的魔掌。&lt;/p>
+&lt;p>&lt;img alt="只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」" loading="lazy" src="../images/googlesheet-macro-on-class-transcripts/1_XSwH_18Cmv1-8U1oeBqB2Q.gif">&lt;/p>
+&lt;p>只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」&lt;/p>
+&lt;hr>
+&lt;p>我覺得滿好解決的，我們的成績表使用 Google Sheets 建置，所以巨集主要 Base on Javascript。&lt;/p>
+&lt;p>先大概講解一下實作的流程，需要大概掌握「巨集」、「Javascript 迴圈」這兩個概念。&lt;/p>
+&lt;h1 id="巨集">&lt;strong>巨集&lt;/strong>&lt;/h1>
+&lt;p>會計類可能會比較容易用到（？）在 Excel 常常會需要&lt;strong>自動化跑一些步驟&lt;/strong>，而巨集專門幫人類省去這些重複性動作，只需要先指定好巨集該做哪些事情，只要一鍵點下去就會自動做好這些以前需要手動做的事了。&lt;/p>
+&lt;p>而巨集通常可以執行先前錄製片段（錄製步驟，例如我在A3換成紅色，再將B6刪除），也可以在錄製完步驟後編輯程式碼（例如我加上迴圈功能，或讓巨集執行完後跳出提示訊息提醒自己）。&lt;/p>
+&lt;h1 id="迴圈-base-on-javascript">&lt;strong>迴圈 Base on Javascript&lt;/strong>&lt;/h1>
+&lt;p>因為巨集只會執行一次，但我們要的是「持續即時更新」，因此我們需要讓巨集啟動後，不斷重複執行。而 Google Sheets 的程式碼仰賴 Google Script 平台編譯執行，基於 Google Script 主要以執行 Javascript語言 為主，因此我們會需要認識 Javascript 的這幾個函數：&lt;/p>
+&lt;ol>
+&lt;li>function（巨集）&lt;/li>
+&lt;li>variables（變數，用於計次）&lt;/li>
+&lt;li>for（loop迴圈）&lt;/li>
+&lt;/ol>
+&lt;h1 id="開始囉">&lt;strong>開始囉&lt;/strong>&lt;/h1>
+&lt;p>好的，大概掌握素材後，我們這次的主題為「即時更新排名」（白話：重複設定篩選儲存列 Z to A，也就是數字最大排到最小）。前面有提到「巨集」幫我們節省掉原本我們要重複執行的步驟，也認識了一下 Javascript 程式語法，那麼我們今天的行程大概是「錄製排序成績的巨集」-&amp;gt;「設定休息緩衝時間，避免持續無間斷瘋狂執行（選用）」-&amp;gt;「測試完成」。&lt;/p>
+&lt;blockquote>
+&lt;p>準備一份班級成績單&lt;/p>&lt;/blockquote>
+&lt;p>就來到我們的試算表啦～首先，我們需要一個已經設定好篩選範圍的班級成績單（Google Sheets 的喔，不是 Excel），裡面可以先填好一些成績，這裡以「生物」欄示範。&lt;/p>
+&lt;p>&lt;img alt="先用 Google Sheets 製作一個簡易的成績單。" loading="lazy" src="../images/googlesheet-macro-on-class-transcripts/Untitled.png">&lt;/p>
+&lt;p>先用 Google Sheets 製作一個簡易的成績單。&lt;/p>
+&lt;blockquote>
+&lt;p>錄製排序成績的巨集&lt;/p>&lt;/blockquote>
+&lt;p>接著依序點選上方選單的「工具」-&amp;gt;「巨集」-&amp;gt;「錄製巨集」，即可開始錄製接下來的操作步驟。&lt;/p>
+&lt;p>&lt;img alt="從篩選的選單中選擇 Z to A。" loading="lazy" src="../images/googlesheet-macro-on-class-transcripts/Untitled%201.png">&lt;/p></description></item><item><title>第六屆台灣青年黑客松參賽紀錄</title><link>https://blog.imych.one/6th-hackathonjr-tw/</link><pubDate>Sun, 23 Aug 2020 08:51:34 +0800</pubDate><guid>https://blog.imych.one/6th-hackathonjr-tw/</guid><description>&lt;p>今年與朋友參加了名為青年黑客松的比賽，參賽對象是高中職為主，比賽在短時間內做出一個概念品（有點創意專案賽），而今年的競賽主題是「&lt;strong>疫情下的共享經濟&lt;/strong>」。&lt;/p></description></item><item><title>利用 C++ 實作雙重 Sigma</title><link>https://blog.imych.one/double-sigma-in-c/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/double-sigma-in-c/</guid><description>&lt;h1 id="σ-小簡介">&lt;strong>Σ 小簡介&lt;/strong>&lt;/h1>
+&lt;p>在108課綱，「Σ」在高一會暫時由繁雜的公式取代，到高二才會再拿回來用，但 Σ 真的可以將式子簡化很多，而且計算也較繁雜公式簡單許多，就決定寫成 C++ 了。&lt;/p></description></item><item><title>2020 商業智慧日體驗營，R 語言初體驗活動紀錄</title><link>https://blog.imych.one/2020-r-project-camp-of-nsysu-1b92a76e194d/</link><pubDate>Sun, 09 Feb 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/2020-r-project-camp-of-nsysu-1b92a76e194d/</guid><description>&lt;p>tl;dr: 這篇文章紀錄我高一參加中山大學商業智慧日體驗營的經歷，營隊主要教授R語言基礎資料分析和資料視覺化，並進行小組競賽，在營隊中學習和探索大數據處理的方法。&lt;/p></description></item></channel></rss>
