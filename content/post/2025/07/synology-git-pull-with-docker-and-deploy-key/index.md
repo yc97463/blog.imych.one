@@ -120,7 +120,7 @@ chmod 644 /volume1/<your_repo_name>/git_pull_env/.ssh/known_hosts
    → GitHub Repository → Settings → Deploy Keys → Add Key
    → 允許 **Read-only** 即可
 
-![GitHub Deploy Key](../images/synology-git-pull-with-docker-and-deploy-key/SCR-20250716-eufg.png)
+![GitHub Deploy Key](SCR-20250716-eufg.png)
 
 ---
 
@@ -223,11 +223,11 @@ sh /volume1/<your_repo_name>/git_pull_env/git-pull-in-docker.sh
 
 
 
-![DSM 任務排程器 設定執行指令](../images/synology-git-pull-with-docker-and-deploy-key/SCR-20250716-fkyr.png)
+![DSM 任務排程器 設定執行指令](SCR-20250716-fkyr.png)
 
 透過介面執行一次剛剛新增的任務後，即可看到執行的 log，確認是否成功。
 
-![DSM 任務排程器 確認指令執行成功與否](../images/synology-git-pull-with-docker-and-deploy-key/SCR-20250716-flks.png)
+![DSM 任務排程器 確認指令執行成功與否](SCR-20250716-flks.png)
 
 ---
 
