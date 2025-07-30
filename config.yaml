@@ -4,7 +4,7 @@ languageCode: "zh-TW"
 theme: papermod
 
 permalinks:
-  post: "/:filename/"
+  post: "/:contentbasename/"
   categories: "/categories/:slug/"
 
 author:
@@ -19,14 +19,18 @@ menu:
     - identifier: categories
       name: 分類
       url: /categories/
-      weight: 2
+      weight: 3
     - identifier: tags
       name: 標籤
       url: /tags/
-      weight: 3
+      weight: 4
     - identifier: invitation-code
       name: 邀請碼
       url: /invitation-code/
+      weight: 2
+    - identifier: now
+      name: Now
+      url: /tags/now/
       weight: 1
 
 params:
