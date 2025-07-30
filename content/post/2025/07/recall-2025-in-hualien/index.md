@@ -150,4 +150,3 @@ KMT 的口號主要是這三條，非常有印象點：
 - [【Data Reporter】25張圖表，看「第一波大罷免」各村里投票結果 - 報導者 The Reporter](https://www.twreporter.org/a/data-reporter-2025-726-recall-results)
 - [Voters in Taiwan reject bid to oust China-friendly lawmakers in closely watched poll - CNN](https://edition.cnn.com/2025/07/26/asia/taiwan-votes-china-lawmaker-election-latam-intl)
 - [Taiwanese political gridlock endures as China-friendly party survives recall vote - NPR](https://www.npr.org/2025/07/26/g-s1-79760/taiwan-china-recall-vote)
-- []()
