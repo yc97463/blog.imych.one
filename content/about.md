@@ -1,7 +1,7 @@
 ---
 title: "關於這裡"
 date: 2023-03-21T19:26:34+08:00
-description: "一些本站定位以及授權。"
+description: "一些本站定位、授權，與交換連結。"
 draft: false
 ---
 
