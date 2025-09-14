@@ -18,5 +18,7 @@ draft: false
 ![CC BY-NC-SA 4.0](https://tw.creativecommons.net/wp-content/uploads/sites/20/2020/11/by-nc-sa.png)
 
 ## 交換連結
-如果你想要交換連結或合作，歡迎透過以下方式與我聯絡：
-- 電子郵件：[hi@imych.one](mailto:hi@imych.one)
+如果你想要交換連結或合作，歡迎[透過 Email 與我聯絡](https://imych.one/)。
+
+- [유유유 的礦場](https://e-xin-o.netlify.app/%E9%97%9C%E6%96%BC/) 這位地質學家想舔大理岩
+- [圓州率](https://jinzhou.netlify.app/) 一個立志成為科學家的故事
