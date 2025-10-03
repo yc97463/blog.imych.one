@@ -4,6 +4,7 @@ date: 2025-07-30T15:20:00+08:00
 draft: false
 categories: ["Life", "Photography", "Thinkings"]    
 tags: ["公民參與"]
+images: ["/recall-2025-in-hualien/%e5%82%85%e8%97%8d%e6%9c%ac-%e9%82%84%e9%8c%a2%e6%96%bc%e6%b0%91-%e5%9c%8b%e6%b0%91%e9%bb%a8%e4%b8%bb%e5%bc%b5%e6%99%ae%e7%99%bc%e4%b8%80%e8%90%ac%e5%85%83-%e7%a8%85%e6%94%b6%e8%b6%85%e5%be%b51%e5%85%868707%e5%84%84.jpeg"]
 ---
 
 2025 年大罷免，我大部分的時間都在花蓮，指標性人物是傅崐萁，這會是一篇以花蓮居民的角度來分享一些我的觀察與淺見。
