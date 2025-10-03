@@ -2,8 +2,6 @@
 title: "花蓮罷免現象觀察及公民意識反思"
 date: 2025-07-30T15:20:00+08:00
 draft: false
-build: 
-    list: never
 categories: ["Life", "Photography", "Thinkings"]    
 tags: ["公民參與"]
 ---
