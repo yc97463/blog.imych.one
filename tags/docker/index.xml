@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Docker on YC Photography</title><link>https://blog.imych.one/tags/docker/</link><description>Recent content in Docker on YC Photography</description><image><url>https://blog.imych.one/images/banner.webp</url><link>https://blog.imych.one/images/banner.webp</link></image><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://blog.imych.one/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>踩坑紀錄：在無 Git CLI 的 Synology DSM 上實作 Git Private Repository 自動更新</title><link>https://blog.imych.one/synology-git-pull-with-docker-and-deploy-key/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0800</pubDate><guid>https://blog.imych.one/synology-git-pull-with-docker-and-deploy-key/</guid><description>&lt;p&gt;有些人想在自己的 Synology NAS 上架網站，並且讓程式碼能自動版本更新。如果在純 Linux 環境裡操作，這樣的需求不算太麻煩，通常可以搭配 crontab + git 來自動更新程式碼，就算是 Private Repository 也不是太大的問題。&lt;/p&gt;
+&lt;p&gt;不過如果想要在 Synology DSM （以下稱 DSM）上實作，由於 DSM 和終端預設沒有內建 Git CLI，除了套件中心不支援，自行安裝也需要擔心污染環境或被覆寫。除了直接把 code 手動放到專案目錄裡，我們要來用一些土炮的方式繞過這些限制。&lt;/p&gt;
+&lt;p&gt;這篇將示範：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 GitHub Deploy Key 進行權限驗證&lt;/li&gt;
+&lt;li&gt;使用 Docker container 執行 &lt;code&gt;git pull&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;自動更新 repo 至指定資料夾&lt;/li&gt;
+&lt;li&gt;可整合 DSM 任務排程器定時執行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-前置準備建立資料夾結構"&gt;🧱 前置準備：建立資料夾結構&lt;/h2&gt;
+&lt;p&gt;在 Synology 上建立以下目錄結構，將會用到的 SSH 設定檔、腳本等都放在這個資料夾裡。&lt;/p&gt;
+&lt;p&gt;請搭配 SSH 連線來操作在根目錄建立資料夾。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果 SSH 連線的功能還沒啟用，請先到 Synology 的控制台 → 安全性 → 遠端存取 → 啟用遠端存取。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;volume1 是我這台 Synology 上的根目錄，如果你有其他選擇，你可以改成其他目錄，例如 /volume2/ 或 /volume3/。&lt;/p&gt;</description></item></channel></rss>
