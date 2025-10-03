@@ -1,5 +1,5 @@
 ---
-title: "踩坑紀錄：在 Synology DSM 上實作 Git Private Repository 自動更新（使用 GitHub Deploy Key、DSM 環境無 git CLI）"
+title: "踩坑紀錄：在無 Git CLI 的 Synology DSM 上實作 Git Private Repository 自動更新"
 date: 2025-07-16T00:00:00+08:00
 draft: false
 categories: ["Coding", "DevOps"]
