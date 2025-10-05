@@ -5,6 +5,7 @@ slug: sitcon2022-vlogger
 draft: false
 categories: ["Community", "Photography"]
 tags: ["iPhone"]
+images: ["images/sitcon2022-vlogger/IMG_2144_(1).jpg"]
 ---
 
 tl;dr: 這一篇文章將分享在 SITCON 2022 學生計算機年會對動態攝影新挑戰的嘗試。

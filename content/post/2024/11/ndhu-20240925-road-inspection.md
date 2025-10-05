@@ -3,7 +3,8 @@ title: "東華 9/25 藝術學院道路勘查筆記"
 date: 2024-11-11T01:45:00+08:00
 draft: false
 categories: ["Traffic"]
-tags: ["NDHU", "Road Design", "Road Safety"]
+tags: ["NDHU", "道路設計", "人本交通"]
+images: ["images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidewalk.jpeg"]
 ---
 
 # 道路勘查緣由

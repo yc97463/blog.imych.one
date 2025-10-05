@@ -5,6 +5,7 @@ slug: cycling-to-kaohsiung-pier2-in-the-early-morning
 draft: false
 categories: ["Life"]
 tags: ["YouBike", "Kaohsiung", "駁二", "Tram", "鹽埕區"]
+images: ["images/cycling-to-kaohsiung-pier2-in-the-early-morning/cycling-route.jpg"] 
 ---
 
 清晨 5 點多，我騎著 YouBike 相揪朋友從愛河之心出發，前往高雄駁二藝術特區。

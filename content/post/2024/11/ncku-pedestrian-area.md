@@ -4,7 +4,8 @@ date: 2024-11-11T03:25:00+08:00
 lastmod: 2024-11-11T08:13:00+08:00
 draft: false
 categories: ["Traffic"]
-tags: ["Road Design", "Road Safety"]
+tags: ["道路設計", "人本交通"]
+images: ["images/ncku-pedestrian-area/pedestrian-area.jpeg"]
 ---
 
 10 月底到成功大學比賽，順便觀察了一下校園的人行空間。

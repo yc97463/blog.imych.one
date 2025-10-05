@@ -7,6 +7,7 @@ slug: fosdem-2024
 draft: false
 categories: ["Community", "Photography"]
 tags: ["FOSDEM"]
+images: ["images/fosdem-2024/fosdem2024-homepage-screenshot.jpeg"]
 ---
 
 第一次申請 OCF 開放文化基金會的國際獎助會議計畫，獲選獎助金去比利時看看歐洲最大的開放原始碼研討會 FOSDEM (Free and Open source Software Developers' European Meeting)。

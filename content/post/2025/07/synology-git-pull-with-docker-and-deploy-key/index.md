@@ -4,6 +4,7 @@ date: 2025-07-16T00:00:00+08:00
 draft: false
 categories: ["Coding", "DevOps"]
 tags: ["Synology", "Git", "Docker", "GitHub"]
+images: ["SCR-20250716-fkyr.png"]
 ---
 
 有些人想在自己的 Synology NAS 上架網站，並且讓程式碼能自動版本更新。如果在純 Linux 環境裡操作，這樣的需求不算太麻煩，通常可以搭配 crontab + git 來自動更新程式碼，就算是 Private Repository 也不是太大的問題。

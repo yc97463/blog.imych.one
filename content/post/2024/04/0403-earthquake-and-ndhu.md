@@ -4,6 +4,7 @@ date: 2024-04-09T00:35:00+08:00
 draft: false
 categories: ["Life", "Photography"]
 tags: ["Photos📸", "NDHU"]
+images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-1-classroom.jpeg"]
 ---
 
 或許是因為過於平凡，才忘記好好記錄吧。

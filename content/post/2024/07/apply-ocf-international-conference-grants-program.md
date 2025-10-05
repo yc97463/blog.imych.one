@@ -4,6 +4,7 @@ date: 2024-07-22T12:30:00+08:00
 draft: false
 categories: ["Community"]
 tags: ["OCF", "FOSDEM"]
+images: ["images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png"]
 ---
 
 這次的~~出遊~~探訪行程，是源自於 [OCF 開放文化基金會](https://ocf.tw/)的[國際會議獎助計畫](https://ocf.tw/p/intldonate/)。
