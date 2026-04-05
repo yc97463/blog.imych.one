@@ -6,4 +6,5 @@ draft: false
 build:
     list: never
 categories: [""]
+images: [""]
 ---
