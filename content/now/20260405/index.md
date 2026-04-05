@@ -3,8 +3,6 @@ title: '2026-04-05 近況'
 slug: '2026-04-05'
 date: 2026-04-05T19:33:08+08:00
 draft: false
-# build:
-    # list: never
 categories: [""]
 ---
 
