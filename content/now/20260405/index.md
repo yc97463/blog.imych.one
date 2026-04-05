@@ -4,6 +4,7 @@ slug: '2026-04-05'
 date: 2026-04-05T19:33:08+08:00
 draft: false
 categories: [""]
+images: ["kaohsiung-main-station-on-road.jpeg"]
 ---
 
 {{< figure src="./kaohsiung-main-station-on-road.jpeg" title="博愛路面向高雄車站 - Shot on iPhone 17 Pro" >}}
