@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on YC Photography</title><link>https://blog.imych.one/post/</link><description>Recent content in Posts on YC Photography</description><image><url>https://blog.imych.one/images/banner.webp</url><link>https://blog.imych.one/images/banner.webp</link></image><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Fri, 24 Oct 2025 20:30:00 +0800</lastBuildDate><atom:link href="https://blog.imych.one/post/index.xml" rel="self" type="application/rss+xml"/><item><title>自動清理 Gmail 一個月以上的舊信件</title><link>https://blog.imych.one/purge-old-mails-google-apps-script/</link><pubDate>Fri, 24 Oct 2025 20:30:00 +0800</pubDate><guid>https://blog.imych.one/purge-old-mails-google-apps-script/</guid><description>&lt;p&gt;哭啊！學校信箱又爆了。&lt;/p&gt;</description></item><item><title>初次物理治療速記</title><link>https://blog.imych.one/first-physical-therapy-notes/</link><pubDate>Fri, 03 Oct 2025 19:51:08 +0800</pubDate><guid>https://blog.imych.one/first-physical-therapy-notes/</guid><description>&lt;p&gt;最初會開始注意到身體的問題，是因為腕隧道症候群（症狀俗稱媽媽手）不斷復發，之前看過中醫針灸，症狀解決了但依舊復發。加上工程師朋朋按壓我肩膀時，發現明顯的痠痛點，讓我初步意識到肩膀並不是日常覺得無恙而忽視。&lt;/p&gt;</description></item><item><title>花蓮罷免現象觀察及公民意識反思</title><link>https://blog.imych.one/recall-2025-in-hualien/</link><pubDate>Wed, 30 Jul 2025 15:20:00 +0800</pubDate><guid>https://blog.imych.one/recall-2025-in-hualien/</guid><description>&lt;p&gt;2025 年大罷免，我大部分的時間都在花蓮，指標性人物是傅崐萁，這會是一篇以花蓮居民的角度來分享一些我的觀察與淺見。&lt;/p&gt;</description></item><item><title>踩坑紀錄：在無 Git CLI 的 Synology DSM 上實作 Git Private Repository 自動更新</title><link>https://blog.imych.one/synology-git-pull-with-docker-and-deploy-key/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0800</pubDate><guid>https://blog.imych.one/synology-git-pull-with-docker-and-deploy-key/</guid><description>&lt;p&gt;有些人想在自己的 Synology NAS 上架網站，並且讓程式碼能自動版本更新。如果在純 Linux 環境裡操作，這樣的需求不算太麻煩，通常可以搭配 crontab + git 來自動更新程式碼，就算是 Private Repository 也不是太大的問題。&lt;/p&gt;
+&lt;p&gt;不過如果想要在 Synology DSM （以下稱 DSM）上實作，由於 DSM 和終端預設沒有內建 Git CLI，除了套件中心不支援，自行安裝也需要擔心污染環境或被覆寫。除了直接把 code 手動放到專案目錄裡，我們要來用一些土炮的方式繞過這些限制。&lt;/p&gt;
+&lt;p&gt;這篇將示範：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 GitHub Deploy Key 進行權限驗證&lt;/li&gt;
+&lt;li&gt;使用 Docker container 執行 &lt;code&gt;git pull&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;自動更新 repo 至指定資料夾&lt;/li&gt;
+&lt;li&gt;可整合 DSM 任務排程器定時執行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-前置準備建立資料夾結構"&gt;🧱 前置準備：建立資料夾結構&lt;/h2&gt;
+&lt;p&gt;在 Synology 上建立以下目錄結構，將會用到的 SSH 設定檔、腳本等都放在這個資料夾裡。&lt;/p&gt;
+&lt;p&gt;請搭配 SSH 連線來操作在根目錄建立資料夾。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果 SSH 連線的功能還沒啟用，請先到 Synology 的控制台 → 安全性 → 遠端存取 → 啟用遠端存取。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;volume1 是我這台 Synology 上的根目錄，如果你有其他選擇，你可以改成其他目錄，例如 /volume2/ 或 /volume3/。&lt;/p&gt;</description></item><item><title>2030 SDGs Game 遊玩紀錄</title><link>https://blog.imych.one/2030-sdgs-game/</link><pubDate>Sun, 02 Mar 2025 00:00:00 +0800</pubDate><guid>https://blog.imych.one/2030-sdgs-game/</guid><description>&lt;p&gt;2030 SDGs Game 是一個新穎的體驗，在課堂上透過多人桌遊的方式，來認識「經濟」、「環境」、「社會」建構出的世界。&lt;/p&gt;
+&lt;p&gt;值得注意的是，我們這次遊玩的世界量表結果是否反映出了以我們這一代視角所看見的環境，臺灣？經濟超前，環境與社會卻仍在發展中。&lt;/p&gt;</description></item><item><title>成功大學 校園人行空間觀察速記</title><link>https://blog.imych.one/ncku-pedestrian-area/</link><pubDate>Mon, 11 Nov 2024 03:25:00 +0800</pubDate><guid>https://blog.imych.one/ncku-pedestrian-area/</guid><description>&lt;p&gt;10 月底到成功大學比賽，順便觀察了一下校園的人行空間。&lt;/p&gt;</description></item><item><title>東華 9/25 藝術學院道路勘查筆記</title><link>https://blog.imych.one/ndhu-20240925-road-inspection/</link><pubDate>Mon, 11 Nov 2024 01:45:00 +0800</pubDate><guid>https://blog.imych.one/ndhu-20240925-road-inspection/</guid><description>&lt;h1 id="道路勘查緣由"&gt;道路勘查緣由&lt;/h1&gt;
+&lt;p&gt;車輛管理委員會（簡稱車管會）學生代表於 112-2 車管會提出
+&lt;a
+href = "https://ga.ndhu.edu.tw/var/file/6/1006/img/1710/400157295.pdf"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+兩案
+&lt;/span&gt;
+&lt;/a&gt;，但礙於該學期末因為校園地震等災害事件而遠距教學，許多學生代表都離開學校了，因此原先委員會後的道路勘查工作延後至 113-1 學期。&lt;/p&gt;
+&lt;p&gt;在 112 整年度（2024 年）中，我出訪過歐洲西部國家、日本東部地區，參觀過當地的交通規劃，我認為這次的道路勘查是一個很好記錄下來的機會，這篇文章會包含當時視察的項目及我的看法。&lt;/p&gt;
+&lt;figure&gt;
+&lt;img loading="lazy" src="../images/ndhu-20240925-road-inspection/SCR-20241003-tiuv.png"/&gt; &lt;figcaption&gt;
+112 車管會會議記錄 - 學生代表提案內容
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h1 id="道路勘查實記"&gt;道路勘查實記&lt;/h1&gt;
+&lt;h2 id="大學門-車道匯流"&gt;大學門 車道匯流&lt;/h2&gt;
+&lt;p&gt;大學門主要討論了劃分車道，並且將動線規劃得更加明確，以避免車輛之間的衝突。&lt;/p&gt;
+&lt;p&gt;現場考量礙於調整動線專業性，決議安排到第二期外環道改善工程，請交通技師評估及事後施作。&lt;/p&gt;
+&lt;figure&gt;
+&lt;img loading="lazy" src="../images/ndhu-20240925-road-inspection/20240703_4_3.jpg"/&gt; &lt;figcaption&gt;
+大學門出入口加入槽化區域，明確規範車輛行駛區域（繪圖：潘芊妤｜底圖圖資：國土測繪雲）
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id="藝術學院-人行鋪面及行人保護措施"&gt;藝術學院 人行鋪面及行人保護措施&lt;/h2&gt;
+&lt;h3 id="銜接行穿線的人行道"&gt;銜接行穿線的人行道&lt;/h3&gt;
+&lt;p&gt;從藝術學院往返外環停車場，需要穿越道路，現行行穿線劃設的位置無人行道與其銜接，勘查現場該處存在高低差，路口處也未做出差異化，一來身障人士無法進行穿越，行人也容易不小心被周遭的樹擋住，容易導致車輛不易察覺行人，造成雙方的用路安危。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;現場決議&lt;/strong&gt;：AC（柏油施工工法）柏油鋪面，製作下潛式人行道，用以銜接現有的行穿線。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="下潛式人行道，銜接現有行穿線" loading="lazy" src="../images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidewalk.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;事後記事&lt;/strong&gt;：荷蘭隨處可見的「路面抬升型行穿線」有更高的&lt;strong&gt;預防效果&lt;/strong&gt;。比起駕駛需要注意路側有人與否，駕駛能更優先注意到路面抬升，因而需要減速；行人及身障者除了不需要先下斜坡，也能更安全地被注意到及穿越道路。&lt;/p&gt;
+&lt;p&gt;我之後再寫一篇文章，介紹荷蘭和日本的路面抬升型行穿線。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;11/08 更新&lt;/strong&gt;：學生會更新施工進度，該處施作高壓磚鋪面，實際並未採用下潛式人行道。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="高壓磚鋪面人行道" loading="lazy" src="../images/ndhu-20240925-road-inspection/SCR-20241111-bhiq.jpeg"&gt;&lt;/p&gt;
+&lt;h3 id="標線型行人庇護島"&gt;標線型行人庇護島&lt;/h3&gt;
+&lt;p&gt;藝術學院與教師宿舍，與外環道連接的路口，由於路口開口寬度過大，車輛在轉彎時，容易忽略行人，因此我提議在該處設置實體行人庇護島，除了可以限縮道路寬度，達到明確化行駛的動線，也可以增加行人的安全性。&lt;/p&gt;
+&lt;p&gt;不過現場包括職員討論了一下，決議先行設置標線型行人庇護島及防撞桿輔佐，先試行結果。之所以將實體改為標線型，先前理工學院路口設置實體行人庇護島，車輛在轉彎時，容易撞上實體庇護島，造成車輛及設施本體損壞，因此這次只設置標線型行人庇護島。&lt;/p&gt;
+&lt;p&gt;我覺得這是有趣的議題，在臺灣大多數實體庇護島是為了有效隔離行人與車輛，但在日本，儘管許多地方只使用標線進行引導，這是因為該國道路設計透過「標線」明確地引導駕駛，駕駛較能在顧及路況下注意到行人。如果改為設置標線型是為了避免車輛受損，我覺得這可能有些本末倒置，因為行人穿越時，不是實體設施被撞，那就是行人被撞了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="標線型行人庇護島" loading="lazy" src="../images/ndhu-20240925-road-inspection/Frame-5870.jpg"&gt;&lt;/p&gt;
+&lt;h2 id="理工學院-周遭油鋪面人行道標誌指引改善提議"&gt;理工學院 周遭油鋪面人行道標誌指引改善提議&lt;/h2&gt;
+&lt;p&gt;由於我通常會在理工學院上課，因此我對該區域的道路狀況較為熟悉，我提出了周遭油鋪面人行道標誌指引改善提議。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;做庇護島的路口加強緊鄰 AC 人行道開口的示警標誌。
+&lt;ul&gt;
+&lt;li&gt;原先的柏油人行道與油鋪面人行道之間，沒有明確的區隔，容易讓駕駛人誤以為是車道，因此我提議在人行道開口處加強示警標誌，提醒駕駛人這是人行道，請注意行人。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;理工學院沿路的人行道，增加地面行人自行車共道標誌、改善過抖的坡度，以及處理緣石，以改善無障礙通行。
+&lt;ul&gt;
+&lt;li&gt;現行的人行道坡度過抖，對於身障人士來說，他們無法將輪椅推上人行道，因此我提議改善坡度，並且處理緣石，以改善無障礙通行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;
+&lt;img loading="lazy" src="../images/ndhu-20240925-road-inspection/%e7%90%86%e5%b7%a5%e5%ad%b8%e9%99%a2%e4%ba%ba%e8%a1%8c%e9%81%93%e5%8f%8a%e5%91%a8%e9%81%ad%e5%a2%9e%e8%a8%ad%e6%a8%99%e8%aa%8c@2x.jpg"/&gt; &lt;figcaption&gt;
+周遭油鋪面人行道標誌指引改善提議
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id="志學門-校內路口圓環處"&gt;志學門 校內路口、圓環處&lt;/h2&gt;
+&lt;h3 id="消失的自行車道"&gt;消失的自行車道&lt;/h3&gt;
+&lt;p&gt;在現勘當時，志學門圓環處只有劃設枕木紋的行穿線，屬於自行車通行路口（橫斷路面）的車道卻沒有被做出來，因此當時我也提了一下這個問題。&lt;/p&gt;
+&lt;p&gt;不過在 11/05 傍晚，自行車穿越道有師傅來施作了，以紅色冷塑漆劃設。我上前關心施作的情形，師傅向我們展示冷塑與熱拌漆在防滑效果上的差異，冷塑漆的防滑係數較高，且耐久度較長，材料價差十倍之多。&lt;/p&gt;
+&lt;div class="youtube-container"&gt;
+&lt;iframe src="https://www.youtube.com/embed/rDmqX7H6yJ8" title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.youtube-container {
+margin: 1rem auto;
+position: relative;
+width: 100%;
+height: 0;
+padding-bottom: 56.25%;
+}
+.youtube-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+&lt;/style&gt;
+&lt;h3 id="圓環的號誌閃爍"&gt;圓環的號誌閃爍&lt;/h3&gt;
+&lt;p&gt;原先在圓環外設置的號誌，以規範路權為主，先前會議提到外環道才是主道，因此號誌會閃爍黃燈以示主道路權，我對此滿心期待。結果在施作完成後，號誌仍然規範入校與內環的路權為主道，我滿是不解。&lt;/p&gt;</description></item><item><title>高三時難以往懷的事：教育者的理解、包容與支持</title><link>https://blog.imych.one/memorable-educator-in-high-school/</link><pubDate>Thu, 03 Oct 2024 17:30:00 +0800</pubDate><guid>https://blog.imych.one/memorable-educator-in-high-school/</guid><description>&lt;p&gt;我從高一開始，因為臺灣的學科教育制度，讓我很討厭硬讀學科，對於學科的學習沒有興趣。我覺得測驗導向的學科的學習是一種被迫的事情，而不是走在自己的步調上喜愛與學習。&lt;/p&gt;
+&lt;p&gt;我將大部分的時間花在自己喜歡的事情上，例如寫程式、做專題、課外探索等等。我覺得這些事情比乏味的學科學習更有趣，也更有意義。&lt;/p&gt;
+&lt;p&gt;一直到高三，高三是幾乎所有臺灣學生重要的一年，因為高三有一大部分的時間都花在準備研讀大學學科測驗上，對大部分學生而言，這是進大學的唯一途徑。同時，高三還有安排一些學科進度，因此授課老師除了要教進度，還要幫助學生準備研讀大學學科測驗，時間安排可說是非常緊迫。&lt;/p&gt;
+&lt;p&gt;我當時因為知道了「特殊選才」，制度上與一般的考試制度不太一樣，透過專才的能力的展現，得到大學的錄取機會。我覺得這是一個很好的機會，相較只能透過學科成績來決定大學錄取的方式，這個制度讓我有多一項選擇。&lt;/p&gt;
+&lt;p&gt;特殊選才看重的是學生的專長。有別於一般同學在學涯中單次單次準備的測驗，通常會花比較長的人生階段在探索專長與精進上。&lt;/p&gt;
+&lt;p&gt;特殊選才大概是在新學年開始，學期中段考附近的時候辦理，包括提交書審資料、準備面試等等。所以當時同學們正在準備學科考試的時候，我則是在準備特殊選才所需的資料與養分。&lt;/p&gt;
+&lt;p&gt;我覺得我最印象深刻的是，老師跟我說：如果你需要在旁邊敲電腦，那就去吧。我當時覺得這句話很溫暖，因為我知道老師知道我在做什麼，也知道我在做的事情對我來說很重要。在同一個教室中，雖然我在一旁用電腦，但卻不會感到孤寂或反差。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;老師們知道，學科已經不是這個學生人生中最重要的事了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我覺得這是在傳統教學體制下，教育者能夠給予學生的最好的支持。這種支持不是要求學生必須遵守規則，而是讓學生知道，老師們理解學生找到自己重要的事情，並且用行為表達支持。&lt;/p&gt;</description></item><item><title>覺揚軟體工程師（全端）面試心得</title><link>https://blog.imych.one/wizigo-software-engineer-interview/</link><pubDate>Tue, 23 Jul 2024 00:00:00 +0800</pubDate><guid>https://blog.imych.one/wizigo-software-engineer-interview/</guid><description>&lt;h1 id="起因"&gt;起因&lt;/h1&gt;
+&lt;p&gt;覺揚在花蓮有軟體工程的辦公室，自家的產品是新課綱的共學教育平台，涵蓋了很多功能，包括教材、教案、測驗、作業、討論區等等。在高中時期，我也曾經接觸相關的平台和開發構想，所以對這個領域有一些興趣。&lt;/p&gt;
+&lt;p&gt;聽聞學長介紹，在 104 上發現他們的軟體工程 Team 主打嘗試新技術，並且有一些開發的自由度，加上刊出的薪資好像還算正常（$40000 - $100000），因此我決定來挑戰一下。&lt;/p&gt;
+&lt;h1 id="d0-寄出履歷軟體工程師全端"&gt;D+0 寄出履歷：軟體工程師（全端）&lt;/h1&gt;
+&lt;p&gt;雖然職缺開在 104 上，不過我覺得最棒的是他們有留 Email 的投遞管道，這點對習慣用電子郵件往來的我來說很加分。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5/30 透過 Email 寄出履歷&lt;/li&gt;
+&lt;li&gt;5/31 收到主管回覆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="d4-約面試"&gt;D+4 約面試&lt;/h1&gt;
+&lt;p&gt;由於我當時在國外，所以約面試在我期末結束的隔週後。&lt;/p&gt;
+&lt;h1 id="d19-面試"&gt;D+19 面試&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;6/18 下午前往面試&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;辦公室的位置在慈科大那裡，老實說那裡不太方便，大眾運輸尚未完善，不過這也是花蓮的特色之一。&lt;/p&gt;
+&lt;h2 id="交通規劃"&gt;交通規劃&lt;/h2&gt;
+&lt;p&gt;大眾運輸僅有早上與下午各 2 班公車，我從學校搭臺鐵過去，一定得要算好時間，不然很可能會錯過能轉乘的機會（好歹那裡有間大學？），動輒一個小時起跳。&lt;/p&gt;
+&lt;figure&gt;
+&lt;img loading="lazy" src="../images/wizigo-software-engineer-interview/SCR-20240723-qfay.png"/&gt; &lt;figcaption&gt;
+從花蓮火車站轉乘過去的規劃
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id="面試過程"&gt;面試過程&lt;/h2&gt;
+&lt;p&gt;簡單來說就是去聊聊天，大概聊了 1 個小時多一點。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自我介紹
+&lt;ul&gt;
+&lt;li&gt;我以高中做過的專案起頭，介紹自己的經歷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;討論之前做過的專案
+&lt;ul&gt;
+&lt;li&gt;共事經驗、角色&lt;/li&gt;
+&lt;li&gt;使用的工具、技術&lt;/li&gt;
+&lt;li&gt;在專案中遇到的困難&lt;/li&gt;
+&lt;li&gt;量化成果：使用者數、使用成效、擴及範圍&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HTTP Service 認知
+&lt;ul&gt;
+&lt;li&gt;RESTful API&lt;/li&gt;
+&lt;li&gt;HTTP Method&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;白板實作（15 分鐘）
+&lt;ul&gt;
+&lt;li&gt;題目：回傳指定數值在陣列中的索引，若無則回傳插入後的位置。&lt;/li&gt;
+&lt;li&gt;限制：不限制呈現的程式語言，pseudocode 也可以。&lt;/li&gt;
+&lt;li&gt;重點：討論表達邏輯的清晰度 = 處理題目的方式、執行程式的斷點、程式運作的合理性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;升學關心
+&lt;ul&gt;
+&lt;li&gt;暫停學業：人資也提醒我，臺灣仍是看重學歷的社會，所以我在暫停學業的打算要多加注意。&lt;/li&gt;
+&lt;li&gt;兵役：4 個月，我在此說明我的處理方式，在場的人很訝異是 4 個月的兵役。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;反倒是一些常見的問題（？）沒有被問到，例如吸引我來這間公司的原因、我對公司的期待等等。入職時間、薪水、福利等等也沒有被提及。&lt;/p&gt;
+&lt;p&gt;整體來看，我們在我以前參與做過的專案聊得滿久的，其中在角色、工具、技術、困難、成果等等都有談到。&lt;/p&gt;
+&lt;h1 id="d26-寄信詢問面試結果--接到來電談薪"&gt;D+26 寄信詢問面試結果 &amp;amp; 接到來電談薪&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;先說結果：錄取，但我最後沒有接受。&lt;/p&gt;</description></item><item><title>清晨騎 YouBike 到駁二遊記</title><link>https://blog.imych.one/cycling-to-kaohsiung-pier2-in-the-early-morning/</link><pubDate>Mon, 22 Jul 2024 16:30:00 +0800</pubDate><guid>https://blog.imych.one/cycling-to-kaohsiung-pier2-in-the-early-morning/</guid><description>&lt;p&gt;清晨 5 點多，我騎著 YouBike 相揪朋友從愛河之心出發，前往高雄駁二藝術特區。&lt;/p&gt;
+&lt;p&gt;這早已不是我們第一次沿著愛河騎到駁二附近了，在我當時高中考分科測驗的前兩週，我們每天清晨相約騎車到鹽埕區吃早餐。&lt;/p&gt;</description></item><item><title>OCF 開放文化基金會國際會議補助計畫 申請歷程（FOSDEM 2024）</title><link>https://blog.imych.one/apply-ocf-international-conference-grants-program/</link><pubDate>Mon, 22 Jul 2024 12:30:00 +0800</pubDate><guid>https://blog.imych.one/apply-ocf-international-conference-grants-program/</guid><description>&lt;p&gt;這次的&lt;del&gt;出遊&lt;/del&gt;探訪行程，是源自於
+&lt;a
+href = "https://ocf.tw/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+OCF 開放文化基金會
+&lt;/span&gt;
+&lt;/a&gt;的
+&lt;a
+href = "https://ocf.tw/p/intldonate/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+國際會議獎助計畫
+&lt;/span&gt;
+&lt;/a&gt;。&lt;/p&gt;</description></item><item><title>iPhone 使用者同時分享照片給拿 iPhone 和 Android 手機的朋友</title><link>https://blog.imych.one/share-photo-by-icloud-link/</link><pubDate>Mon, 24 Jun 2024 02:30:00 +0800</pubDate><guid>https://blog.imych.one/share-photo-by-icloud-link/</guid><description>&lt;p&gt;在 iPhone 上分享照片時，你可能會遇到一個問題：當你們之間的聯絡人有人使用 Android 手機時，你無法直接使用 AirDrop 分享照片。&lt;/p&gt;
+&lt;p&gt;隨然即時通訊軟體也可以分享照片，但通常會壓縮照片品質，且需要對方下載應用程式。&lt;/p&gt;
+&lt;p&gt;這時，你可以使用 iCloud Link 來分享照片，讓你的朋友可以在瀏覽器上查看和下載照片，而不需要下載任何應用程式。&lt;/p&gt;</description></item><item><title>如何使用簡潔的 @ndhu.edu.tw 電子郵件地址寄信</title><link>https://blog.imych.one/email-send-from-ndhu-edu-tw/</link><pubDate>Thu, 25 Apr 2024 01:40:22 +0800</pubDate><guid>https://blog.imych.one/email-send-from-ndhu-edu-tw/</guid><description>&lt;p&gt;想像一下，當你收到來自 &lt;code&gt;@facebook.com&lt;/code&gt; 和 &lt;code&gt;@gsk.facebook.com&lt;/code&gt; 的信件時，你的直覺會信任哪封信呢？&lt;/p&gt;
+&lt;p&gt;相較 &lt;code&gt;@facebook.com&lt;/code&gt; 一看就能理解是來自 Facebook 官方的信，你是否會因為不理解「gsk」的意思而感到困惑，甚至不信任那封信呢？&lt;/p&gt;
+&lt;p&gt;換作使用學校 gms 帳號寄出電子郵件時，電子郵件地址預設以 &lt;code&gt;xxx@gms.ndhu.edu.tw&lt;/code&gt; 子網域寄出，對於收到信的校外單位來說，容易因為不清楚「gms」的定義而感到困惑。&lt;/p&gt;
+&lt;p&gt;這篇文章會教你設定使用簡潔的學校主網域 &lt;code&gt;xxx@ndhu.edu.tw&lt;/code&gt; 寄出信件，提升用單位主網域寄出信件的形象。&lt;/p&gt;</description></item><item><title>0403 強震後的東華，我們的理工一館</title><link>https://blog.imych.one/0403-earthquake-and-ndhu/</link><pubDate>Tue, 09 Apr 2024 00:35:00 +0800</pubDate><guid>https://blog.imych.one/0403-earthquake-and-ndhu/</guid><description>&lt;p&gt;或許是因為過於平凡，才忘記好好記錄吧。&lt;/p&gt;</description></item><item><title>FOSDEM 2024 開源社群探險：技術、社群、文化</title><link>https://blog.imych.one/fosdem-2024/</link><pubDate>Tue, 19 Mar 2024 12:30:00 +0800</pubDate><guid>https://blog.imych.one/fosdem-2024/</guid><description>&lt;p&gt;第一次申請 OCF 開放文化基金會的國際獎助會議計畫，獲選獎助金去比利時看看歐洲最大的開放原始碼研討會 FOSDEM (Free and Open source Software Developers&amp;rsquo; European Meeting)。&lt;/p&gt;</description></item><item><title>工作性質，生活模式</title><link>https://blog.imych.one/working-and-lifestyle/</link><pubDate>Fri, 08 Mar 2024 11:50:00 +0800</pubDate><guid>https://blog.imych.one/working-and-lifestyle/</guid><description>&lt;p&gt;不同工作性質的人，有不同的生活模式。&lt;/p&gt;</description></item><item><title>在 Hugo Site 中插入 iframe 內嵌視窗</title><link>https://blog.imych.one/hugo-shortcodes-iframe/</link><pubDate>Sat, 02 Mar 2024 13:21:00 +0800</pubDate><guid>https://blog.imych.one/hugo-shortcodes-iframe/</guid><description>&lt;p&gt;你也想在你的 Hugo 部落格裡嵌入其他網站的畫面，但因為 Hugo 不支援 iframe 功能而放棄嗎？這篇教學會一步一步教你在 Hugo 裡新增自訂的簡短原始碼。如果你也相同的需求，照著這篇教學就能解決了。&lt;/p&gt;</description></item><item><title>學生會鬼故事：期中限定！宿舍表單槓到宿委會篇</title><link>https://blog.imych.one/student-association-dormitory-form-vs-student-dorm-committee/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0800</pubDate><guid>https://blog.imych.one/student-association-dormitory-form-vs-student-dorm-committee/</guid><description>&lt;p&gt;tl;dr: 學權部近期關心學生住宿議題，製作調查表單邀請大家填寫。表單發布後的兩個小時內，宿委會即發布一篇針對學生會表單一貼文進行聲明。這將會是鬼故事系列的起頭，讓我們繼續看下去 👀&lt;/p&gt;</description></item><item><title>行事曆主義者（學習、行事、運動、睡覺）</title><link>https://blog.imych.one/life-sync-schedule/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate><guid>https://blog.imych.one/life-sync-schedule/</guid><description>&lt;p&gt;tl;dr: 我覺得行事曆很好用，之所以稱作行事曆，就是因為照表行事。安排行事曆讓我能專注在當下的時間段，事先安排好「睡覺」的時間，在接近睡覺時間時能準備收拾去睡覺。&lt;/p&gt;</description></item><item><title>SITCON 2022 紀錄組動態紀錄籌備分享</title><link>https://blog.imych.one/sitcon2022-vlogger/</link><pubDate>Thu, 31 Aug 2023 00:00:00 +0800</pubDate><guid>https://blog.imych.one/sitcon2022-vlogger/</guid><description>&lt;p&gt;tl;dr: 這一篇文章將分享在 SITCON 2022 學生計算機年會對動態攝影新挑戰的嘗試。&lt;/p&gt;</description></item><item><title>東華，我遇見⋯⋯</title><link>https://blog.imych.one/meet-at-ndhu/</link><pubDate>Fri, 07 Apr 2023 00:09:10 +0800</pubDate><guid>https://blog.imych.one/meet-at-ndhu/</guid><description>&lt;p&gt;「東華，我遇見 ⋯⋯」是我在東華大一下中文與涵養課程中的作業，以一本書 、人、 事，甚至一堂課為題，紀錄在東華上學期所經歷的所見所聞。&lt;/p&gt;
+&lt;p&gt;除了抒發回顧之情，期待也能透過分享幫助未來學子了解對此地生活的想像。&lt;/p&gt;</description></item><item><title>對學生會的殘存印象</title><link>https://blog.imych.one/smsu10th-retire/</link><pubDate>Tue, 27 Jul 2021 00:00:00 +0800</pubDate><guid>https://blog.imych.one/smsu10th-retire/</guid><description>&lt;p&gt;剛剛，我們家副會長轉傳了下一屆美宣的詢問給我：「限動上手捧燈泡的圖檔是否還在？我們覺得這個設計還不錯，感覺可以沿用，但我們想要改個色彩。」&lt;/p&gt;
+&lt;p&gt;&lt;img alt="手捧著燈泡的圖" loading="lazy" src="../images/smsu10th-retire/Untitled.png"&gt;&lt;/p&gt;
+&lt;p&gt;手捧著燈泡的圖&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我從擔任起學生會的幹部後，一向注重檔案管理術的我，不加思索地在雲端上將一次次活動、事件、類型的資料分門別類用資料夾包著，未來在找檔案時似乎也較好檢索。在收到這樣子的要求時，檔案分類引以為傲的我偷偷笑了起來，只不過當一個一個資料夾翻過後，我似乎才發現當初這張圖只是我隨手做得而已，「手捧燈泡的圖」也只是我從素材網站上拿了張看得順眼的圖來用罷了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="手捧燈泡的圖比比皆是" loading="lazy" src="../images/smsu10th-retire/Untitled%201.png"&gt;&lt;/p&gt;
+&lt;p&gt;手捧燈泡的圖比比皆是&lt;/p&gt;
+&lt;p&gt;不過在穿梭於眾多資料夾間，才慢慢意識到被我搬到封存區，名為「#SMSU10th」的資料夾，竟不知不覺中紀錄了就職這一年來的一次次活動。勤奮紀錄的我，這些在雲端上所站的空間也渾然漸增，一年稍縱即逝。&lt;/p&gt;
+&lt;h2 id="雲端空間在哭哭"&gt;雲端空間在哭哭。&lt;/h2&gt;
+&lt;p&gt;其實不得不說，在剛剛藉由找素材的機會也翻過了其他的資料夾，當時上幹時的紀錄片段、嘗試處理學權卻導致跟學校硬碰硬的文件與紀錄、一次次的活動企劃書與照片、帶著學生會頭銜參與外部研討會的發想……在現在看來，也不得感嘆如果沒有當時勤奮的「紀錄」，至今我對這個熱血的我還能有多少印象呢？&lt;/p&gt;
+&lt;p&gt;&lt;img alt="雲端資料夾" loading="lazy" src="../images/smsu10th-retire/Untitled%202.png"&gt;&lt;/p&gt;
+&lt;p&gt;雲端資料夾&lt;/p&gt;
+&lt;h2 id="無頭蒼蠅帶我亂飛"&gt;無頭蒼蠅帶我亂飛。&lt;/h2&gt;
+&lt;p&gt;最令我印象深刻的即是「學權」。學權其實可大可小，在剛剛 review 資料索引後，才驚覺學生會在我們學校雖然小小的沒什麼用，乍看下似乎只有辦活動的料，但在這學權的敏感領域下卻又能因為抱持不同意見而影響群眾（行政、老師、同學、學生會的夥伴），幸運一點甚至還能戳爆學校不為人知的秘密。&lt;/p&gt;
+&lt;p&gt;其實不單是敝校，其他學校的學生會也曾因學校不採納訴求下發動靜坐所造成的盛大場面(?)。看似平常都要聽學校指示的學生會，在認真起來也是很有威力的RRRRR！&lt;/p&gt;
+&lt;p&gt;&lt;img alt="某校學生會因學校不採納訴求下發動靜坐所造成的盛大場面，該校學生\u00a0\n&lt;a\n\n\t\n\t\n\t\thref = \"http://dabo.xyz/\"\n\n\t\t\n\n\t\n\n\t\n\n\t\ttarget = \"_blank\"\n\t\trel = \"nofollow noopener noreferrer\"\n\n\t\t&gt;\n\t\n\t&lt;span&gt;\n\t\tDabo\n\t&lt;/span&gt;\n\n&lt;/a&gt;\u00a0同學授權提供" loading="lazy" src="../images/smsu10th-retire/Untitled%203.png"&gt;&lt;/p&gt;
+&lt;p&gt;某校學生會因學校不採納訴求下發動靜坐所造成的盛大場面，該校學生 
+&lt;a
+href = "http://dabo.xyz/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+Dabo
+&lt;/span&gt;
+&lt;/a&gt; 同學授權提供&lt;/p&gt;
+&lt;h2 id="能夠影響眾人的學生會"&gt;能夠影響眾人的學生會。&lt;/h2&gt;
+&lt;p&gt;前一陣子翻閱有關
+&lt;a
+href = "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001809"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+學生會的法條
+&lt;/span&gt;
+&lt;/a&gt;，我才發現原來中央給我們的權利也是很大的，包括學生權益、師生橋梁、統籌規劃等都能算是學生會的範疇。&lt;/p&gt;
+&lt;p&gt;回想起在正式就任前參加國教署所舉辦的「
+&lt;a
+href = "https://blog.imych.one/2020-student-autonomy-training-camp"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+高級中等學校學生自治培力營
+&lt;/span&gt;
+&lt;/a&gt;」，這兩天一夜的培力營大多教授學生自治組織結構、組織及社群經營，以及如何捍衛學生自身權益。&lt;/p&gt;
+&lt;p&gt;坦白說一間學校的學權意識強弱與否，也間接影響著校內行政做事的態度，以學生為主嗎？還是說以自身政績為主，表面上或許得了很多獎項、學校表現很棒，但在無限推學生出去參加活動、作秀的同時卻也忽略了學生的意願。&lt;/p&gt;
+&lt;p&gt;如果學權風氣還算盛行，那麼學校行事風格也絕對會儘量依附著學生的意願，並尊重其學生團體，畢竟這群學生是有腦可以判斷事情的合理與否，而非因執政者自身的「想不想」而掌握了學生的意願。&lt;/p&gt;</description></item><item><title>當班上段考成績遇上試算表巨集，還能即時更新排名</title><link>https://blog.imych.one/googlesheet-macro-on-class-transcripts/</link><pubDate>Sun, 04 Apr 2021 00:00:00 +0800</pubDate><guid>https://blog.imych.one/googlesheet-macro-on-class-transcripts/</guid><description>&lt;p&gt;段考結束後，大家總要面臨段考成績的折磨（嗚嗚嗚），我們班總是會在段考完就瘋狂跟老師要成績，但只有貼進群組，沒有人統整、規劃這些成績，成績可能還真的只是那一次段考，沒有太大作用吧。&lt;/p&gt;
+&lt;p&gt;因此我們班有了線上成績表（每次段考進化中），會不定期推出各種分析功能，最近想挑戰更刺激的：「在 A裝置 key 入成績時，投影在黑板上的 B裝置 呈現著成績試算表並&lt;strong&gt;即時更新某科的排名&lt;/strong&gt;」，讓大家考完試也無法逃出成績的魔掌。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」" loading="lazy" src="../images/googlesheet-macro-on-class-transcripts/1_XSwH_18Cmv1-8U1oeBqB2Q.gif"&gt;&lt;/p&gt;
+&lt;p&gt;只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我覺得滿好解決的，我們的成績表使用 Google Sheets 建置，所以巨集主要 Base on Javascript。&lt;/p&gt;
+&lt;p&gt;先大概講解一下實作的流程，需要大概掌握「巨集」、「Javascript 迴圈」這兩個概念。&lt;/p&gt;
+&lt;h1 id="巨集"&gt;&lt;strong&gt;巨集&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;會計類可能會比較容易用到（？）在 Excel 常常會需要&lt;strong&gt;自動化跑一些步驟&lt;/strong&gt;，而巨集專門幫人類省去這些重複性動作，只需要先指定好巨集該做哪些事情，只要一鍵點下去就會自動做好這些以前需要手動做的事了。&lt;/p&gt;
+&lt;p&gt;而巨集通常可以執行先前錄製片段（錄製步驟，例如我在A3換成紅色，再將B6刪除），也可以在錄製完步驟後編輯程式碼（例如我加上迴圈功能，或讓巨集執行完後跳出提示訊息提醒自己）。&lt;/p&gt;
+&lt;h1 id="迴圈-base-on-javascript"&gt;&lt;strong&gt;迴圈 Base on Javascript&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;因為巨集只會執行一次，但我們要的是「持續即時更新」，因此我們需要讓巨集啟動後，不斷重複執行。而 Google Sheets 的程式碼仰賴 Google Script 平台編譯執行，基於 Google Script 主要以執行 Javascript語言 為主，因此我們會需要認識 Javascript 的這幾個函數：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;function（巨集）&lt;/li&gt;
+&lt;li&gt;variables（變數，用於計次）&lt;/li&gt;
+&lt;li&gt;for（loop迴圈）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="開始囉"&gt;&lt;strong&gt;開始囉&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;好的，大概掌握素材後，我們這次的主題為「即時更新排名」（白話：重複設定篩選儲存列 Z to A，也就是數字最大排到最小）。前面有提到「巨集」幫我們節省掉原本我們要重複執行的步驟，也認識了一下 Javascript 程式語法，那麼我們今天的行程大概是「錄製排序成績的巨集」-&amp;gt;「設定休息緩衝時間，避免持續無間斷瘋狂執行（選用）」-&amp;gt;「測試完成」。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;準備一份班級成績單&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;就來到我們的試算表啦～首先，我們需要一個已經設定好篩選範圍的班級成績單（Google Sheets 的喔，不是 Excel），裡面可以先填好一些成績，這裡以「生物」欄示範。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="先用 Google Sheets 製作一個簡易的成績單。" loading="lazy" src="../images/googlesheet-macro-on-class-transcripts/Untitled.png"&gt;&lt;/p&gt;
+&lt;p&gt;先用 Google Sheets 製作一個簡易的成績單。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;錄製排序成績的巨集&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接著依序點選上方選單的「工具」-&amp;gt;「巨集」-&amp;gt;「錄製巨集」，即可開始錄製接下來的操作步驟。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="從篩選的選單中選擇 Z to A。" loading="lazy" src="../images/googlesheet-macro-on-class-transcripts/Untitled%201.png"&gt;&lt;/p&gt;</description></item><item><title>嗨，Medium</title><link>https://blog.imych.one/hello-medium-7e4a329f7f71/</link><pubDate>Sat, 03 Apr 2021 00:00:00 +0800</pubDate><guid>https://blog.imych.one/hello-medium-7e4a329f7f71/</guid><description>&lt;p&gt;是的，我放棄 
+&lt;a
+href = "https://tw.wordpress.org/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+WordPress
+&lt;/span&gt;
+&lt;/a&gt; 了，陪伴我的那 8 年歲月暫時告一段落。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/hello-medium-7e4a329f7f71/Untitled.png"&gt;&lt;/p&gt;
+&lt;p&gt;還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。&lt;/p&gt;
+&lt;h1 id="我所經歷的-wordpress"&gt;&lt;strong&gt;我所經歷的 WordPress&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;我對於 WordPress 的印象一直都很複雜。起初是使用 
+&lt;a
+href = "https://tw.wordpress.org/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+WordPress
+&lt;/span&gt;
+&lt;/a&gt; 架設，但發現很容易因為「外掛(Plugins)、主題(Themes)」等置換與設定，造成資料庫肥大，維護很難維護。而且版面感覺很壯碩，大雜燴的感覺，但我不喜歡這麼多東西，很有壓力。&lt;/p&gt;
+&lt;p&gt;
+&lt;a
+href = "https://tw.wordpress.org/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+部落格工具、內容發佈平台及 CMS - WordPress.org Taiwan 正體中文
+&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我用 WordPress 架起來的第一個部落格，基於前述的資料庫肥大，我第一個部落格的資料庫就這麼損毀了（各種不同的設定覆蓋在內）。加上當時是「免費主機、空間」還算盛行的時代，但經常一家接著一家跑，每天都在換主機、網域的感覺，當時還真的是「體驗」WrodPress 啊！&lt;/p&gt;
+&lt;p&gt;喔對了，我一直都是使用 WordPress.org，而非免費託管的 WordPress.com。我對 WordPress 的印象，只要有任何一丁點操作，都會直接影響到資料庫的規律。怎麼說咧，例如主題，每個主題都會有自己的編排，但如果一直換主題（第一個部落格），就會讓資料表除了一直產生新的資料列，還會跟之前沒被刪除的設定起衝突，如此一來除了會讓資料運算變慢，未來設定上起衝突的機率會更大。&lt;/p&gt;
+&lt;p&gt;你可能會問我，用「整理資料庫」的外掛（WordPress 對擴充功能的稱呼）去整理就好了啊！「&lt;strong&gt;0，無法&lt;/strong&gt;」**。**救回來算幸運，救不回來叫正常。我的經驗，用的外掛後，資料表不但沒有回歸正常，問題卻更加棘手了😂。撇除資料庫整理好了，舉「重新產生圖片縮圖」為例好了。先給大家科普一下，WordPress 在圖片上傳後，會按照原先設定、主題設定等，產生一連串的壓縮、剪裁，也就是說一張 4032x3024 的圖像透過媒體庫上傳到 WordPress，接著可能會被裁剪成 &lt;code&gt;2000x1200&lt;/code&gt;、 &lt;code&gt;1024x768&lt;/code&gt; 、 &lt;code&gt;768x576&lt;/code&gt; 、 &lt;code&gt;300x225&lt;/code&gt; 、 &lt;code&gt;150x150&lt;/code&gt; 、 &lt;code&gt;100x100&lt;/code&gt; 等尺寸，雖然單方面來講能夠省下瀏覽流量、提升使用者載入網頁的時間，卻無形佔用了主機額外的空間，可能會被裁成。&lt;/p&gt;</description></item><item><title>109年度全國高級中等學校學生自治及參與之培力研習營</title><link>https://blog.imych.one/2020-student-autonomy-training-camp/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0800</pubDate><guid>https://blog.imych.one/2020-student-autonomy-training-camp/</guid><description>&lt;p&gt;&lt;img alt="大概在去年 7 月，因緣際會下參加了由國教署主辦的\u00a0\n&lt;a\n\n\t\n\t\n\t\thref = \"https://sites.google.com/a/chsc.tw/109sapc/plan/wubiaotidewenzhang\"\n\n\t\t\n\n\t\n\n\t\n\n\t\ttarget = \"_blank\"\n\t\trel = \"nofollow noopener noreferrer\"\n\n\t\t&gt;\n\t\n\t&lt;span&gt;\n\t\t高級中學學生自治培力營\n\t&lt;/span&gt;\n\n&lt;/a&gt;\u00a0，最後在報名截止前一小時才搭上這班培力列車。" loading="lazy" src="../images/2020-student-autonomy-training-camp/0_0KCw56PksJ8aHM1G.webp"&gt;&lt;/p&gt;
+&lt;p&gt;大概在去年 7 月，因緣際會下參加了由國教署主辦的 
+&lt;a
+href = "https://sites.google.com/a/chsc.tw/109sapc/plan/wubiaotidewenzhang"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+高級中學學生自治培力營
+&lt;/span&gt;
+&lt;/a&gt; ，最後在報名截止前一小時才搭上這班培力列車。&lt;/p&gt;</description></item><item><title>第六屆台灣青年黑客松參賽紀錄</title><link>https://blog.imych.one/6th-hackathonjr-tw/</link><pubDate>Sun, 23 Aug 2020 08:51:34 +0800</pubDate><guid>https://blog.imych.one/6th-hackathonjr-tw/</guid><description>&lt;p&gt;今年與朋友參加了名為青年黑客松的比賽，參賽對象是高中職為主，比賽在短時間內做出一個概念品（有點創意專案賽），而今年的競賽主題是「&lt;strong&gt;疫情下的共享經濟&lt;/strong&gt;」。&lt;/p&gt;</description></item><item><title>利用 C++ 實作雙重 Sigma</title><link>https://blog.imych.one/double-sigma-in-c/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/double-sigma-in-c/</guid><description>&lt;h1 id="σ-小簡介"&gt;&lt;strong&gt;Σ 小簡介&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;在108課綱，「Σ」在高一會暫時由繁雜的公式取代，到高二才會再拿回來用，但 Σ 真的可以將式子簡化很多，而且計算也較繁雜公式簡單許多，就決定寫成 C++ 了。&lt;/p&gt;</description></item><item><title>要你餓的102</title><link>https://blog.imych.one/smhs-111th-102-ae7b984fc8f4/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/smhs-111th-102-ae7b984fc8f4/</guid><description>&lt;p&gt;經過一學期的相處，終於到高二要分班了，在我的高一生活也因為很多事讓我記取了不少教訓。&lt;/p&gt;
+&lt;p&gt;上高中前，我期許自己能換個新的態度待人處事，比較和善點吧！
+剛入學跟這個班相處時，說真的，其實還不錯，大家都竭誠相待，不過好景不常很多相處弊病(？)都現出來了，可能很塑膠？只管自己的事？之類的，從原本行政有效率，最後超難統治！&lt;/p&gt;
+&lt;p&gt;喔對了，「要你餓」算我們班的口號，因為剛好是班群的名稱 102 = 要你餓，這個口號真的不錯。
+說真的我們班的合照真的沒幾張，每次說要拍照的時候真的就不斷推拖，最後就說不拍了 (;´༎ຶД༎ຶ`)&lt;/p&gt;
+&lt;h1 id="教師節"&gt;&lt;strong&gt;教師節&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;我們班有合照的時候大概是在高一上學期初跟高一下學期末吧（等等，反差也太大）&lt;/p&gt;
+&lt;p&gt;當時因為班導投注大量溫暖在我們班上，卻導致同學們覺得很討厭，我覺得無解 (´･_･`)&lt;/p&gt;
+&lt;p&gt;加上那時接近教師節，也因為這件事接連發生，所以就沒找班導拍班級照，&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/smhs-111th-102-ae7b984fc8f4/Untitled.png"&gt;&lt;/p&gt;
+&lt;h1 id="分班前同樂會"&gt;&lt;strong&gt;分班前同樂會&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;最後一次的同樂會，好像是班導主辦的，希望可以留給這個班最後一個回憶，活動內容主要就才藝表演（咩噗），當時問大家有沒有意願時，大家很自然的都否認，但俗話說感覺到就到了（？），一個接一個準備好上去表演（嗚嗚嗚真的很感動😭&lt;/p&gt;
+&lt;p&gt;同學們唱出了分班離別的感覺，嗚嗚&lt;/p&gt;
+&lt;p&gt;&lt;img alt="同樂會才藝表演" loading="lazy" src="../images/smhs-111th-102-ae7b984fc8f4/Untitled%201.png"&gt;&lt;/p&gt;
+&lt;p&gt;同樂會才藝表演&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/smhs-111th-102-ae7b984fc8f4/Untitled%202.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/smhs-111th-102-ae7b984fc8f4/Untitled%203.png"&gt;&lt;/p&gt;
+&lt;p&gt;總之最後大家要分班了，這年來真的讓我學到了很多人際的問題，例如要怎麼冷處理不必要的麻煩之類的，管好自己是最明顯的，事不關我的態度真的超貫穿這年的精隨。期許大家上高二後也能一帆風順！&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/smhs-111th-102-ae7b984fc8f4/Untitled%204.png"&gt;&lt;/p&gt;</description></item><item><title>改善、翻新輔導室網站</title><link>https://blog.imych.one/renew-guidance-websites-ceab0b426d56/</link><pubDate>Mon, 20 Jul 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/renew-guidance-websites-ceab0b426d56/</guid><description>&lt;p&gt;tl;dr: 從舊版 Google Site 搬遷到 WordPress 的紀錄和改變。&lt;/p&gt;
+&lt;p&gt;來到三民後，明顯可以發現到學校是 Google Sites 愛用者，一整個感覺就不太對了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/renew-guidance-websites-ceab0b426d56/Untitled.png"&gt;&lt;/p&gt;
+&lt;p&gt;這是舊版的 Google Sites，但在現今人手一機的時代，在手機上瀏覽這類的網站，容易會導致使用者瀏覽體驗不佳，難瀏覽之類的。&lt;/p&gt;
+&lt;p&gt;剛好配合校網計畫，所以就打算幫輔導室換個新網站。&lt;/p&gt;
+&lt;p&gt;而前面提到的校網計畫，就打算用 WordPress 架設，既要能達到美觀（Google Sites 真的先下去），畢竟要留給管理者一個友善好管理的後台，要讓老師能容易上手。&lt;/p&gt;
+&lt;p&gt;大概建置了兩個月，終於建好了，包括建站初期要選版（Themes），還有外掛（Plugins，我不知道為什麼學校單位都很喜歡叫模組）的挑選，挑完之後還有後期外掛維護的問題，以及廣告消除的困擾。&lt;/p&gt;
+&lt;p&gt;來說說整個建站最艱辛的部分好了，因為是要給校方使用的，如果有架設過 WordPress 外掛的經驗，一定會發現很多免費外掛除了它原本的功能外，通常會參雜著許多額外的「廣告 notice」，如果讓校方持續看到廣告，體感會很差，形象也大打折扣。&lt;/p&gt;
+&lt;p&gt;不過幸好，WordPress 的一切是開源的，可以找到該段程式碼就可以把廣告根除（要找很仔細），除了廣告外，像 
+&lt;a
+href = "https://tw.wordpress.org/plugins/download-manager/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+Download-Manager
+&lt;/span&gt;
+&lt;/a&gt; 就還有管理檔案目錄的功能，這如果下放權限給校方也能使用，會顯得越權，因為檔案目錄不該是校方能夠隨意存取更動的，如果改到不該改的還要去修復，超麻煩(⓿_⓿)，最後再修編外掛的時候根本就是整批程式碼 del 掉。&lt;/p&gt;
+&lt;p&gt;還有外掛的問題，有些不合需求，或參雜著太多無用資訊，我也有把它修改，但這樣的壞處就是沒辦法更新外掛（基本上也沒有更新的需求啦！）&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/renew-guidance-websites-ceab0b426d56/Untitled%201.png"&gt;&lt;/p&gt;
+&lt;p&gt;為了讓老師能比較有方向上手 WordPress 後台，我另外還花時間寫了 WordPress 操作手冊（主要是校方會使用到的功能），真的是⋯好累啊！平常很順手的動作，要拆解成很多畫面，再一張一張為截圖詳細標註說明，真的很費時間。&lt;/p&gt;
+&lt;p&gt;最後，成品登場了！&lt;/p&gt;
+&lt;p&gt;&lt;img alt="利用 WordPress 重新整理後的成品！" loading="lazy" src="../images/renew-guidance-websites-ceab0b426d56/Untitled%202.png"&gt;&lt;/p&gt;
+&lt;p&gt;利用 WordPress 重新整理後的成品！&lt;/p&gt;</description></item><item><title>班聯會第二次面試</title><link>https://blog.imych.one/smsu10th-second-interview-3cde97fac51d/</link><pubDate>Wed, 24 Jun 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/smsu10th-second-interview-3cde97fac51d/</guid><description>&lt;p&gt;距離 
+&lt;a
+href = "/smsu10th-first-interview-abb8d46e02d9"
+&gt;
+&lt;span&gt;
+班聯會的第一次面試
+&lt;/span&gt;
+&lt;/a&gt; 大概過了幾天後，班聯會發布了一面的篩選結果。當時以為一面就定生死的me，突然感到恐慌⋯&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;收到通過一階面試的我，真的是無盡感謝學長姐的賞識與愛戴&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+&lt;a
+href = "https://blog.imych.one/smsu10th-first-interview-abb8d46e02d9"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+班聯會的第一次面試
+&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="一面結果二面通知"&gt;&lt;strong&gt;一面結果二面通知&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;距離 
+&lt;a
+href = "https://travel.imych.one/2020/06/163/%e7%ac%ac%e4%b8%80%e6%ac%a1%e9%9d%a2%e8%a9%a6/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+一面
+&lt;/span&gt;
+&lt;/a&gt;大概過了幾天後，班聯會發布了一面的篩選結果。&lt;/p&gt;
+&lt;p&gt;當時以為一面就定生死的me，突然感到恐慌⋯&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/smsu10th-second-interview-3cde97fac51d/Untitled.png"&gt;&lt;/p&gt;
+&lt;h1 id="當天面試"&gt;&lt;strong&gt;當天面試&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;二面真的也很緊張，因為一面各種情境題的考驗，收到通知後開始猜測幹部們會問什麼，我的自傳有漏洞？幹部名字？誰是xx職位？之類千奇百怪的情境題。&lt;/p&gt;
+&lt;p&gt;順帶一提，在班聯公布一面結果同時，學長姐隱藏掉了版上的各幹部介紹，才會讓我們有上述的猜想。&lt;/p&gt;
+&lt;p&gt;進去面試後，因為高三學長姊都畢業了，小房間裡面只剩高二的幹部。&lt;/p&gt;
+&lt;p&gt;第一個問題：講一個笑話，挖咧當時腦袋已經在事前猜測轉到一片空白了(qwqq)，結果就很乾得直接回答想不出來。&lt;/p&gt;
+&lt;p&gt;後面就是各幹部精心準備的情境題登場啦～&lt;/p&gt;
+&lt;p&gt;二階有 4 個幹部面試我，啊我同學只有 2 個，可能要看一面表現吧？&lt;/p&gt;
+&lt;p&gt;我覺得我二面除了文書跟總務以外，其他就都普普。文書主要問了「彙整」的定義，我就回答定義跟我的分類模式，總務感覺滿挑釁的：「我有看到你把總務填在你的志願序的最後一個，啊但是我今天就是想選你當總務，你要怎麼應對」哇哇超挑釁欸😳，其他像是副會長就簡單問了「如果會議資料流到抱怨版上，你要怎麼應對」與公關跟廠商接洽的情境題（細節有點忘了）&lt;/p&gt;
+&lt;p&gt;二面完，回想當時在門口等面試跟同學的對話真的很無腦，傻到去背誰誰誰是哪個名字xd，結果我們困擾的，幹部們完全沒有問，取而代之的是更出乎意料的情境題，哇哇哇公關問到的時候我整個就招架不住了 (;´༎ຶД༎ຶ`)&lt;/p&gt;</description></item><item><title>班聯會的第一次面試</title><link>https://blog.imych.one/smsu10th-first-interview-abb8d46e02d9/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/smsu10th-first-interview-abb8d46e02d9/</guid><description>&lt;p&gt;在學期初，原先有決定徵選天文社的幹部，想當攝影，但因為當時課業的問題，一直癥結著上幹的抉擇，最後仍投遞班聯會的幹部徵選。&lt;/p&gt;
+&lt;p&gt;但大概在二段後，些許科目的成績有比較穩定，雖然成績還在龜速進步，但我認為我可以給自己在高中的挑戰，不想就這麼空手離開高中，而決定加入班聯，就去徵選班聯幹部了（很瞎趴對吧）&lt;/p&gt;
+&lt;h1 id="選幹通知"&gt;&lt;strong&gt;選幹通知&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;在面試前一週，班聯會有發下選幹意願書，上頭大概有註記各幹部的工作內容與責任，當時我很快填完就送出了（我只記得我第一個填文書，最後一個填總務。）&lt;/p&gt;
+&lt;p&gt;&lt;img alt="班聯會選幹意願書" loading="lazy" src="../images/smsu10th-first-interview-abb8d46e02d9/Untitled.png"&gt;&lt;/p&gt;
+&lt;p&gt;班聯會選幹意願書&lt;/p&gt;
+&lt;h1 id="一面通知"&gt;&lt;strong&gt;一面通知&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;在面試之前，班聯有要求要寄自傳，讓幹部能了解你，再搭配現場面試進行篩選～&lt;/p&gt;
+&lt;p&gt;在公布前，每天都抱持著戰戰兢兢等通知的心情滑 IG，等待通知。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/smsu10th-first-interview-abb8d46e02d9/Untitled%201.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="班聯會通知" loading="lazy" src="../images/smsu10th-first-interview-abb8d46e02d9/Untitled%202.png"&gt;&lt;/p&gt;
+&lt;p&gt;班聯會通知&lt;/p&gt;
+&lt;h1 id="撰寫自傳"&gt;&lt;strong&gt;撰寫自傳&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;收到面試通知後，我才開始做自傳。&lt;/p&gt;
+&lt;p&gt;我覺得「自我介紹」 根本是我的天敵，每次寫自傳都要為自己體檢一次，常常會覺得不如他人，想破頭也還是想不出要放什麼內容在自傳上，但想出來也很容易被自己打槍掉（會覺得這也沒什麼值得好對面試官炫耀的）。&lt;/p&gt;
+&lt;p&gt;不過我稍微向身邊的朋友同學調查了我的特點，大部分都是我之前打槍掉自己覺得不值得炫耀的特色，沒想到在大家眼裡，這些是我最大的特色，但這也有可能是比上不足比下有餘，對他們而言這些很屌，但事實上這在同溫層可就差多了呢！ 🤯&lt;/p&gt;
+&lt;p&gt;我的自傳是用 Canva 做的，我的設計感比較差，Canva 可以製作美美的報告或簡報 ٩(๑´3｀๑)۶&lt;/p&gt;
+&lt;p&gt;我大概刻了兩個晚上，截稿當天做最後的確認，而我的自傳主要分成這幾項：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自我介紹、個人特質&lt;/li&gt;
+&lt;li&gt;社團幹部經歷&lt;/li&gt;
+&lt;li&gt;個人經歷&lt;/li&gt;
+&lt;li&gt;徵選動機&lt;/li&gt;
+&lt;li&gt;未來目標&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;班聯官方是只有要求前 4 項，啊為了增加說服及對自己的期許，所以就加了第五項（怪人？&lt;/p&gt;
+&lt;p&gt;在製作自傳的時候真的會不斷問自己，自己到底有哪些特質能被上級看好，哪些會是大家想看到的以及有說服力之類的。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="利用 Canva 製作自傳版面" loading="lazy" src="../images/smsu10th-first-interview-abb8d46e02d9/Untitled%203.png"&gt;&lt;/p&gt;
+&lt;p&gt;利用 Canva 製作自傳版面&lt;/p&gt;
+&lt;h1 id="當天面試"&gt;&lt;strong&gt;當天面試&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;當天面試真的緊張到爆炸，外頭大排長龍顯得緊張兮兮的。&lt;/p&gt;
+&lt;p&gt;在漫長等待時，我與同學一直在猜測進去面試可能會被問什麼問題，眼看著一位接一位的面試出來，下一個終於輪到我⋯&lt;/p&gt;
+&lt;p&gt;進到會議室後，下屆會長、上屆幹部與這屆幹部一字排開，開始有不同的學長姐問我有關該職位的問題。我不得不說學長姐真的很用心準備面試考驗，絕大部分是情境題，感覺是他們在這個職位曾經遇過的困難，對我們而言是疾風勁草的考驗啊！！&lt;/p&gt;
+&lt;p&gt;在面試中，可能是因為我很緊張的關係，講話不斷結結巴巴的，想解決方案也想得比較慢（畢竟是不同的考驗），不過也還好我自己涉略的領域還算廣，在大多問題還是能硬掰看似合理的答案出來（？）&lt;/p&gt;
+&lt;p&gt;與其稱作是「答案」，不如叫做「解決方案」吧！畢竟都已經是情境題了，沒有一定的解決方式，舉例前陣子的學生會總務一職，有人選擇 
+&lt;a
+href = "https://www.ettoday.net/news/20200610/1734374.htm"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+輕生
+&lt;/span&gt;
+&lt;/a&gt; ，也有人選擇負債還清。&lt;/p&gt;
+&lt;p&gt;最讓我印象深刻的是會長的魔王題：啊你是天文幹部，你怎麼不去選你們的天文幹，而要選班聯幹？還好我已經給自己合理的答案了（就期初課業沒準備好，後來準備好了！）&lt;/p&gt;
+&lt;p&gt;面試結束後，當然要擺出神秘表情給下一位同學 (⓿_⓿)，讓他們接受神秘的拷問xdd&lt;/p&gt;
+&lt;h1 id="後續"&gt;&lt;strong&gt;後續&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;面試結束後，跟同學到處鬼混，很神奇的是我不斷自省自己剛的表現，我覺得我真的回答得滿很廢的www，不過也還是希望還是可以有機會能進入班聯。&lt;/p&gt;
+&lt;p&gt;
+&lt;a
+href = "https://blog.imych.one/smsu10th-second-interview-3cde97fac51d"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+班聯會第二次面試
+&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;</description></item><item><title>108課綱/111學測高中學習歷程參採整理方法分享</title><link>https://blog.imych.one/using-trello-to-participation-and-arrangement-method-3437ad205/</link><pubDate>Sun, 17 May 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/using-trello-to-participation-and-arrangement-method-3437ad205/</guid><description>&lt;p&gt;
+&lt;a
+href = "https://flipedu.parenting.com.tw/article/4680"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+108課綱
+&lt;/span&gt;
+&lt;/a&gt; 的實施，除了對 
+&lt;a
+href = "https://flipedu.parenting.com.tw/article/5881"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+111學測的高中生選組
+&lt;/span&gt;
+&lt;/a&gt; 造成影響，對「申請大學」也產生了重大變革。而其中最大影響就是「學習歷程檔案」&lt;/p&gt;
+&lt;h1 id="108課綱學習歷程檔案"&gt;&lt;strong&gt;108課綱學習歷程檔案&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id="簡述"&gt;&lt;strong&gt;簡述&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;以往申請大學是在高三初考完學測，就需要在短時間內製作與提交備審到大學端去，但在 108課綱 實施的學習歷程檔案，每學期學生均要上傳指定件數的「 &lt;strong&gt;學習成果檔案&lt;/strong&gt;」與「 &lt;strong&gt;多元表現&lt;/strong&gt;」，其餘項目「 &lt;strong&gt;基本資料&lt;/strong&gt;」與「 &lt;strong&gt;修課紀錄&lt;/strong&gt;」則 &lt;strong&gt;由學校每學期上傳&lt;/strong&gt;，這意味著我們沒有最後才補救的機會，必須要在高一時就多少能摸索出自己的志向，而 &lt;strong&gt;學校扮演著輔導學生摸索志向興趣的重要角色&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="取自 12年國教網-108課綱資訊網" loading="lazy" src="../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled.png"&gt;&lt;/p&gt;
+&lt;p&gt;取自 12年國教網-108課綱資訊網&lt;/p&gt;
+&lt;p&gt;&lt;img alt="取自 高雄市立三民高中 1082課綱家長說明會簡報" loading="lazy" src="../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%201.png"&gt;&lt;/p&gt;
+&lt;p&gt;取自 高雄市立三民高中 1082課綱家長說明會簡報&lt;/p&gt;
+&lt;h2 id="大學端參採學習歷程"&gt;&lt;strong&gt;大學端參採學習歷程&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;由 
+&lt;a
+href = "http://www.jbcrc.edu.tw/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+聯招會
+&lt;/span&gt;
+&lt;/a&gt; 在 109/5/15 最新公布的 「 
+&lt;a
+href = "https://www.cac.edu.tw/cacportal/jbcrc/LearningPortfolios_MultiQuery/"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+111學年度大學申請入學參採高中學習歷程資料完整版查詢系統
+&lt;/span&gt;
+&lt;/a&gt; 」中可以查詢到各校系最終定案的「大學端參採學習歷程項目」。&lt;/p&gt;</description></item><item><title>YouBike微笑單車施工</title><link>https://blog.imych.one/youbike-in-kaohsiung-9a16a4479487/</link><pubDate>Thu, 14 May 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/youbike-in-kaohsiung-9a16a4479487/</guid><description>&lt;p&gt;近期高雄市政府（韓國瑜市長執政時）與微笑單車廠商簽約，汰換掉 City Bike ，進而布建 YouBike 2.0，預計在 2020 年 7 月啟用。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+href = "https://news.ltn.com.tw/news/politics/breakingnews/3125102"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+自由時報：高雄C-Bike將全面汰換 陳瓊華：韓國瑜上任以來最開心的事？
+&lt;/span&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a
+href = "https://www.facebook.com/KaohsiungHTROC/posts/1903938136579560"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+高雄點：city bike將全部拆除
+&lt;/span&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;高市環保局證實，C-Bike系統預計今年7月起，由YouBike接手，原系統將全面汰換並更新腳踏車，官員坦言新系統營運後，業者自負盈虧可減少市府財政負擔。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt="\n&lt;a\n\n\t\n\t\n\t\thref = \"https://www.facebook.com/KaohsiungHTROC/posts/1903938136579560\"\n\n\t\t\n\n\t\n\n\t\n\n\t\ttarget = \"_blank\"\n\t\trel = \"nofollow noopener noreferrer\"\n\n\t\t&gt;\n\t\n\t&lt;span&gt;\n\t\t高雄點：city bike將全部拆除\n\t&lt;/span&gt;\n\n&lt;/a&gt;" loading="lazy" src="../images/youbike-in-kaohsiung-9a16a4479487/Untitled.png"&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a
+href = "https://www.facebook.com/KaohsiungHTROC/posts/1903938136579560"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+高雄點：city bike將全部拆除
+&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不得不說他們布建施工的速度真的很快，最近放學回家都能注意到人行道上多處都被挖坑建置，而且我的活動圈附近居然也布建了！！！&lt;/p&gt;
+&lt;p&gt;我夢寐以求的願望終於實現了(?)，之前的 City Bike 常常是固定大站點，還要走一段路，YouBike 因為只有停車柱，輕便很多。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a
+href = "https://udn.com/news/story/7327/4473855"
+target = "_blank"
+rel = "nofollow noopener noreferrer"
+&gt;
+&lt;span&gt;
+聯合新聞網：7月1日全面升級2.0 高雄市公共自行車借還更容易
+&lt;/span&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Untitled" loading="lazy" src="../images/youbike-in-kaohsiung-9a16a4479487/Untitled%201.png"&gt;&lt;/p&gt;</description></item><item><title>校慶生日切蛋糕</title><link>https://blog.imych.one/school-25th-calebration-f36ed81508d2/</link><pubDate>Sun, 26 Apr 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/school-25th-calebration-f36ed81508d2/</guid><description>&lt;h1 id="封面故事"&gt;&lt;strong&gt;封面故事&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;三民高中創校 25 年了，聽師長們說，每年會有「切蛋糕」的慶生典禮，每班導師與班長一同切下對三民高中的祝福。&lt;/p&gt;</description></item><item><title>2020 商業智慧日體驗營，R 語言初體驗活動紀錄</title><link>https://blog.imych.one/2020-r-project-camp-of-nsysu-1b92a76e194d/</link><pubDate>Sun, 09 Feb 2020 00:00:00 +0800</pubDate><guid>https://blog.imych.one/2020-r-project-camp-of-nsysu-1b92a76e194d/</guid><description>&lt;p&gt;tl;dr: 這篇文章紀錄我高一參加中山大學商業智慧日體驗營的經歷，營隊主要教授R語言基礎資料分析和資料視覺化，並進行小組競賽，在營隊中學習和探索大數據處理的方法。&lt;/p&gt;</description></item></channel></rss>
