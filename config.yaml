@@ -31,7 +31,7 @@ menu:
       weight: 2
     - identifier: now
       name: Now
-      url: /tags/now/
+      url: /now/
       weight: 1
 
 params:

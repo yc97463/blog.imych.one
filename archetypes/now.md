@@ -6,5 +6,4 @@ draft: false
 build:
     list: never
 categories: [""]
-tags: ["now"]
 ---

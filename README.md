@@ -11,3 +11,13 @@ hugo new content post/2026/04/<article-slug>/index.md
 ```bash
 hugo new content --kind now now/<date-in-YYYY-MM-DD>/index.md
 ```
+
+## 常用的語法
+
+### figure
+
+如果想要幫圖片加上文字解說，這樣做：
+
+```markdown
+{{< figure src="<img-path>" title="<your-description>" >}}
+```
