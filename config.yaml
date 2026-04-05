@@ -5,6 +5,7 @@ theme: papermod
 
 permalinks:
   post: "/:contentbasename/"
+  now: "/now/:slug/"
   categories: "/categories/:slug/"
 
 author:
@@ -45,6 +46,7 @@ params:
   # DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  mainSections: ["post", "now"]
 
   # Social
   social:
