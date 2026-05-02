@@ -39,7 +39,7 @@ images: ["20260503-now.jpeg"]
 
 這學期遠距參與 [TAICA 的深度學習](https://taicatw.net/spring-114/) 課程，知識與訓練量很龐大。
 
-寫這篇 now 的當下，我還在跑運算呢。好久zzzzzz
+寫這篇 now 的當下，我還在跑運算呢。好久zzzzzz，途中也修了幾次 code。
 
 ![](SCR-20260503-ddrk.png)
 
@@ -49,13 +49,13 @@ images: ["20260503-now.jpeg"]
 
 最後以平均 1 個月一次，每次半小時左右的咪挺、3 次與其他老師合作的咪挺，將手邊的研究與專案開發稍微得出一個結論，當老師在看完研究的比較圖後說：「好像差不多了！報告書寫完也可以順便投期刊了。」的剎那，眼淚都快落下來了。之後有機會再來細談。
 
-## 壽豐螢火蟲季
+## 鯉魚潭螢火蟲季
 
-BJ4，上山去玩。
+BJ4，上山去玩 ⁽⁽ ◟(∗ ˊωˋ ∗)◞ ⁾⁾。
 
 ![](20260430-firefly.jpeg)
 
-📸 credit：
+📸 credit： [shaoshao_1025 on Flickr](https://www.flickr.com/photos/shaoshao_1025/)
 
 ## Overview 四月的哩哩扣扣
 
