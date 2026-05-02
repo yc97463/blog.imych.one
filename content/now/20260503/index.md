@@ -41,7 +41,7 @@ images: ["20260503-now.jpeg"]
 
 寫這篇 now 的當下，我還在跑運算呢。好久zzzzzz
 
-![](SCR-20260503-bxqj.png)
+![](SCR-20260503-ddrk.png)
 
 ## 資工系畢業專題收尾
 
