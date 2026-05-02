@@ -21,3 +21,13 @@ hugo new content --kind now now/<date-in-YYYYMMDD>/index.md
 ```markdown
 {{< figure src="<img-path>" title="<your-description>" >}}
 ```
+
+### iframe
+
+如果想要 embed 一個 iframe 的話，這樣做：
+
+```markdown
+{{< iframe "<iframe-src>" >}}
+```
+
+
