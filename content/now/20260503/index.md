@@ -1,10 +1,8 @@
 ---
 title: '2026-05-03 近況'
 slug: '2026-05-03'
-date: 2026-05-03T01:30:00+08:00
+date: 2026-05-03T03:30:00+08:00
 draft: false
-build:
-    list: never
 categories: [""]
 images: ["20260503-now.jpeg"]
 ---
