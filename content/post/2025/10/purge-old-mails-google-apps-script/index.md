@@ -1,6 +1,7 @@
 ---
-title: "自動清理 Gmail 一個月以上的舊信件"
+title: "自動清理 Gmail 裡指定寄件者一個月以上的舊信件"
 date: 2025-10-24T20:30:00+08:00
+lastmo: 2026-06-12T04:15:00+08:00
 draft: false
 categories: ["Coding"]
 tags: ["Google Workspace"]
