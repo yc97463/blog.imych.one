@@ -5,7 +5,7 @@ date: 2026-06-07T17:49:02+08:00
 lastmod: 2026-06-12T03:30:02+08:00
 draft: false
 categories: [""]
-images: [""]
+images: ["https://static.euronews.com/articles/stories/09/49/83/77/1440x810_cmsv2_456daf82-66bb-5336-bfc2-5c7b5ceb62db-9498377.jpg"]
 ---
 
 Six, seven, six, seven, oh! ~~今天是國際六七日。~~
