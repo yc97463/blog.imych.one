@@ -2,6 +2,7 @@
 title: '2026-04-05 近況'
 slug: '2026-04-05'
 date: 2026-04-05T19:33:08+08:00
+lastmod: 2026-07-30T14:20:00+08:00
 draft: false
 categories: [""]
 images: ["kaohsiung-main-station-on-road.jpeg"]
@@ -61,6 +62,8 @@ images: ["kaohsiung-main-station-on-road.jpeg"]
 - O：白痴喔，我們沒有差這麼多好嗎
 
 > 真的好安慰，原來我們還在同一世代嗎😭
+
+{{< figure src="./summer-war-2026-poster.jpeg" title="夏日大作戰 2026 電影海報" >}}
 
 # 一些 todos
 
