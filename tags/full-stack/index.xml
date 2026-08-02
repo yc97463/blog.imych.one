@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Full Stack on YC Photography</title><link>https://blog.imych.one/tags/full-stack/</link><description>Recent content in Full Stack on YC Photography</description><image><url>https://blog.imych.one/images/banner.webp</url><link>https://blog.imych.one/images/banner.webp</link></image><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://blog.imych.one/tags/full-stack/index.xml" rel="self" type="application/rss+xml"/><item><title>覺揚軟體工程師（全端）面試心得</title><link>https://blog.imych.one/wizigo-software-engineer-interview/</link><pubDate>Tue, 23 Jul 2024 00:00:00 +0800</pubDate><guid>https://blog.imych.one/wizigo-software-engineer-interview/</guid><description>&lt;h1 id="起因"&gt;起因&lt;/h1&gt;
+&lt;p&gt;覺揚在花蓮有軟體工程的辦公室，自家的產品是新課綱的共學教育平台，涵蓋了很多功能，包括教材、教案、測驗、作業、討論區等等。在高中時期，我也曾經接觸相關的平台和開發構想，所以對這個領域有一些興趣。&lt;/p&gt;
+&lt;p&gt;聽聞學長介紹，在 104 上發現他們的軟體工程 Team 主打嘗試新技術，並且有一些開發的自由度，加上刊出的薪資好像還算正常（$40000 - $100000），因此我決定來挑戰一下。&lt;/p&gt;
+&lt;h1 id="d0-寄出履歷軟體工程師全端"&gt;D+0 寄出履歷：軟體工程師（全端）&lt;/h1&gt;
+&lt;p&gt;雖然職缺開在 104 上，不過我覺得最棒的是他們有留 Email 的投遞管道，這點對習慣用電子郵件往來的我來說很加分。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5/30 透過 Email 寄出履歷&lt;/li&gt;
+&lt;li&gt;5/31 收到主管回覆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="d4-約面試"&gt;D+4 約面試&lt;/h1&gt;
+&lt;p&gt;由於我當時在國外，所以約面試在我期末結束的隔週後。&lt;/p&gt;
+&lt;h1 id="d19-面試"&gt;D+19 面試&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;6/18 下午前往面試&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;辦公室的位置在慈科大那裡，老實說那裡不太方便，大眾運輸尚未完善，不過這也是花蓮的特色之一。&lt;/p&gt;
+&lt;h2 id="交通規劃"&gt;交通規劃&lt;/h2&gt;
+&lt;p&gt;大眾運輸僅有早上與下午各 2 班公車，我從學校搭臺鐵過去，一定得要算好時間，不然很可能會錯過能轉乘的機會（好歹那裡有間大學？），動輒一個小時起跳。&lt;/p&gt;
+&lt;figure&gt;
+&lt;img loading="lazy" src="../images/wizigo-software-engineer-interview/SCR-20240723-qfay.png"/&gt; &lt;figcaption&gt;
+從花蓮火車站轉乘過去的規劃
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id="面試過程"&gt;面試過程&lt;/h2&gt;
+&lt;p&gt;簡單來說就是去聊聊天，大概聊了 1 個小時多一點。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自我介紹
+&lt;ul&gt;
+&lt;li&gt;我以高中做過的專案起頭，介紹自己的經歷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;討論之前做過的專案
+&lt;ul&gt;
+&lt;li&gt;共事經驗、角色&lt;/li&gt;
+&lt;li&gt;使用的工具、技術&lt;/li&gt;
+&lt;li&gt;在專案中遇到的困難&lt;/li&gt;
+&lt;li&gt;量化成果：使用者數、使用成效、擴及範圍&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HTTP Service 認知
+&lt;ul&gt;
+&lt;li&gt;RESTful API&lt;/li&gt;
+&lt;li&gt;HTTP Method&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;白板實作（15 分鐘）
+&lt;ul&gt;
+&lt;li&gt;題目：回傳指定數值在陣列中的索引，若無則回傳插入後的位置。&lt;/li&gt;
+&lt;li&gt;限制：不限制呈現的程式語言，pseudocode 也可以。&lt;/li&gt;
+&lt;li&gt;重點：討論表達邏輯的清晰度 = 處理題目的方式、執行程式的斷點、程式運作的合理性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;升學關心
+&lt;ul&gt;
+&lt;li&gt;暫停學業：人資也提醒我，臺灣仍是看重學歷的社會，所以我在暫停學業的打算要多加注意。&lt;/li&gt;
+&lt;li&gt;兵役：4 個月，我在此說明我的處理方式，在場的人很訝異是 4 個月的兵役。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;反倒是一些常見的問題（？）沒有被問到，例如吸引我來這間公司的原因、我對公司的期待等等。入職時間、薪水、福利等等也沒有被提及。&lt;/p&gt;
+&lt;p&gt;整體來看，我們在我以前參與做過的專案聊得滿久的，其中在角色、工具、技術、困難、成果等等都有談到。&lt;/p&gt;
+&lt;h1 id="d26-寄信詢問面試結果--接到來電談薪"&gt;D+26 寄信詢問面試結果 &amp;amp; 接到來電談薪&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;先說結果：錄取，但我最後沒有接受。&lt;/p&gt;</description></item></channel></rss>
