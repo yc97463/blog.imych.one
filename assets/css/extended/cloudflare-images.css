@@ -1,0 +1,4 @@
+/* Keep the declared aspect ratio when the article column shrinks the image. */
+.post-content img[data-cf-image][width][height] {
+    height: auto;
+}

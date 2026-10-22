@@ -35,6 +35,13 @@ menu:
       weight: 1
 
 params:
+  cloudflareImages:
+    enabled: true
+    sourceHost: img.imych.one
+    widths: [640, 960, 1280, 1920]
+    defaultWidth: 1920
+    quality: 75
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "YC Photography"
   description: "願以照片攝下生活，一場人生中的旅行，從此展開。"

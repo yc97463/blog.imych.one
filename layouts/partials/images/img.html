@@ -1,0 +1,9 @@
+{{- /* Render the tag and its attributes in one HTML template context.
+     Escape each value before trusting the assembled attribute. */ -}}
+<img
+  {{- range $key, $value := . -}}
+    {{- if $value -}}
+      {{- printf " %s=\"%s\"" $key (printf "%v" $value | htmlEscape) | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+{{- /**/ -}}

@@ -1,0 +1,38 @@
+<figure{{ if or (.Get "class") (eq (.Get "align") "center") }} class="
+           {{- if eq (.Get "align") "center" }}align-center {{ end }}
+           {{- with .Get "class" }}{{ . }}{{- end }}"
+{{- end -}}>
+    {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- end }}
+    {{- $src := .Get "src" -}}
+    {{- if eq (.Get "align") "center" -}}
+        {{- $src = printf "%s#center" $src -}}
+    {{- end -}}
+    {{- $attributes := dict "width" (.Get "width") "height" (.Get "height") -}}
+    {{- if or (.Get "alt") (.Get "caption") -}}
+        {{- $alt := .Get "alt" | default (.Get "caption" | markdownify | plainify | htmlUnescape) -}}
+        {{- $attributes = merge (dict "alt" $alt) $attributes -}}
+    {{- end -}}
+    {{- with .Get "loading" -}}
+        {{- $attributes = merge (dict "loading" .) $attributes -}}
+    {{- end -}}
+    {{- $attributes = partial "images/attributes.html" (dict "src" $src "attributes" $attributes) -}}
+    {{- partial "images/img.html" $attributes -}}
+    {{- if .Get "link" }}</a>{{ end -}}
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <figcaption>
+            {{ with (.Get "title") -}}
+                {{ . }}
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- end }}
+        </figcaption>
+    {{- end }}
+</figure>

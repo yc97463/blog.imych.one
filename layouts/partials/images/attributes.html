@@ -1,0 +1,57 @@
+{{- /* Input: src and optional attributes. No remote resource fetching here. */ -}}
+{{- $config := site.Params.cloudflareImages -}}
+{{- $host := $config.sourceHost | default "img.imych.one" | lower -}}
+{{- $src := .src -}}
+{{- $attributes := .attributes | default dict -}}
+{{- if strings.HasPrefix $src "r2:" -}}
+{{- $src = printf "https://%s/%s" $host (strings.TrimLeft "/" (strings.TrimPrefix "r2:" $src)) -}}
+{{- end -}}
+{{- $u := urls.Parse $src -}}
+{{- /* URL.String escapes paths/fragments, but leaves RawQuery whitespace alone. */ -}}
+{{- $sourceURL := $u.String | replaceRE ` ` "%20" | replaceRE "\t" "%09" | replaceRE "\r" "%0D" | replaceRE "\n" "%0A"
+-}}
+{{- $attributes = merge (dict "loading" "lazy") $attributes (dict "src" $sourceURL) -}}
+{{- $extension := path.Ext $u.Path | lower -}}
+{{- if and $config.enabled (in (slice "http" "https") $u.Scheme) (eq (lower $u.Hostname) $host) (not (strings.Contains
+$u.Path "/cdn-cgi/image/")) (not (in (slice ".gif" ".svg") $extension)) -}}
+{{- $widths := slice -}}
+{{- range $config.widths -}}
+{{- $width := int . -}}
+{{- if le $width 0 -}}{{- errorf "cloudflareImages.widths must contain positive integers" -}}{{- end -}}
+{{- $widths = $widths | append $width -}}
+{{- end -}}
+{{- $widths = sort (uniq $widths) -}}
+{{- if not $widths -}}{{- errorf "cloudflareImages.widths must not be empty" -}}{{- end -}}
+{{- $quality := int $config.quality -}}
+{{- if or (lt $quality 1) (gt $quality 100) -}}{{- errorf "cloudflareImages.quality must be between 1 and 100" -}}{{-
+end -}}
+{{- $defaultWidth := index $widths (sub (len $widths) 1) -}}
+{{- $preferredWidth := int ($config.defaultWidth | default 1280) -}}
+{{- $found := false -}}
+{{- $srcset := slice -}}
+{{- range $widths -}}
+{{- if and (not $found) (ge . $preferredWidth) -}}
+{{- $defaultWidth = . -}}
+{{- $found = true -}}
+{{- end -}}
+{{- $url := printf "https://%s/cdn-cgi/image/width=%d,quality=%d,fit=scale-down,format=auto,onerror=redirect/%s" $host .
+$quality $sourceURL -}}
+{{- $srcset = $srcset | append (printf "%s %dw" $url .) -}}
+{{- end -}}
+{{- /* Mirrors theme-vars.css, zmedia.css and main.css (border-box). */ -}}
+{{- $displayWidth := 720 -}}
+{{- with $attributes.width -}}
+{{- if findRE `^[1-9][0-9]*$` (printf "%v" .) -}}
+{{- $displayWidth = math.Min $displayWidth (int .) | int -}}
+{{- end -}}
+{{- end -}}
+{{- $sizes := printf "(max-width: 768px) min(%dpx, calc(100vw - 28px)), %dpx" $displayWidth $displayWidth -}}
+{{- $attributes = merge $attributes (dict
+"src" (printf "https://%s/cdn-cgi/image/width=%d,quality=%d,fit=scale-down,format=auto/%s" $host $defaultWidth $quality
+$sourceURL)
+"srcset" (delimit $srcset ", ")
+"sizes" $sizes
+"data-cf-image" "true"
+) -}}
+{{- end -}}
+{{- return $attributes -}}
