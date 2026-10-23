@@ -18,19 +18,19 @@ images: ["images/ncku-pedestrian-area/pedestrian-area.jpeg"]
 
 成大校園內的行人徒步區，設有反光欄杆。
 
-![成大校園內的行人徒步區，設有反光欄杆](../images/ncku-pedestrian-area/pedestrian-area.jpeg)
+![成大校園內的行人徒步區，設有反光欄杆](r2:ncku-pedestrian-area/pedestrian-area.jpeg)
 
 緊鄰市區道路的兩個校區入口處，也設有反光欄杆，阻擋車輛進入。
 
-![成大校園內的行人徒步區，設有反光欄杆](../images/ncku-pedestrian-area/pedestrian-area-entrance.jpeg)
+![成大校園內的行人徒步區，設有反光欄杆](r2:ncku-pedestrian-area/pedestrian-area-entrance.jpeg)
 
 在不遠處的停車場出口，旁邊就是行人徒步區，也設有反光欄杆。
 
-![成大校園內的行人徒步區，設有反光欄杆](../images/ncku-pedestrian-area/pedestrian-area-exit.jpeg)
+![成大校園內的行人徒步區，設有反光欄杆](r2:ncku-pedestrian-area/pedestrian-area-exit.jpeg)
 
 就連校園圍牆外的人行道，也設有反光欄杆，讓駕駛知道這是行人區，他們不應該進入。
 
-![成大校園內的行人徒步區，設有反光欄杆](../images/ncku-pedestrian-area/pedestrian-area-outside.jpeg)
+![成大校園內的行人徒步區，設有反光欄杆](r2:ncku-pedestrian-area/pedestrian-area-outside.jpeg)
 
 ## 防撞柱的防護效果
 
@@ -64,11 +64,11 @@ images: ["images/ncku-pedestrian-area/pedestrian-area.jpeg"]
 
 在校園內的道路上，我看到了一些適時顯示標誌，例如這個「本路段禁止停車」的標誌。
 
-![成大校園內的適時顯示標誌](../images/ncku-pedestrian-area/no-parking-sign.jpeg)
+![成大校園內的適時顯示標誌](r2:ncku-pedestrian-area/no-parking-sign.jpeg)
 
 進入到對面校區的入口處，也有「機車禁止進入校園」的標誌。
 
-![成大校園內的適時顯示標誌](../images/ncku-pedestrian-area/no-motorcycle-sign.jpeg)
+![成大校園內的適時顯示標誌](r2:ncku-pedestrian-area/no-motorcycle-sign.jpeg)
 
 整體 icon 設計的風格也很一致，這樣的設計讓人很容易理解。
 
@@ -76,7 +76,7 @@ images: ["images/ncku-pedestrian-area/pedestrian-area.jpeg"]
 
 在校內道路，我看到一些人比較多的路段加裝了速度顯示面板，這是一個很好的提醒，讓駕駛人知道自己的速度，也算是因應暴衝車禍事件後的一個改善。
 
-![成大校園內的速度顯示面板](../images/ncku-pedestrian-area/speed-display-board.jpeg)
+![成大校園內的速度顯示面板](r2:ncku-pedestrian-area/speed-display-board.jpeg)
 
 {{< youtube _p43QGh5Hjk >}}
 
@@ -84,7 +84,7 @@ images: ["images/ncku-pedestrian-area/pedestrian-area.jpeg"]
 
 收集新聞的時候，看到有人貼了「再一支，有插有保庇。」的貼紙在測速照相機上。
 
-![成大校園內的測速照相機](../images/ncku-pedestrian-area/SCR-20241111-duxw.jpeg)
+![成大校園內的測速照相機](r2:ncku-pedestrian-area/SCR-20241111-duxw.jpeg)
 
 # 參考資料
 

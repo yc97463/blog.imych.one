@@ -13,7 +13,7 @@ tags: ["NDHU", "iPhone", "Photos📸"]
 
 <!--more-->
 
-![](../images/meet-at-ndhu/presentation_page-0001.jpg)
+![](r2:meet-at-ndhu/presentation_page-0001.jpg)
 
 在一個暖暖的午後，我醒來了；看到考試分發的結果，我哭了，這讓我感到失落與無助。
 對我而言，花蓮是一個相對去臺北，更加遙遠之處，早已習慣都市便利生活的我，躺在床上頓時腦袋一片空白。
@@ -21,7 +21,7 @@ tags: ["NDHU", "iPhone", "Photos📸"]
 早上 08:00 是考試分發放榜的時間，我那天甚至開會到清晨 5 點多才躺回去床上ㄛㄛ睏，直到中午 12:00 溫馴的陽光從窗邊透入才滿足地醒來。
 拿起手機查看結果之際，我的腦袋應該狂噴 500 Error，遲遲不肯 return anything。
 
-![](../images/meet-at-ndhu/presentation_page-0002.jpg)
+![](r2:meet-at-ndhu/presentation_page-0002.jpg)
 
 搬宿那天行經東海岸約莫六個小時，來到了這塊土地，呼吸著這別於大城市中的工業廢氣，沁人心脾的乾淨空氣，這讓我感到舒適。東華，我遇見新鮮空氣，是那個過敏兒夢寐以求的絕佳空氣品質，這也讓我開始對這個地方產生了好感。
 
@@ -39,13 +39,13 @@ tags: ["NDHU", "iPhone", "Photos📸"]
 
 下圖是台鐵在 2021 年起引入的 [EMU3000](https://zh.wikipedia.org/zh-tw/台鐵EMU3000型電聯車) 型電聯車，其中[車側邊條「紅變綠」](https://web.archive.org/web/20230323215149/https://udn.com/news/story/7266/6534932)的設計則為 2022 年暑期抵達的編組。謎之音：3000 東部滿街跑，想搭就搭好快樂 rr ヾ(_´∀ ˋ_)ﾉ。
 
-![](../images/meet-at-ndhu/presentation_page-0004.jpg)
+![](r2:meet-at-ndhu/presentation_page-0004.jpg)
 
 隨著一陣隧動聲，「啊——震了！震了！」，打開手機查看地震報告，哎呀！震央就在距離東華不遠處，這讓我感到驚恐。東華，我遇見無情的震央，那頭雀躍的地牛震得我不要不要的，這也讓我感受到生命的脆弱與珍貴。
 
 不知為何，來到花蓮逐漸養成提防地震的敏感神經，身上就像裝了顆地震隧動聲的檢測器，只要一有小小的隧動聲就不自覺提高地震的警覺。
 
-![](../images/meet-at-ndhu/presentation_page-0005.jpg)
+![](r2:meet-at-ndhu/presentation_page-0005.jpg)
 
 夜晚，看著在繁星當中閃爍的獵戶星座。Friday Night 歡愉的歌舞聲，為一週繁忙的疲憊注入活水。東華，我遇見了對生命充滿熱情的真摯，享受著星空下的美好夜晚，讓我找到心靈的寧靜。
 
@@ -53,10 +53,10 @@ tags: ["NDHU", "iPhone", "Photos📸"]
 
 附圖是星空，因為光害少反而容易觀察到以往在都市鮮少接觸的景致。
 
-![](../images/meet-at-ndhu/presentation_page-0006.jpg)
+![](r2:meet-at-ndhu/presentation_page-0006.jpg)
 
 在這裡，我成功將自己從紛亂的都市生活中抽離出來，沉思自己的人生方向。東華，謝謝你讓我遇見這麼多不同的人事物，讓我重新找回自己。
 
 最後一張是 2023 年 3 月底雲霧繚繞的風景。由於志學村東西與山脈相臨，因此每當水氣足夠時則容易形成放眼望去雲霧飄緲的神秘感。
 
-![](../images/meet-at-ndhu/presentation_page-0007.jpg)
+![](r2:meet-at-ndhu/presentation_page-0007.jpg)

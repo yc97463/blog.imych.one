@@ -15,11 +15,11 @@ tags: ["108課綱"]
 
 以往申請大學是在高三初考完學測，就需要在短時間內製作與提交備審到大學端去，但在 108課綱 實施的學習歷程檔案，每學期學生均要上傳指定件數的「 **學習成果檔案**」與「 **多元表現**」，其餘項目「 **基本資料**」與「 **修課紀錄**」則 **由學校每學期上傳**，這意味著我們沒有最後才補救的機會，必須要在高一時就多少能摸索出自己的志向，而 **學校扮演著輔導學生摸索志向興趣的重要角色** 。
 
-![取自 12年國教網-108課綱資訊網](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled.png)
+![取自 12年國教網-108課綱資訊網](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled.png)
 
 取自 12年國教網-108課綱資訊網
 
-![取自 高雄市立三民高中 1082課綱家長說明會簡報](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%201.png)
+![取自 高雄市立三民高中 1082課綱家長說明會簡報](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%201.png)
 
 取自 高雄市立三民高中 1082課綱家長說明會簡報
 
@@ -29,11 +29,11 @@ tags: ["108課綱"]
 
 在這個平台可以查詢到未來個人申請該校系所需的資料，點進去就會呈現出來，換言之就是現在就要大略確定自己未來想去的學校，為該學校的需求做好準備。
 
-![Untitled](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%202.png)
+![Untitled](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%202.png)
 
-![0_Q54_FrfNS94Is2jx.gif](../images/using-trello-to-participation-and-arrangement-method-3437ad205/0_Q54_FrfNS94Is2jx.gif)
+![0_Q54_FrfNS94Is2jx.gif](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/0_Q54_FrfNS94Is2jx.gif)
 
-![聯招會-111學年度大學申請入學參採高中學習歷程資料完整版查詢系統 / 參採操作 / 參採項目展示](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%203.png)
+![聯招會-111學年度大學申請入學參採高中學習歷程資料完整版查詢系統 / 參採操作 / 參採項目展示](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%203.png)
 
 聯招會-111學年度大學申請入學參採高中學習歷程資料完整版查詢系統 / 參採操作 / 參採項目展示
 
@@ -51,15 +51,15 @@ tags: ["108課綱"]
 
 在 「 [111學年度大學申請入學參採高中學習歷程資料完整版查詢系統](https://www.cac.edu.tw/cacportal/jbcrc/LearningPortfolios_MultiQuery/)」也已經公布該校系參採數學考科的情況， **這也象徵著選組時必將該校系所參採狀況列入選組考量** 。
 
-![Untitled](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%204.png)
+![Untitled](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%204.png)
 
-![Untitled](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%205.png)
+![Untitled](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%205.png)
 
-![資料來源：國立鳳山高中 [108高一課程專區](https://sites.google.com/view/fssh210#h.p_0GK9jBNmBg0A)](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%206.png)
+![資料來源：國立鳳山高中 [108高一課程專區](https://sites.google.com/view/fssh210#h.p_0GK9jBNmBg0A)](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%206.png)
 
 資料來源：國立鳳山高中 [108高一課程專區](https://sites.google.com/view/fssh210#h.p_0GK9jBNmBg0A)
 
-![該校系參採數學情況](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%207.png)
+![該校系參採數學情況](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%207.png)
 
 該校系參採數學情況
 
@@ -75,13 +75,13 @@ tags: ["108課綱"]
 
 在 Trello 內的標籤設定，就可以把上述這幾項大分類都先 Key 進去，等等在分類時就會很快，而且在未來的篩選工作就會快上很多，所有參採項目可以參考在首頁的項目篩選。
 
-![先整理出該校系採計的項目](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%208.png)
+![先整理出該校系採計的項目](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%208.png)
 
 先整理出該校系採計的項目
 
-![Untitled](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%209.png)
+![Untitled](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%209.png)
 
-![將參採項目都 Key 進去 Trello 中的標籤](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%2010.png)
+![將參採項目都 Key 進去 Trello 中的標籤](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%2010.png)
 
 將參採項目都 Key 進去 Trello 中的標籤
 
@@ -89,11 +89,11 @@ tags: ["108課綱"]
 
 在列表(例如資訊工程系)下新增一張卡片，然後將資料都整理進去，最後將參採項目都勾選起來，一張校系卡就整理好囉 (❁´◡`❁)
 
-![在預設列表下新增一張卡片，打上該學校名稱](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%2011.png)
+![在預設列表下新增一張卡片，打上該學校名稱](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%2011.png)
 
 在預設列表下新增一張卡片，打上該學校名稱
 
-![將該校系的資料整理進去，並勾選參採項目](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%2012.png)
+![將該校系的資料整理進去，並勾選參採項目](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%2012.png)
 
 將該校系的資料整理進去，並勾選參採項目
 
@@ -101,7 +101,7 @@ tags: ["108課綱"]
 
 在右側的選單的「搜尋卡片」功能中，就可以勾選自訂的標籤項目(參採項目)，對卡片(校系)進行篩選，最終結果就會呈現在畫面上拉～ 🎠
 
-![在 Trello 中以標籤篩選卡片](../images/using-trello-to-participation-and-arrangement-method-3437ad205/Untitled%2013.png)
+![在 Trello 中以標籤篩選卡片](r2:using-trello-to-participation-and-arrangement-method-3437ad2056e5/Untitled%2013.png)
 
 在 Trello 中以標籤篩選卡片
 

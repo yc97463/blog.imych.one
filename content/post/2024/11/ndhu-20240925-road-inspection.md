@@ -13,7 +13,7 @@ images: ["images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidew
 
 在 112 整年度（2024 年）中，我出訪過歐洲西部國家、日本東部地區，參觀過當地的交通規劃，我認為這次的道路勘查是一個很好記錄下來的機會，這篇文章會包含當時視察的項目及我的看法。
 
-{{< figure src="../images/ndhu-20240925-road-inspection/SCR-20241003-tiuv.png" title="112 車管會會議記錄 - 學生代表提案內容" >}}
+{{< figure src="r2:ndhu-20240925-road-inspection/SCR-20241003-tiuv.png" title="112 車管會會議記錄 - 學生代表提案內容" >}}
 
 # 道路勘查實記
 
@@ -23,7 +23,7 @@ images: ["images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidew
 
 現場考量礙於調整動線專業性，決議安排到第二期外環道改善工程，請交通技師評估及事後施作。
 
-{{< figure src="../images/ndhu-20240925-road-inspection/20240703_4_3.jpg" title="大學門出入口加入槽化區域，明確規範車輛行駛區域（繪圖：潘芊妤｜底圖圖資：國土測繪雲）" >}}
+{{< figure src="r2:ndhu-20240925-road-inspection/20240703_4_3.jpg" title="大學門出入口加入槽化區域，明確規範車輛行駛區域（繪圖：潘芊妤｜底圖圖資：國土測繪雲）" >}}
 
 ## 藝術學院 人行鋪面及行人保護措施
 
@@ -33,7 +33,7 @@ images: ["images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidew
 
 **現場決議**：AC（柏油施工工法）柏油鋪面，製作下潛式人行道，用以銜接現有的行穿線。
 
-![下潛式人行道，銜接現有行穿線](../images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidewalk.jpeg)
+![下潛式人行道，銜接現有行穿線](r2:ndhu-20240925-road-inspection/art-building-cross-walk-and-sidewalk.jpeg)
 
 **事後記事**：荷蘭隨處可見的「路面抬升型行穿線」有更高的**預防效果**。比起駕駛需要注意路側有人與否，駕駛能更優先注意到路面抬升，因而需要減速；行人及身障者除了不需要先下斜坡，也能更安全地被注意到及穿越道路。
 
@@ -41,7 +41,7 @@ images: ["images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidew
 
 **11/08 更新**：學生會更新施工進度，該處施作高壓磚鋪面，實際並未採用下潛式人行道。
 
-![高壓磚鋪面人行道](../images/ndhu-20240925-road-inspection/SCR-20241111-bhiq.jpeg)
+![高壓磚鋪面人行道](r2:ndhu-20240925-road-inspection/SCR-20241111-bhiq.jpeg)
 
 ### 標線型行人庇護島
 
@@ -51,7 +51,7 @@ images: ["images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidew
 
 我覺得這是有趣的議題，在臺灣大多數實體庇護島是為了有效隔離行人與車輛，但在日本，儘管許多地方只使用標線進行引導，這是因為該國道路設計透過「標線」明確地引導駕駛，駕駛較能在顧及路況下注意到行人。如果改為設置標線型是為了避免車輛受損，我覺得這可能有些本末倒置，因為行人穿越時，不是實體設施被撞，那就是行人被撞了。
 
-![標線型行人庇護島](../images/ndhu-20240925-road-inspection/Frame-5870.jpg)
+![標線型行人庇護島](r2:ndhu-20240925-road-inspection/Frame-5870.jpg)
 
 
 ## 理工學院 周遭油鋪面人行道標誌指引改善提議
@@ -63,7 +63,7 @@ images: ["images/ndhu-20240925-road-inspection/art-building-cross-walk-and-sidew
 2. 理工學院沿路的人行道，增加地面行人自行車共道標誌、改善過抖的坡度，以及處理緣石，以改善無障礙通行。
     - 現行的人行道坡度過抖，對於身障人士來說，他們無法將輪椅推上人行道，因此我提議改善坡度，並且處理緣石，以改善無障礙通行。
 
-{{< figure src="../images/ndhu-20240925-road-inspection/理工學院人行道及周遭增設標誌@2x.jpg" title="周遭油鋪面人行道標誌指引改善提議" >}}
+{{< figure src="r2:ndhu-20240925-road-inspection/%E7%90%86%E5%B7%A5%E5%AD%B8%E9%99%A2%E4%BA%BA%E8%A1%8C%E9%81%93%E5%8F%8A%E5%91%A8%E9%81%AD%E5%A2%9E%E8%A8%AD%E6%A8%99%E8%AA%8C@2x.jpg" title="周遭油鋪面人行道標誌指引改善提議" >}}
 
 ## 志學門 校內路口、圓環處
 

@@ -11,7 +11,7 @@ images: ["20260503-now.jpeg"]
 
 <!--more-->
 
-![](./20260503-now.jpeg)
+![](r2:now/20260503/20260503-now.jpeg)
 
 ## 期中考週與學習
 
@@ -39,7 +39,7 @@ images: ["20260503-now.jpeg"]
 
 寫這篇 now 的當下，我還在跑運算呢。好久zzzzzz，途中也修了幾次 code。
 
-![](SCR-20260503-ddrk.png)
+![](r2:now/20260503/SCR-20260503-ddrk.png)
 
 ## 資工系畢業專題收尾
 
@@ -51,7 +51,7 @@ images: ["20260503-now.jpeg"]
 
 BJ4，上山去玩 ⁽⁽ ◟(∗ ˊωˋ ∗)◞ ⁾⁾。
 
-![](20260430-firefly.jpeg)
+![](r2:now/20260503/20260430-firefly.jpeg)
 
 📸 credit： [shaoshao_1025 on Flickr](https://www.flickr.com/photos/shaoshao_1025/)
 
@@ -85,7 +85,7 @@ Todos
 - [Urban Bikeway Design Guide](https://nacto.org/publication/urban-bikeway-design-guide/)：近期向圖書館薦購進來，原本以為是歐洲的道路介紹，翻了翻想說怎麼書裡都在談美式的道路設計與實例，結果 NACTO 就是北美城市交通部門的聯盟哈哈哈。
 - 問候薛西佛斯：散文，作者花蓮人，年輕時花蓮臺北兩地跑。從他的敘寫連結了不少我在花蓮的記憶、同感年輕視角的「臺北這座大城市」。
 
-{{< figure src="reading-books.jpeg" title="第二本薦購的道路設計書書到啦！超開心；在圖書館讀書之餘，尋到很有設計感封面的書" >}}
+{{< figure src="r2:now/20260503/reading-books.jpeg" title="第二本薦購的道路設計書書到啦！超開心；在圖書館讀書之餘，尋到很有設計感封面的書" >}}
 
 
 ---

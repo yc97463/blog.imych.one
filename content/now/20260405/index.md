@@ -8,7 +8,7 @@ categories: [""]
 images: ["kaohsiung-main-station-on-road.jpeg"]
 ---
 
-{{< figure src="./kaohsiung-main-station-on-road.jpeg" title="博愛路面向高雄車站 - Shot on iPhone 17 Pro" >}}
+{{< figure src="r2:now/20260405/kaohsiung-main-station-on-road.jpeg" title="博愛路面向高雄車站 - Shot on iPhone 17 Pro" >}}
 
 這是一個高雄的午後，現在坐在高雄車站的室外花園上敲這篇近況，高雄的蚊子真的非常的多，這次的清明連假還下爆暴雨， ~~杜牧，這就是你所謂的「清明時節雨紛紛」嗎？~~
 
@@ -26,7 +26,7 @@ images: ["kaohsiung-main-station-on-road.jpeg"]
 
 去過東京後，對於劇中來自現實取景的場景熟悉很多，例如搭乘「中央總武線」去「新宿車站」搭新幹線，電車上的小螢幕正播放著 OZ 世界「佳主馬」戰鬥的實況，而等待新幹線那邊的月台是半露天的。
 
-{{< figure src="./shinjuku-station.jpeg" title="新宿車站之新幹線的月台，攝於 2024 年 05 月" >}}
+{{< figure src="r2:now/20260405/shinjuku-station.jpeg" title="新宿車站之新幹線的月台，攝於 2024 年 05 月" >}}
 
 ## 感動的 moment
 
@@ -63,7 +63,7 @@ images: ["kaohsiung-main-station-on-road.jpeg"]
 
 > 真的好安慰，原來我們還在同一世代嗎😭
 
-{{< figure src="./summer-war-2026-poster.jpeg" title="夏日大作戰 2026 電影海報" >}}
+{{< figure src="r2:now/20260405/summer-war-2026-poster.jpeg" title="夏日大作戰 2026 電影海報" >}}
 
 # 一些 todos
 
@@ -71,4 +71,4 @@ images: ["kaohsiung-main-station-on-road.jpeg"]
 
 其實我有超多想寫的東西，不過這次我選擇慢食，讓自己均衡地將寫作（輸出想法）融入生活中。今天先這樣，我們下次見！
 
-![](./SCR-20260405-shfu.png)
+![](r2:now/20260405/SCR-20260405-shfu.png)

@@ -8,7 +8,7 @@ categories: ["Student Association", "Thinkings"]
 
 剛剛，我們家副會長轉傳了下一屆美宣的詢問給我：「限動上手捧燈泡的圖檔是否還在？我們覺得這個設計還不錯，感覺可以沿用，但我們想要改個色彩。」
 
-![手捧著燈泡的圖](../images/smsu10th-retire/Untitled.png)
+![手捧著燈泡的圖](r2:smsu10th-retire/Untitled.png)
 
 手捧著燈泡的圖
 
@@ -16,7 +16,7 @@ categories: ["Student Association", "Thinkings"]
 
 我從擔任起學生會的幹部後，一向注重檔案管理術的我，不加思索地在雲端上將一次次活動、事件、類型的資料分門別類用資料夾包著，未來在找檔案時似乎也較好檢索。在收到這樣子的要求時，檔案分類引以為傲的我偷偷笑了起來，只不過當一個一個資料夾翻過後，我似乎才發現當初這張圖只是我隨手做得而已，「手捧燈泡的圖」也只是我從素材網站上拿了張看得順眼的圖來用罷了。
 
-![手捧燈泡的圖比比皆是](../images/smsu10th-retire/Untitled%201.png)
+![手捧燈泡的圖比比皆是](r2:smsu10th-retire/Untitled%201.png)
 
 手捧燈泡的圖比比皆是
 
@@ -26,7 +26,7 @@ categories: ["Student Association", "Thinkings"]
 
 其實不得不說，在剛剛藉由找素材的機會也翻過了其他的資料夾，當時上幹時的紀錄片段、嘗試處理學權卻導致跟學校硬碰硬的文件與紀錄、一次次的活動企劃書與照片、帶著學生會頭銜參與外部研討會的發想……在現在看來，也不得感嘆如果沒有當時勤奮的「紀錄」，至今我對這個熱血的我還能有多少印象呢？
 
-![雲端資料夾](../images/smsu10th-retire/Untitled%202.png)
+![雲端資料夾](r2:smsu10th-retire/Untitled%202.png)
 
 雲端資料夾
 
@@ -36,7 +36,7 @@ categories: ["Student Association", "Thinkings"]
 
 其實不單是敝校，其他學校的學生會也曾因學校不採納訴求下發動靜坐所造成的盛大場面(?)。看似平常都要聽學校指示的學生會，在認真起來也是很有威力的RRRRR！
 
-![某校學生會因學校不採納訴求下發動靜坐所造成的盛大場面，該校學生 [Dabo](http://dabo.xyz/) 同學授權提供](../images/smsu10th-retire/Untitled%203.png)
+![某校學生會因學校不採納訴求下發動靜坐所造成的盛大場面，該校學生 [Dabo](http://dabo.xyz/) 同學授權提供](r2:smsu10th-retire/Untitled%203.png)
 
 某校學生會因學校不採納訴求下發動靜坐所造成的盛大場面，該校學生 [Dabo](http://dabo.xyz/) 同學授權提供
 

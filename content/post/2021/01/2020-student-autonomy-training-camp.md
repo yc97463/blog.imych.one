@@ -7,7 +7,7 @@ categories: ["Student Association"]
 tags: ["workshop"]
 ---
 
-![大概在去年 7 月，因緣際會下參加了由國教署主辦的 [高級中學學生自治培力營](https://sites.google.com/a/chsc.tw/109sapc/plan/wubiaotidewenzhang) ，最後在報名截止前一小時才搭上這班培力列車。](../images/2020-student-autonomy-training-camp/0_0KCw56PksJ8aHM1G.webp)
+![大概在去年 7 月，因緣際會下參加了由國教署主辦的 [高級中學學生自治培力營](https://sites.google.com/a/chsc.tw/109sapc/plan/wubiaotidewenzhang) ，最後在報名截止前一小時才搭上這班培力列車。](r2:2020-student-autonomy-training-camp/0_0KCw56PksJ8aHM1G.webp)
 
 大概在去年 7 月，因緣際會下參加了由國教署主辦的 [高級中學學生自治培力營](https://sites.google.com/a/chsc.tw/109sapc/plan/wubiaotidewenzhang) ，最後在報名截止前一小時才搭上這班培力列車。
 
@@ -21,7 +21,7 @@ tags: ["workshop"]
 
 # **去程**
 
-![Untitled](../images/2020-student-autonomy-training-camp/Untitled.png)
+![Untitled](r2:2020-student-autonomy-training-camp/Untitled.png)
 
 我第一次台鐵訂票，以 ibon 取票，並於閘門感應 QRCode 進站，結果我把它塞進驗票機內⋯當作學到經驗好了⋯⋯
 
@@ -58,7 +58,7 @@ Day1 下午課程在這邊就告一段落了，接著吃完晚餐會繼續下半
 
 主持人也要我們歸納上半場課程的成果與反思，我覺得這是舉辦活動（課程）很重要的環節，不只可以讓主辦方有活動 feedback，學員也可以透過 **九宮格反思** 整理學到的東西，等等就是刺激的模擬校級會議了（都整理在同一段，在更下面）！。
 
-![Untitled](../images/2020-student-autonomy-training-camp/Untitled%201.png)
+![Untitled](r2:2020-student-autonomy-training-camp/Untitled%201.png)
 
 # **組織與社群行銷**
 

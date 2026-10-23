@@ -16,7 +16,7 @@ tags: ["YouBike", "Kaohsiung"]
 > 高市環保局證實，C-Bike系統預計今年7月起，由YouBike接手，原系統將全面汰換並更新腳踏車，官員坦言新系統營運後，業者自負盈虧可減少市府財政負擔。
 > 
 
-![[高雄點：city bike將全部拆除](https://www.facebook.com/KaohsiungHTROC/posts/1903938136579560)](../images/youbike-in-kaohsiung-9a16a4479487/Untitled.png)
+![[高雄點：city bike將全部拆除](https://www.facebook.com/KaohsiungHTROC/posts/1903938136579560)](r2:youbike-in-kaohsiung-9a16a4479487/Untitled.png)
 
 [高雄點：city bike將全部拆除](https://www.facebook.com/KaohsiungHTROC/posts/1903938136579560)
 
@@ -26,4 +26,4 @@ tags: ["YouBike", "Kaohsiung"]
 
 - [聯合新聞網：7月1日全面升級2.0 高雄市公共自行車借還更容易](https://udn.com/news/story/7327/4473855)
 
-![Untitled](../images/youbike-in-kaohsiung-9a16a4479487/Untitled%201.png)
+![Untitled](r2:youbike-in-kaohsiung-9a16a4479487/Untitled%201.png)

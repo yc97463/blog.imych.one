@@ -32,6 +32,20 @@ hugo new content --kind now now/<date-in-YYYYMMDD>/index.md
 
 ## R2 圖片與 Cloudflare 縮圖
 
+### R2 Info
+
+- bucket: blog-imych-one
+- path:
+  - post: /<slug>/
+  - now: /now/<date-YYYYMMDD>/
+- tools: wrangler command.
+
+一般文章的 slug 優先使用 front matter 的 `slug`；未設定時使用文章檔名（不含副檔名），bundle 則使用目錄名。包含原本位於 `static/images` 的圖片，都放在 `/<slug>/<檔名>`，例如 `r2:fosdem-2024/photo.jpeg`。R2 object key 不含開頭的 `/`；必要的圖片子目錄會保留，原始檔名不變。
+
+內文圖片使用 R2；front matter 的 `images` 維持原站資源路徑，讓社群分享圖片繼續使用原站資源。本機原圖保留作為備份。圖片引用採百分比編碼，不額外附加版本參數。
+
+### Usage
+
 將原圖上傳到 R2，確認可從 `https://img.imych.one/<物件路徑>` 公開讀取後，文章可直接用 `r2:` 加上物件路徑：
 
 ```markdown

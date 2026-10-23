@@ -15,7 +15,7 @@ tags: ["interview"]
 
 在面試前一週，班聯會有發下選幹意願書，上頭大概有註記各幹部的工作內容與責任，當時我很快填完就送出了（我只記得我第一個填文書，最後一個填總務。）
 
-![班聯會選幹意願書](../images/smsu10th-first-interview-abb8d46e02d9/Untitled.png)
+![班聯會選幹意願書](r2:smsu10th-first-interview-abb8d46e02d9/Untitled.png)
 
 班聯會選幹意願書
 
@@ -25,9 +25,9 @@ tags: ["interview"]
 
 在公布前，每天都抱持著戰戰兢兢等通知的心情滑 IG，等待通知。
 
-![Untitled](../images/smsu10th-first-interview-abb8d46e02d9/Untitled%201.png)
+![Untitled](r2:smsu10th-first-interview-abb8d46e02d9/Untitled%201.png)
 
-![班聯會通知](../images/smsu10th-first-interview-abb8d46e02d9/Untitled%202.png)
+![班聯會通知](r2:smsu10th-first-interview-abb8d46e02d9/Untitled%202.png)
 
 班聯會通知
 
@@ -53,7 +53,7 @@ tags: ["interview"]
 
 在製作自傳的時候真的會不斷問自己，自己到底有哪些特質能被上級看好，哪些會是大家想看到的以及有說服力之類的。
 
-![利用 Canva 製作自傳版面](../images/smsu10th-first-interview-abb8d46e02d9/Untitled%203.png)
+![利用 Canva 製作自傳版面](r2:smsu10th-first-interview-abb8d46e02d9/Untitled%203.png)
 
 利用 Canva 製作自傳版面
 

@@ -19,15 +19,15 @@ tags: ["iPhone", "iCloud"]
 
 1. 開啟「照片」應用程式。
 
-![](../images/share-photo-by-icloud-link/open-photos-app.jpeg)
+![](r2:share-photo-by-icloud-link/open-photos-app.jpeg)
 
 2. 選擇要分享的照片後，點按左下角的分享按鈕。
 
-![](../images/share-photo-by-icloud-link/select-and-share-photo.jpeg)
+![](r2:share-photo-by-icloud-link/select-and-share-photo.jpeg)
 
 3. 在分享選單中，選擇「建立 iCloud Link」。
 
-![](../images/share-photo-by-icloud-link/create-icloud-link.jpeg)
+![](r2:share-photo-by-icloud-link/create-icloud-link.jpeg)
 
 等待一下，建立 iCloud Link 的照片會上傳到 iCloud 伺服器，並生成一個為期 30 天的照片分享連結。
 
@@ -43,7 +43,7 @@ tags: ["iPhone", "iCloud"]
 
 當你的朋友收到連結時，點按連結後，會看到一個網頁，裡面會呈現你勾選的照片，他們可以在瀏覽器上查看和下載。
 
-![](../images/share-photo-by-icloud-link/view-icloud-link-photo-online.jpeg)
+![](r2:share-photo-by-icloud-link/view-icloud-link-photo-online.jpeg)
 
 ## Apple 的設備（內建相片應用程式）
 
@@ -55,7 +55,7 @@ tags: ["iPhone", "iCloud"]
 
 如果你想查看曾經分享過的 iCloud Link，可以在「照片」應用程式底部選單的「為你推薦」選項，裡面會列出你曾經分享過的連結。
 
-![](../images/share-photo-by-icloud-link/view-shared-link.jpeg)
+![](r2:share-photo-by-icloud-link/view-shared-link.jpeg)
 
 # 「iCloud Link」和「iCloud 相簿」的差異
 

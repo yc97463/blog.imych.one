@@ -1,3 +1,7 @@
 .DS_Store
 public/
 themes/papermod_backup/
+__pycache__/
+reports/r2-image-*.json
+scripts/migrate_images_to_r2.py
+tests/test_r2_migration.py

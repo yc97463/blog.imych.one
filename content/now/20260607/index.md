@@ -22,9 +22,9 @@ ref: [Euronews](https://www.euronews.com/culture/2025/10/06/six-seven-understand
 
 早晨醒來趕到臺大醫院站與隊友會合，決賽簡報的地點位在「中央聯合辦公大樓南棟」，這天是「[第八屆國土空間圖資 GIS 競賽](https://www.giscontest.tw/)」的決賽簡報發表日！
 
-{{< figure src="20260522-gis-opening.jpeg" title="Opening" >}}
-{{< figure src="20260522-gis-venue.jpeg" title="第一次上來，參觀環境" >}}
-{{< figure src="20260522-gis-presentating.jpeg" title="我們的簡報 ⬆️ ⬇️" >}}
+{{< figure src="r2:now/20260607/20260522-gis-opening.jpeg" title="Opening" >}}
+{{< figure src="r2:now/20260607/20260522-gis-venue.jpeg" title="第一次上來，參觀環境" >}}
+{{< figure src="r2:now/20260607/20260522-gis-presentating.jpeg" title="我們的簡報 ⬆️ ⬇️" >}}
 {{< iframe "https://drive.google.com/file/d/1OKVr7cQlSBOpoaF3hbgiLLt5GfVlG51v/preview" >}}
 
 前期的簡報準備和聽其他人發表過程很有趣，看到了很多組的方法。

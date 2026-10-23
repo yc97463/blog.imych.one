@@ -11,7 +11,7 @@ tags: ["Google", "Javascript"]
 
 因此我們班有了線上成績表（每次段考進化中），會不定期推出各種分析功能，最近想挑戰更刺激的：「在 A裝置 key 入成績時，投影在黑板上的 B裝置 呈現著成績試算表並**即時更新某科的排名**」，讓大家考完試也無法逃出成績的魔掌。
 
-![只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」](../images/googlesheet-macro-on-class-transcripts/1_XSwH_18Cmv1-8U1oeBqB2Q.gif)
+![只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」](r2:googlesheet-macro-on-class-transcripts/1_XSwH_18Cmv1-8U1oeBqB2Q.gif)
 
 只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」
 
@@ -44,7 +44,7 @@ tags: ["Google", "Javascript"]
 
 就來到我們的試算表啦～首先，我們需要一個已經設定好篩選範圍的班級成績單（Google Sheets 的喔，不是 Excel），裡面可以先填好一些成績，這裡以「生物」欄示範。
 
-![先用 Google Sheets 製作一個簡易的成績單。](../images/googlesheet-macro-on-class-transcripts/Untitled.png)
+![先用 Google Sheets 製作一個簡易的成績單。](r2:googlesheet-macro-on-class-transcripts/Untitled.png)
 
 先用 Google Sheets 製作一個簡易的成績單。
 
@@ -53,17 +53,17 @@ tags: ["Google", "Javascript"]
 
 接著依序點選上方選單的「工具」->「巨集」->「錄製巨集」，即可開始錄製接下來的操作步驟。
 
-![從篩選的選單中選擇 Z to A。](../images/googlesheet-macro-on-class-transcripts/Untitled%201.png)
+![從篩選的選單中選擇 Z to A。](r2:googlesheet-macro-on-class-transcripts/Untitled%201.png)
 
 從篩選的選單中選擇 Z to A。
 
 這時，我們的第一個步驟「錄製排序成績的巨集」其實就已經完成了！可以看到成績已經排序好，從第一名排到最後一名，這時我們按下下方巨集錄製提示框的「儲存」就可以結束錄製巨集的功能了，隨後我們只需要將巨集命名為「排序生物成績」，方便我們後續執行時辨識用。
 
-![查看成果並按下「儲存」，退出錄製巨集模式，並將其命名。](../images/googlesheet-macro-on-class-transcripts/Untitled%202.png)
+![查看成果並按下「儲存」，退出錄製巨集模式，並將其命名。](r2:googlesheet-macro-on-class-transcripts/Untitled%202.png)
 
 查看成果並按下「儲存」，退出錄製巨集模式，並將其命名。
 
-![Untitled](../images/googlesheet-macro-on-class-transcripts/Untitled%203.png)
+![Untitled](r2:googlesheet-macro-on-class-transcripts/Untitled%203.png)
 
 > 寫迴圈讓這段巨集能重複執行
 > 
@@ -72,18 +72,18 @@ tags: ["Google", "Javascript"]
 
 至於錄製巨集的這些步驟，都會轉換為程式碼，這時我們就需要依序點開上方選單的「工具」->「巨集」-> 「管理巨集」，在跳出的管理巨集視窗中找到剛剛命名的「排序生物成績」巨集，依序點選右邊的「三顆點點」->「編輯指令碼」，來打開編寫程式碼的 Google Script 平台。
 
-![從選單的管理介面進入 Google Script](../images/googlesheet-macro-on-class-transcripts/Untitled%204.png)
+![從選單的管理介面進入 Google Script](r2:googlesheet-macro-on-class-transcripts/Untitled%204.png)
 
 從選單的管理介面進入 Google Script
 
-![Untitled](../images/googlesheet-macro-on-class-transcripts/Untitled%205.png)
+![Untitled](r2:googlesheet-macro-on-class-transcripts/Untitled%205.png)
 
 > 進入 Google Script 編寫指令碼，認識一下整體架構
 > 
 
 好的，一進來應該可以看到中間有一行一行的程式碼，不用怕，我們就來好好認識他們。
 
-![\\\\進入 Google Script 編寫程式碼囉////](../images/googlesheet-macro-on-class-transcripts/Untitled%206.png)
+![\\\\進入 Google Script 編寫程式碼囉////](r2:googlesheet-macro-on-class-transcripts/Untitled%206.png)
 
 \\\\進入 Google Script 編寫程式碼囉////
 
@@ -125,7 +125,7 @@ function myFunction5() { //function你可以想成他是一個模組、功能，
 
 這時，我們就可以來執行看看，看一下成效如何。依序點選上方選單的「工具」->「巨集」->名為「排序生物成績」的巨集，接著就會開始執行了。這個畫面呈現另一隻手機正在輸入大家的成績，但成績排序即時被調整為成績最高到最低的狀況。
 
-![只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」](../images/googlesheet-macro-on-class-transcripts/1_XSwH_18Cmv1-8U1oeBqB2Q_(1).gif)
+![只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」](r2:googlesheet-macro-on-class-transcripts/1_XSwH_18Cmv1-8U1oeBqB2Q_%281%29.gif)
 
 只要執行寫好的巨集，我們在輸入成績時就能達到「即時排名成績的效果了」
 

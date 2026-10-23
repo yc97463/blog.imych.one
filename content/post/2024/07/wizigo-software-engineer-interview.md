@@ -34,7 +34,7 @@ tags: ["Interview", "Software Engineer", "Full Stack"]
 
 大眾運輸僅有早上與下午各 2 班公車，我從學校搭臺鐵過去，一定得要算好時間，不然很可能會錯過能轉乘的機會（好歹那裡有間大學？），動輒一個小時起跳。
 
-{{< figure src="../images/wizigo-software-engineer-interview/SCR-20240723-qfay.png" title="從花蓮火車站轉乘過去的規劃" >}}
+{{< figure src="r2:wizigo-software-engineer-interview/SCR-20240723-qfay.png" title="從花蓮火車站轉乘過去的規劃" >}}
 
 ## 面試過程
 

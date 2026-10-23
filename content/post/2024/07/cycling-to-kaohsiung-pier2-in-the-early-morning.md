@@ -20,7 +20,7 @@ images: ["images/cycling-to-kaohsiung-pier2-in-the-early-morning/cycling-route.j
 
 這條路線是環繞愛河的自行車道，連接了高雄市中心的愛河之心、駁二藝術特區、高雄港、高雄輕軌等地標。
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/cycling-route.jpg" title="騎乘路線圖" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/cycling-route.jpg" title="騎乘路線圖" >}}
 
 至於為什麼是「騎乘 YouBike」呢，主因是高中時期，持高雄市內教育機構的學生證，即可享有前 30 分鐘免費騎乘 YouBike 的優惠。這個優惠對於我們這些高中生來說，是一個很大的福利，讓我們可以輕鬆地騎著 YouBike 到處走走。
 
@@ -32,7 +32,7 @@ images: ["images/cycling-to-kaohsiung-pier2-in-the-early-morning/cycling-route.j
 
 今年的高雄夏天，白天外頭的太陽日曬猛烈，城市無比悶熱，清晨的微涼的對比更顯得是一種享受。
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/20240705-kaohsiung-love-river-sunrise.jpeg" title="在愛河之心附近，我們停下來拍了一張照片，然後繼續沿著愛河騎到駁二" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/20240705-kaohsiung-love-river-sunrise.jpeg" title="在愛河之心附近，我們停下來拍了一張照片，然後繼續沿著愛河騎到駁二" >}}
 
 基本上一如往常地沿著愛河騎下去，途中經過同盟路、中都溼地公園、中都磚窯場、二二八紀念公園等等。在離開高雄出外讀書的數年間，這些地點附近都有了一些更新。
 
@@ -40,29 +40,29 @@ images: ["images/cycling-to-kaohsiung-pier2-in-the-early-morning/cycling-route.j
 
 聽聞九如陸橋在拆掉後，一直沒時間晃過來看看，印象中這裡因為覆蓋陸橋的關係，視覺上有些擁擠。這次經過這裡時還有些不習慣，總覺得天空開闊許多，原先陸橋的佔地也先以槽化區替代。
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/SCR-20240722-pjpe.png" title="2024 九如陸橋拆除新聞" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/SCR-20240722-pjpe.png" title="2024 九如陸橋拆除新聞" >}}
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2595.jpeg" title="拆掉陸橋後，視野一片開闊" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2595.jpeg" title="拆掉陸橋後，視野一片開闊" >}}
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2587.jpeg" title="九如陸橋拆掉後，原先的陸橋佔地已經槽化" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2587.jpeg" title="九如陸橋拆掉後，原先的陸橋佔地已經槽化" >}}
 
 ## 二二八紀念公園 徒步區翻新
 
 在二二八紀念公園附近，這裡的徒步區也有了一些更新。這裡的地磚鋪面被重新鋪設成水泥，讓人感覺整個公園更加整潔。
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2615.jpeg" title="二二八紀念公園的徒步區地磚重新鋪設" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2615.jpeg" title="二二八紀念公園的徒步區地磚重新鋪設" >}}
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2613.jpeg" title="貌似是新增的「愛河」橋墩裝飾物" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2613.jpeg" title="貌似是新增的「愛河」橋墩裝飾物" >}}
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2619.jpeg" title="公園另一側的橋墩路口" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2619.jpeg" title="公園另一側的橋墩路口" >}}
 
 ## 駁二蓬萊倉庫群 🚃
 
 來到駁二的貨櫃區附近，路面電車緩緩從我們身旁開過去，早晨的輕軌在陽光下顯得格外悠閒。
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2631.jpeg" title="高雄輕軌，行經哈瑪星、駁二倉庫一帶 " >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2631.jpeg" title="高雄輕軌，行經哈瑪星、駁二倉庫一帶 " >}}
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2632.jpeg" title="駁二地景藝術《巨人的積木》 " >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2632.jpeg" title="駁二地景藝術《巨人的積木》 " >}}
 
 <!-- youtube video -->
 
@@ -75,9 +75,9 @@ images: ["images/cycling-to-kaohsiung-pier2-in-the-early-morning/cycling-route.j
 
 > [📍 碼頭阿姨蛋餅](https://maps.app.goo.gl/74UtWNbpTVsawFLT7) 804高雄市鼓山區鼓山一路5號之 1，捷運哈瑪星站附近。
 
-![碼頭阿姨蛋餅](../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2643.jpeg)
+![碼頭阿姨蛋餅](r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2643.jpeg)
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2644.jpeg" title="蛋餅一份只要 $20，脆脆的超好吃" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/IMG_2644.jpeg" title="蛋餅一份只要 $20，脆脆的超好吃" >}}
 
 吃完就差不多了，我們就搭乘路面電車（高雄輕軌）回到愛河之心，準備迎接有早上的一天。
 
@@ -87,4 +87,4 @@ images: ["images/cycling-to-kaohsiung-pier2-in-the-early-morning/cycling-route.j
 
 在最後通車的輕軌大順路段，有著數間學校，在這趟回愛河之心的輕軌上搭著許多學生，從駁二一路接到大順路上。這是搭乘大眾運輸上學的浪漫吶～
 
-{{< figure src="../images/cycling-to-kaohsiung-pier2-in-the-early-morning/20240705-krtc-light-rail-hamasen-tram-station.jpeg" title="高雄輕軌 哈瑪星站" >}}
+{{< figure src="r2:cycling-to-kaohsiung-pier2-in-the-early-morning/20240705-krtc-light-rail-hamasen-tram-station.jpeg" title="高雄輕軌 哈瑪星站" >}}

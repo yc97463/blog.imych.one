@@ -11,7 +11,7 @@ tl;dr: 從舊版 Google Site 搬遷到 WordPress 的紀錄和改變。
 
 來到三民後，明顯可以發現到學校是 Google Sites 愛用者，一整個感覺就不太對了。
 
-![Untitled](../images/renew-guidance-websites-ceab0b426d56/Untitled.png)
+![Untitled](r2:renew-guidance-websites-ceab0b426d56/Untitled.png)
 
 這是舊版的 Google Sites，但在現今人手一機的時代，在手機上瀏覽這類的網站，容易會導致使用者瀏覽體驗不佳，難瀏覽之類的。
 
@@ -27,12 +27,12 @@ tl;dr: 從舊版 Google Site 搬遷到 WordPress 的紀錄和改變。
 
 還有外掛的問題，有些不合需求，或參雜著太多無用資訊，我也有把它修改，但這樣的壞處就是沒辦法更新外掛（基本上也沒有更新的需求啦！）
 
-![Untitled](../images/renew-guidance-websites-ceab0b426d56/Untitled%201.png)
+![Untitled](r2:renew-guidance-websites-ceab0b426d56/Untitled%201.png)
 
 為了讓老師能比較有方向上手 WordPress 後台，我另外還花時間寫了 WordPress 操作手冊（主要是校方會使用到的功能），真的是⋯好累啊！平常很順手的動作，要拆解成很多畫面，再一張一張為截圖詳細標註說明，真的很費時間。
 
 最後，成品登場了！
 
-![利用 WordPress 重新整理後的成品！](../images/renew-guidance-websites-ceab0b426d56/Untitled%202.png)
+![利用 WordPress 重新整理後的成品！](r2:renew-guidance-websites-ceab0b426d56/Untitled%202.png)
 
 利用 WordPress 重新整理後的成品！

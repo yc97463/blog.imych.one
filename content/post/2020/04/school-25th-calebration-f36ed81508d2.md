@@ -13,31 +13,31 @@ tags: ["Canon", "Photos📸"]
 
 <!--more-->
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled.png)
 
 # **大傳社主持**
 
 而在切蛋糕的這天，也有大傳社開場主持、歌喉盃比賽、熱舞社表演。
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%201.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%201.png)
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%202.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%202.png)
 
 # **歌喉盃**
 
 歌喉盃是給有意願在校慶上表演自己的歌唱能力，利用歌唱與全校師生分享自己喜愛歌曲的歌唱比賽。
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%203.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%203.png)
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%204.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%204.png)
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%205.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%205.png)
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%206.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%206.png)
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%207.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%207.png)
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%208.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%208.png)
 
 ---
 
@@ -46,21 +46,21 @@ tags: ["Canon", "Photos📸"]
 > 大傳學姊：誰要講笑話～我們班會長：我我我
 > 
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%209.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%209.png)
 
 # **熱舞社演出**
 
 不多說，直接上照片。
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%2010.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%2010.png)
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%2011.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%2011.png)
 
 # **嗑派**
 
 最後回教室大家嗑光波士頓派 (❁´◡`❁)
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%2012.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%2012.png)
 
 # **HBD**
 
@@ -68,4 +68,4 @@ tags: ["Canon", "Photos📸"]
 
 新的 LED 面板趕在慶生前順利裝上去。
 
-![Untitled](../images/school-25th-calebration-f36ed81508d2/Untitled%2013.png)
+![Untitled](r2:school-25th-calebration-f36ed81508d2/Untitled%2013.png)

@@ -33,11 +33,11 @@ KMT 的口號主要是這三條，非常有印象點：
 - 傅崐萁主張 還錢於民！ 全民普發一萬元
 - 反罷免成功 花蓮每年多 161 億
 
-{{<figure src="壽豐@lg.jpeg" title="壽豐台九線進市區看板">}}
-{{<figure src="吉安市場@lg.jpeg" title="吉安市場四向大路口">}}
-{{<figure src="吉安瑞穗玉里小看板@lg.jpeg" title="吉安、瑞穗、玉里等區域">}}
-{{<figure src="公路看板@lg.jpeg" title="台九線公路上的看板">}}
-{{<figure src="新城@lg.jpeg" title="新城往花蓮方向，公路上的巨型看板">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%A3%BD%E8%B1%90@lg.jpeg" title="壽豐台九線進市區看板">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%90%89%E5%AE%89%E5%B8%82%E5%A0%B4@lg.jpeg" title="吉安市場四向大路口">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%90%89%E5%AE%89%E7%91%9E%E7%A9%97%E7%8E%89%E9%87%8C%E5%B0%8F%E7%9C%8B%E6%9D%BF@lg.jpeg" title="吉安、瑞穗、玉里等區域">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%85%AC%E8%B7%AF%E7%9C%8B%E6%9D%BF@lg.jpeg" title="台九線公路上的看板">}}
+{{<figure src="r2:recall-2025-in-hualien/%E6%96%B0%E5%9F%8E@lg.jpeg" title="新城往花蓮方向，公路上的巨型看板">}}
 
 
 整個縣內籠罩、灌輸著這種氛圍，想想還是覺得滿震撼的。
@@ -50,12 +50,12 @@ KMT 的口號主要是這三條，非常有印象點：
 
 這裡截取幾頁，我個人認為每一頁都很精彩，無論你立場為何，我都推薦你來看看裡面寫了些什麼，完整的可以[➡️ 瀏覽這本相簿](https://photos.app.goo.gl/Y4YxmTWPQbt9ZE6q7)。
 
-{{<figure src="傅藍本-封面封底-請您一定要投票-不同意罷免！.jpeg" title="">}}
-{{<figure src="傅藍本-還錢於民-國民黨主張普發一萬元-稅收超徵1兆8707億.jpeg" title="">}}
-{{<figure src="傅藍本-還假於民-民生優先-電價電業法第49條-核電延役.jpeg" title="">}}
-{{<figure src="傅藍本-國家才畫法修法完成-花蓮每年多161億分配款.jpeg" title="">}}
-{{<figure src="傅藍本-爭取加速興建花東快-環島高鐵BOT招商-國道六號東延花蓮-台灣共同生活圈.jpeg" title="">}}
-{{<figure src="傅藍本-惡霸如果成功-柯建銘當院長您同意嗎-大罷免總司令柯建銘.jpeg" title="">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%82%85%E8%97%8D%E6%9C%AC-%E5%B0%81%E9%9D%A2%E5%B0%81%E5%BA%95-%E8%AB%8B%E6%82%A8%E4%B8%80%E5%AE%9A%E8%A6%81%E6%8A%95%E7%A5%A8-%E4%B8%8D%E5%90%8C%E6%84%8F%E7%BD%B7%E5%85%8D%EF%BC%81.jpeg" title="">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%82%85%E8%97%8D%E6%9C%AC-%E9%82%84%E9%8C%A2%E6%96%BC%E6%B0%91-%E5%9C%8B%E6%B0%91%E9%BB%A8%E4%B8%BB%E5%BC%B5%E6%99%AE%E7%99%BC%E4%B8%80%E8%90%AC%E5%85%83-%E7%A8%85%E6%94%B6%E8%B6%85%E5%BE%B51%E5%85%868707%E5%84%84.jpeg" title="">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%82%85%E8%97%8D%E6%9C%AC-%E9%82%84%E5%81%87%E6%96%BC%E6%B0%91-%E6%B0%91%E7%94%9F%E5%84%AA%E5%85%88-%E9%9B%BB%E5%83%B9%E9%9B%BB%E6%A5%AD%E6%B3%95%E7%AC%AC49%E6%A2%9D-%E6%A0%B8%E9%9B%BB%E5%BB%B6%E5%BD%B9.jpeg" title="">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%82%85%E8%97%8D%E6%9C%AC-%E5%9C%8B%E5%AE%B6%E6%89%8D%E7%95%AB%E6%B3%95%E4%BF%AE%E6%B3%95%E5%AE%8C%E6%88%90-%E8%8A%B1%E8%93%AE%E6%AF%8F%E5%B9%B4%E5%A4%9A161%E5%84%84%E5%88%86%E9%85%8D%E6%AC%BE.jpeg" title="">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%82%85%E8%97%8D%E6%9C%AC-%E7%88%AD%E5%8F%96%E5%8A%A0%E9%80%9F%E8%88%88%E5%BB%BA%E8%8A%B1%E6%9D%B1%E5%BF%AB-%E7%92%B0%E5%B3%B6%E9%AB%98%E9%90%B5BOT%E6%8B%9B%E5%95%86-%E5%9C%8B%E9%81%93%E5%85%AD%E8%99%9F%E6%9D%B1%E5%BB%B6%E8%8A%B1%E8%93%AE-%E5%8F%B0%E7%81%A3%E5%85%B1%E5%90%8C%E7%94%9F%E6%B4%BB%E5%9C%88.jpeg" title="">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%82%85%E8%97%8D%E6%9C%AC-%E6%83%A1%E9%9C%B8%E5%A6%82%E6%9E%9C%E6%88%90%E5%8A%9F-%E6%9F%AF%E5%BB%BA%E9%8A%98%E7%95%B6%E9%99%A2%E9%95%B7%E6%82%A8%E5%90%8C%E6%84%8F%E5%97%8E-%E5%A4%A7%E7%BD%B7%E5%85%8D%E7%B8%BD%E5%8F%B8%E4%BB%A4%E6%9F%AF%E5%BB%BA%E9%8A%98.jpeg" title="">}}
 
 我倒很意外社群媒體百花齊放散播著花蓮國的消息，Threads 上反而沒什麼人貼出這本刊物。
 
@@ -69,9 +69,9 @@ KMT 的口號主要是這三條，非常有印象點：
 
 就連山區的小聚落都在投遞範圍內，想像一下，每天回家必經的的出入路口掛滿旗幟，彷彿以口號歡迎你回來，實在是難以忽視。
 
-{{<figure src="壽豐附近_住宅區必經路口掛滿旗幟.jpeg" title="壽豐附近，住宅區必經路口掛滿旗幟">}}
-{{<figure src="壽豐附近_台九線上橋墩掛滿旗幟.jpeg" title="台九線上，壽豐市區往南所經橋墩掛滿旗幟">}}
-{{<figure src="壽豐附近_壽豐車站橋墩掛滿旗幟.jpeg" title="壽豐車站後站，橋墩上連排掛滿旗幟">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%A3%BD%E8%B1%90%E9%99%84%E8%BF%91_%E4%BD%8F%E5%AE%85%E5%8D%80%E5%BF%85%E7%B6%93%E8%B7%AF%E5%8F%A3%E6%8E%9B%E6%BB%BF%E6%97%97%E5%B9%9F.jpeg" title="壽豐附近，住宅區必經路口掛滿旗幟">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%A3%BD%E8%B1%90%E9%99%84%E8%BF%91_%E5%8F%B0%E4%B9%9D%E7%B7%9A%E4%B8%8A%E6%A9%8B%E5%A2%A9%E6%8E%9B%E6%BB%BF%E6%97%97%E5%B9%9F.jpeg" title="台九線上，壽豐市區往南所經橋墩掛滿旗幟">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%A3%BD%E8%B1%90%E9%99%84%E8%BF%91_%E5%A3%BD%E8%B1%90%E8%BB%8A%E7%AB%99%E6%A9%8B%E5%A2%A9%E6%8E%9B%E6%BB%BF%E6%97%97%E5%B9%9F.jpeg" title="壽豐車站後站，橋墩上連排掛滿旗幟">}}
 
 某天，我在壽豐附近的小村落閒晃，意外與一戶熱情的住戶搭上話。聊起周遭景點時，兩人興致勃勃，卻**對眼前那面高聳醒目的旗幟心照不宣地避而不談**，氣氛略顯微妙。
 
@@ -79,7 +79,7 @@ KMT 的口號主要是這三條，非常有印象點：
 
 在他們的言談裡，我隱約感受到這樣的共識──即使社會被迫選邊站，日子仍照常前行，彷彿結局早已寫好。這個部分後面會談到。
 
-{{<figure src="壽豐附近_生活一條街掛滿旗幟.jpeg" title="小村落多沿著一條筆直的道路發展。站在起點極目遠眺，視線可直抵盡頭，沿途旗幟懸掛，綿延不絕">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%A3%BD%E8%B1%90%E9%99%84%E8%BF%91_%E7%94%9F%E6%B4%BB%E4%B8%80%E6%A2%9D%E8%A1%97%E6%8E%9B%E6%BB%BF%E6%97%97%E5%B9%9F.jpeg" title="小村落多沿著一條筆直的道路發展。站在起點極目遠眺，視線可直抵盡頭，沿途旗幟懸掛，綿延不絕">}}
 
 到後來我拍到懶得拍了，實在是太氾濫了，密度堪比便利商店還密集，實在受不了一段路走走停停了。
 
@@ -89,9 +89,9 @@ KMT 的口號主要是這三條，非常有印象點：
 
 以看板數量為例，許多地區看板寥寥，往往只見到一面。也正因物理宣傳不足，志工便以街頭宣講與手持標語的方式積極補位，努力擴散訴求。
 
-{{<figure src="花蓮市電視牆@lg.jpeg" title="花蓮市石來運轉五向路口，東大門停車場對面的廣告電視牆，上頭刊載著「裁傅自由」的口號">}}
-{{<figure src="罷免公民團體_看板.jpeg" title="光復車站附近、玉里圓環處的同意罷免看板，呼籲居民「出來投票」">}}
-{{<figure src="罷免公民團體_街頭宣講.jpeg" title="花蓮市石來運轉 v.s. 商校街路口宣講">}}
+{{<figure src="r2:recall-2025-in-hualien/%E8%8A%B1%E8%93%AE%E5%B8%82%E9%9B%BB%E8%A6%96%E7%89%86@lg.jpeg" title="花蓮市石來運轉五向路口，東大門停車場對面的廣告電視牆，上頭刊載著「裁傅自由」的口號">}}
+{{<figure src="r2:recall-2025-in-hualien/%E7%BD%B7%E5%85%8D%E5%85%AC%E6%B0%91%E5%9C%98%E9%AB%94_%E7%9C%8B%E6%9D%BF.jpeg" title="光復車站附近、玉里圓環處的同意罷免看板，呼籲居民「出來投票」">}}
+{{<figure src="r2:recall-2025-in-hualien/%E7%BD%B7%E5%85%8D%E5%85%AC%E6%B0%91%E5%9C%98%E9%AB%94_%E8%A1%97%E9%A0%AD%E5%AE%A3%E8%AC%9B.jpeg" title="花蓮市石來運轉 v.s. 商校街路口宣講">}}
 
 ## 花蓮 2024 立委選舉 v.s. 2025 立委罷免投票率
 
@@ -99,9 +99,9 @@ KMT 的口號主要是這三條，非常有印象點：
 
 意外的是，2024 年立委選舉整體投票率其實都算高，這或許反映了民眾對政治參與的關注度其實沒有我們想像中那麼低，**居民也信任傅的治理成果**。
 
-{{<figure src="photo_2025-07-27_14-27-36.jpg" title="2024 年立委選舉，花蓮縣投票統計">}}
+{{<figure src="r2:recall-2025-in-hualien/photo_2025-07-27_14-27-36.jpg" title="2024 年立委選舉，花蓮縣投票統計">}}
 
-{{<figure src="SCR-20250730-nvng.jpeg" title="2025 年罷免投票風向視覺化地圖">}}
+{{<figure src="r2:recall-2025-in-hualien/SCR-20250730-nvng.jpeg" title="2025 年罷免投票風向視覺化地圖">}}
 
 # 民意反思
 
@@ -124,7 +124,7 @@ KMT 的口號主要是這三條，非常有印象點：
 
 原來他們**投給家鄉的不同意，並非支持當地藍立委，而是對綠執政黨執政不抱有希望，因此選擇留下在野的聲音。**
 
-{{<figure src="壽豐_不同意惡劣罷免_生活要安定_族群要和諧_反惡劣罷免行動聯盟.jpeg" title="壽豐市區往豐田方向的路上，無論搭臺鐵或駕車，都能看到這面看板，強調著「生活要安定、族群要和諧」">}}
+{{<figure src="r2:recall-2025-in-hualien/%E5%A3%BD%E8%B1%90_%E4%B8%8D%E5%90%8C%E6%84%8F%E6%83%A1%E5%8A%A3%E7%BD%B7%E5%85%8D_%E7%94%9F%E6%B4%BB%E8%A6%81%E5%AE%89%E5%AE%9A_%E6%97%8F%E7%BE%A4%E8%A6%81%E5%92%8C%E8%AB%A7_%E5%8F%8D%E6%83%A1%E5%8A%A3%E7%BD%B7%E5%85%8D%E8%A1%8C%E5%8B%95%E8%81%AF%E7%9B%9F.jpeg" title="壽豐市區往豐田方向的路上，無論搭臺鐵或駕車，都能看到這面看板，強調著「生活要安定、族群要和諧」">}}
 
 ## 是誰讓我們開始難以討論公共事務？（雜談）
 

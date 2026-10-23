@@ -9,7 +9,7 @@ tags: ["medium"]
 
 是的，我放棄 [WordPress](https://tw.wordpress.org/) 了，陪伴我的那 8 年歲月暫時告一段落。
 
-![Untitled](../images/hello-medium-7e4a329f7f71/Untitled.png)
+![Untitled](r2:hello-medium-7e4a329f7f71/Untitled.png)
 
 還記得在我國小時，因為無名小站的收攤，造成數多個部落格流離失所。當時的 WordPress 相較下還沒有現在（版本 5.7）花俏，當時的後台還只是單純的發文、頁面、佈景、外掛，其實和現在的後台架構也差不多，差在社群支援量又更大了。
 
@@ -29,7 +29,7 @@ tags: ["medium"]
 
 有時候因為換主題，這些曾裁切的大小可能會不適用，What？不適用，這樣之前切好的圖片不就佔空間了嗎？嘿是的沒錯，所以要用外掛重新產生出符合佈景主題會用到的圖檔（例如首頁文章集錦的略縮圖、文章內頁封面圖通常會有另外的比例大小），但產生的過程很不幸的，有些沒刪掉、有些多產、有些產完，但首頁圖片全掛等等棘手的問題全部來跟你相見歡。
 
-![WordPress 裁切功能驚人](../images/hello-medium-7e4a329f7f71/Untitled%201.png)
+![WordPress 裁切功能驚人](r2:hello-medium-7e4a329f7f71/Untitled%201.png)
 
 WordPress 裁切功能驚人
 

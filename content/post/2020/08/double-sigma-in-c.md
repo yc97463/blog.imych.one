@@ -19,7 +19,7 @@ tags: ["math", "C"]
 
 1. 為了解決 “⋯” 意義不清的困擾，就以下圖來表示 “a1+a2+⋯+an”。
 
-![a1+a2+⋯+an](../images/double-sigma-in-c/Untitled.png)
+![a1+a2+⋯+an](r2:double-sigma-in-c/Untitled.png)
 
 a1+a2+⋯+an
 
@@ -31,17 +31,17 @@ a1+a2+⋯+an
 
 假設我們以這組雙重 Σ 為例。
 
-![Untitled](../images/double-sigma-in-c/Untitled%201.png)
+![Untitled](r2:double-sigma-in-c/Untitled%201.png)
 
 ## **理解 由外→內**
 
 原式 →
 
-![Untitled](../images/double-sigma-in-c/Untitled%202.png)
+![Untitled](r2:double-sigma-in-c/Untitled%202.png)
 
 由外面向內拆解，會發現到內層
 
-![Untitled](../images/double-sigma-in-c/Untitled%203.png)
+![Untitled](r2:double-sigma-in-c/Untitled%203.png)
 
 會向外列式計算（ i 逐漸增加），最終列式結果會像這樣。
 
@@ -49,7 +49,7 @@ a1+a2+⋯+an
 
 而實做由內而外拆解，全部拆解完會如下方這樣的倒三角形。
 
-![Untitled](../images/double-sigma-in-c/Untitled%204.png)
+![Untitled](r2:double-sigma-in-c/Untitled%204.png)
 
 # **利用 C++ 實作雙重 Σ**
 
@@ -57,4 +57,4 @@ a1+a2+⋯+an
 
 在這裡（以 CodeBlocks 為例）定義完變數 i、j 後，基本上只需要了解 for 或 while 迴圈，就可以照著解 Σ 的邏輯寫出程式。你可能會發現到最後一行 “9×10+” 最後面居然多出了一個 “+”，沒錯只因為我懶，這個 “+” 可以再透過 if 判斷是否為最後一組，進而不輸出 “+” 字符。
 
-![Untitled](../images/double-sigma-in-c/Untitled%205.png)
+![Untitled](r2:double-sigma-in-c/Untitled%205.png)

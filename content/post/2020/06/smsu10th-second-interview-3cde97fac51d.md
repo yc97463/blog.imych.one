@@ -20,7 +20,7 @@ tags: ["interview"]
 
 當時以為一面就定生死的me，突然感到恐慌⋯
 
-![Untitled](../images/smsu10th-second-interview-3cde97fac51d/Untitled.png)
+![Untitled](r2:smsu10th-second-interview-3cde97fac51d/Untitled.png)
 
 # **當天面試**
 

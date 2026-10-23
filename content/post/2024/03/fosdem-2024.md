@@ -23,9 +23,9 @@ FOSDEM 全名 **Free and Open source Software Developers' European Meeting**，�
 
 2024 年一樣在比利時的布魯塞爾自由大學舉辦，2/3 - 2/4 為期兩天的會議，免費參與。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-homepage-screenshot.jpeg" title="FOSDEM.org 官網">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-campusmap.png" title="會議場地範圍，幾乎覆蓋整個自由大學校區">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-opening.jpg" title="FOSDEM 開幕">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-homepage-screenshot.jpeg" title="FOSDEM.org 官網">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-campusmap.png" title="會議場地範圍，幾乎覆蓋整個自由大學校區">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-opening.jpg" title="FOSDEM 開幕">}}
 
 # FOSDEM 議程
 
@@ -45,9 +45,9 @@ FOSDEM 的議程安排與 COSCUP 臺灣開源人年會相似，每個議程軌�
 
 我覺得這個議程很有趣，講者 Bill 分享在參與眾多社群交友的經驗與對生活的結合幫助、效益，以及向在場會眾分享 BUZZING ACROSS SPACE 的教材，裡面以視覺化的方式介紹 Linux Kernel。
 
-![](../images/fosdem-2024/fosdem2024-building-an-open-source-community-one-friend-at-a-tile-lecture.jpeg)
+![](r2:fosdem-2024/fosdem2024-building-an-open-source-community-one-friend-at-a-tile-lecture.jpeg)
 
-{{<figure src="../images/fosdem-2024/fosdem2024-building-an-open-source-community-one-friend-at-a-tile-books.jpg" title="BUZZING ACROSS SPACE 教材，視覺化呈現 Linux Kernel">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-building-an-open-source-community-one-friend-at-a-tile-books.jpg" title="BUZZING ACROSS SPACE 教材，視覺化呈現 Linux Kernel">}}
 
 休息時間中還遇到上一場休息時間的發糖果環節，主持人從下方講台大聲問：「誰要糖果～」觀眾席的會眾大聲喊：「我要～～」主持人從台下把一包糖果拋向會眾的位置，讓糖果飛高高！這是個相較臺灣研討會很不一樣的體驗，在臺灣的互動相對保守一些，比較不會像這邊所營造輕鬆的氛圍。
 
@@ -55,7 +55,7 @@ FOSDEM 的議程安排與 COSCUP 臺灣開源人年會相似，每個議程軌�
 
 我覺得在演講中講到一個重要的事：「人類是脆弱的，有情緒也有心情不好的時候。」因此講者也提出以鼓勵參與的方式，以及在開放環境工作的方法。
 
-![](../images/fosdem-2024/Strategies_Healthy_OSS_Communities_FOSDEM_2024_page4_compress.jpeg)
+![](r2:fosdem-2024/Strategies_Healthy_OSS_Communities_FOSDEM_2024_page4_compress.jpeg)
 
 [ref: Strategies for Building Healthy Open Source Communities](https://fastwonderblog.com/wp-content/uploads/2024/02/Strategies_Healthy_OSS_Communities_FOSDEM_2024.pdf)
 
@@ -71,9 +71,9 @@ Rasshi Saxena 在 [Web-accessibility for open-source privacy & security tools](h
 
 他們分享在今年 FOSDEM 影片與直播串流的基礎建設，其中介紹他們自製的「視訊盒（Video box）」，將攝影機、講者電腦畫面的訊號串流至自建的算圖農場（Render farm）來處理，包括給即時串流的影像合成、畫面裁切，以及最終上架至官網的有頭有尾版都會在這裡自動處理完。
 
-![](../images/fosdem-2024/fosdem2024-fosdem-infrastructure-review-videoboxs.jpg)
+![](r2:fosdem-2024/fosdem2024-fosdem-infrastructure-review-videoboxs.jpg)
 
-![](../images/fosdem-2024/fosdem2024-fosdem-infrastructure-review-renderfarm.jpg)
+![](r2:fosdem-2024/fosdem2024-fosdem-infrastructure-review-renderfarm.jpg)
 
 [ref: Infrastructure Review](https://fosdem.org/2024/events/attachments/fosdem-2024-3025-fosdem-infrastructure-review/slides/22918/2024-02-04--Monitoring_and_observability_devroo_3jGxyyI.pdf)
 
@@ -81,11 +81,11 @@ Rasshi Saxena 在 [Web-accessibility for open-source privacy & security tools](h
 
 這跟臺灣很不一樣，就我參加的 COSCUP 2022 來說，每個議程廳有獨立的導播處理計時、控制畫面、議程錄影，待整天活動結束後才開始剪輯每一場的議程片段。光是處理這些，每個 room 的導播忙都忙翻天了！
 
-{{<figure src="../images/fosdem-2024/fosdem2024-fosdem-infrastructure-review-dashboard.jpg" title="農場端來自各議程軌訊號輸入即時串流板板，講者 cam、議程簡報的訊號都是獨立傳入">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-fosdem-infrastructure-review-dashboard.jpg" title="農場端來自各議程軌訊號輸入即時串流板板，講者 cam、議程簡報的訊號都是獨立傳入">}}
 
 [ref: Infrastructure Review](https://fosdem.org/2024/events/attachments/fosdem-2024-3025-fosdem-infrastructure-review/slides/22918/2024-02-04--Monitoring_and_observability_devroo_3jGxyyI.pdf)
 
-{{<figure src="../images/fosdem-2024/coscup2022-director-workstation.jpg" title="COSCUP 2022 導播工作區，有超大螢幕來監控輸入訊號、畫面輸出、直播排版">}}
+{{<figure src="r2:fosdem-2024/coscup2022-director-workstation.jpg" title="COSCUP 2022 導播工作區，有超大螢幕來監控輸入訊號、畫面輸出、直播排版">}}
 
 [ref: 📷 COSCUP 2022 Day 1 on Flickr](https://www.flickr.com/photos/coscup/52304876729/in/album-72177720301524008/)
 
@@ -97,11 +97,11 @@ Rasshi Saxena 在 [Web-accessibility for open-source privacy & security tools](h
 
 第一位進行照片分享，分享他在研討會中看到的大家，有興趣的話可以去看這場的[錄影存檔](https://video.fosdem.org/2024/janson/fosdem-2024-3723-fosdem-2024-highlights.av1.webm)。
 
-![](../images/fosdem-2024/fosdem2024-hightlight-photosharing.jpg)
+![](r2:fosdem-2024/fosdem2024-hightlight-photosharing.jpg)
 
 還有在舞台上自拍的 🤳，現場歡樂氣氛滿滿。
 
-![](../images/fosdem-2024/fosdem2024-hightlight-meme-selfie.jpg)
+![](r2:fosdem-2024/fosdem2024-hightlight-meme-selfie.jpg)
 
 這位則是在台上表演魔術 🪄👀✨。
 
@@ -109,7 +109,7 @@ Rasshi Saxena 在 [Web-accessibility for open-source privacy & security tools](h
 
 不忘推廣開源的 Matrix 通訊協定，現場開啟了一場即時視訊會議室，大家蜂擁而入結果都連不進去，現階段與商用的視訊會議平台相較的穩定度還是有差。
 
-![](../images/fosdem-2024/fosdem2024-highlight-matrix.jpg)
+![](r2:fosdem-2024/fosdem2024-highlight-matrix.jpg)
 
 # FOSDEM 攤位
 
@@ -117,34 +117,34 @@ FOSDEM 的社群攤位也是很多，而且還使用建築物來區分種類。�
 
 ## AW building 作業系統
 
-{{<figure src="../images/fosdem-2024/fosdem2024-stands-aw-building.jpeg" title="AW 棟的社群攤位 - 作業系統區">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-stands-aw-building.jpeg" title="AW 棟的社群攤位 - 作業系統區">}}
 
-{{<figure src="../images/fosdem-2024/fosdem2024-stands-fedora.jpg" title="Fedora 攤位、貼紙">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-stands-fedora.jpg" title="Fedora 攤位、貼紙">}}
 
 我們看到這個攤位超酷，他們的將遊戲最佳化讓就算是樹莓派也可以順暢執行，我跟同行者 Timothy 在現場連線對戰打起了遊戲。
-{{<figure src="../images/fosdem-2024/fosdem2024-stands-gaming-on-raspberrypi.jpeg" title="在樹莓派上連線對戰">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-stands-gaming-on-raspberrypi.jpeg" title="在樹莓派上連線對戰">}}
 
 我們還在 Linux on mobile 攤位上看到很酷的手錶，這個手錶的作業系統不是原生出場的作業系統，出廠的作業系統往往會有些限制。
 
 他們套用開源的作業系統在智慧型手錶上，只要硬體也相容，就能做有別於原始普通穿戴式手錶的功能、在穿戴裝置上**自由開發**，例如在手錶上玩 2048 遊戲？
-{{<figure src="../images/fosdem-2024/fosdem2024-stands-linux-on-mobile-watch-2048.jpeg" title="在穿戴式手錶上用魔改的作業系統玩 2048 遊戲">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-stands-linux-on-mobile-watch-2048.jpeg" title="在穿戴式手錶上用魔改的作業系統玩 2048 遊戲">}}
 
 這裡的 Pixel Tablet 也不是裝著單純的 Android OS，而是主打隱私、安全的 CalyxOS，其中包含自由和開源軟體。可見這裡在使用與開發軟體上是相較注重自由、安全與隱私的。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-stands-CalyxOS.jpeg" title="">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-stands-CalyxOS.jpeg" title="">}}
 
 ## K building 社群宣傳
 
 接著來到社群宣傳的 K 棟，這裡也有來自臺灣的 OCF 開放文化基金會和臺灣社群～
 
-{{<figure src="../images/fosdem-2024/fosdem2024-stands-ocftw-and-yc97463.jpg" title="yc 正和 OCF 攤位合照呢！✌️">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-stands-ocftw-and-yc97463.jpg" title="yc 正和 OCF 攤位合照呢！✌️">}}
 
 K 棟有很多有趣的社群，有販賣作品的，也有展示作品的。
 
-![](../images/fosdem-2024/fosdem2024-stands-k-building.jpeg)
+![](r2:fosdem-2024/fosdem2024-stands-k-building.jpeg)
 
 正巧來了 PostgreSQL 的吉祥物 Slonik，藉機教他一個臺灣「被正妹 coser 忽略的愛心手勢（比讚＋一半愛心）」，他們都覺得很有趣！
-![](../images/fosdem-2024/fosdem2024-photo-with-postgresql-slonik.jpg)
+![](r2:fosdem-2024/fosdem2024-photo-with-postgresql-slonik.jpg)
 
 FOSSASIA 是亞洲地區幫助自由和開源技術開發者和 maker 的非營利組織，他們販售著 LED 跑馬燈。
 
@@ -154,7 +154,7 @@ FOSSASIA 是亞洲地區幫助自由和開源技術開發者和 maker 的非營�
 
 然而購買也是對社群的支持，金錢的流入是對於社群營運實實在在的資助，這比起計較物品本身的價值來得有意義許多。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-fossasia.jpeg" title="一個普通的 LED 賣到 20 歐元（大約新台幣 700 元），竟然還有不少人買單？！">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-fossasia.jpeg" title="一個普通的 LED 賣到 20 歐元（大約新台幣 700 元），竟然還有不少人買單？！">}}
 
 {{< iframe "https://www.youtube.com/embed/videoseries?si=cz0Cl_zOvCJTEwFP&amp;list=PLG3HqCy3pqVHzGLvw0AkRTZXu6OlzUAd9" >}}
 
@@ -162,7 +162,7 @@ FOSSASIA 是亞洲地區幫助自由和開源技術開發者和 maker 的非營�
 
 長毛象也有來！
 
-![](../images/fosdem-2024/fosdem2024-mastodon.jpeg)
+![](r2:fosdem-2024/fosdem2024-mastodon.jpeg)
 
 # 一日志工
 
@@ -170,9 +170,9 @@ FOSSASIA 是亞洲地區幫助自由和開源技術開發者和 maker 的非營�
 
 我們這次去最有趣的體驗是「一日志工」。一日志工是一個自願性質的任務，只要在 [FOSDEM Volunteers](https://volunteers.fosdem.org/) 志工系統上打勾報名即可，全程可以自由安排，在平台上報名的數量也很踴躍，大部分的需求項目都有找滿協助者。
 
-![](../images/fosdem-2024/fosdem2024-volunteers-selfie.jpg)
+![](r2:fosdem-2024/fosdem2024-volunteers-selfie.jpg)
 
-{{<figure src="../images/fosdem-2024/fosdem2024-volunteers-task-list.png" title="FOSDEM Volunteers Task 上的任務列表，可以一覽任務類型、幫忙時間、需求人數">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-volunteers-task-list.png" title="FOSDEM Volunteers Task 上的任務列表，可以一覽任務類型、幫忙時間、需求人數">}}
 
 我和 Timothy 決定去試試看議程主持人（Heralding）的任務，主要負責 J 棟（主議程軌）議程的開場介紹、時間控制，以及最後的問答引導。
 
@@ -194,7 +194,7 @@ ref: https://fosdem.org/2024/news/2024-01-28-call-for-volunteers/
 
 順帶一提，我覺得在這裡的環境是能夠**友善包容不完美的人**。我們第一次在服務處遇到的是言語功能障礙的志工，儘管無法像其他人一樣的溝通方式，他也很努力透過比手畫腳向我們表達他所知道的資訊。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-volunteers-application-screenshot.jpg" title="我們當時不斷繞路，經歷三次取消與申請才正式登台">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-volunteers-application-screenshot.jpg" title="我們當時不斷繞路，經歷三次取消與申請才正式登台">}}
 
 關於一日志工的制度，我覺得這又是一個文化差異了。在臺灣的 COSCUP 從 2020 年開始試行「[志工任務](https://volunteer.coscup.org/tasks/)」的一日志工，直至 2023 年，仍有許多任務無法招滿人，僅有零星會眾參與。
 
@@ -205,8 +205,8 @@ ref: https://fosdem.org/2024/news/2024-01-28-call-for-volunteers/
 在他們志工休息室內，有好幾箱各式各樣的零食與水果，超豪華ㄉ，只要想吃都可以自取。
 
 
-![](../images/fosdem-2024/fosdem2024-volunteers-lounge-fruit.jpg)
-![](../images/fosdem-2024/fosdem2024-volunteers-lounge-snack.jpg)
+![](r2:fosdem-2024/fosdem2024-volunteers-lounge-fruit.jpg)
+![](r2:fosdem-2024/fosdem2024-volunteers-lounge-snack.jpg)
 
 ## 對人的信任
 
@@ -219,41 +219,41 @@ ref: https://fosdem.org/2024/news/2024-01-28-call-for-volunteers/
 
 我覺得這是一種開放參與，以及信任人們的最佳實踐方式。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-closing-173volunteers.jpg" title="一日志工也有被列名在閉幕簡報上">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-closing-173volunteers.jpg" title="一日志工也有被列名在閉幕簡報上">}}
 
 # 校區環境、生活
 
 他們的校區很大（但應該不比東華大），沿途也會看到不少攤位與景色。
 
 ## 人物觀察
-{{<figure src="../images/fosdem-2024/fosdem2024-corridor.jpeg" title="穿越走廊，匯集許多人">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-traffic-cone-hat.jpeg" title="交通錐帽帽！">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-wireless-access-point.jpeg" title="有人在現場自架基地台">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-corridor.jpeg" title="穿越走廊，匯集許多人">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-traffic-cone-hat.jpeg" title="交通錐帽帽！">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-wireless-access-point.jpeg" title="有人在現場自架基地台">}}
 
 ## 餐食
 
 FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的酒品。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-diet-menu.jpg" title="一進門就看到各式各樣的酒類菜單">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-diet-fosdembear-and-sandwich.jpg" title="FOSDEM 年度主題酒、超長的三明治">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-diet-menu.jpg" title="一進門就看到各式各樣的酒類菜單">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-diet-fosdembear-and-sandwich.jpg" title="FOSDEM 年度主題酒、超長的三明治">}}
 
 除了餐廳販賣的食物，現場也會有各種餐車。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-diner.jpeg" title="擺攤餐車，販賣各式餐食">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-diner-firefox.jpeg" title="Firefox cookie">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-diner-in-rain.jpg" title="雨中的餐車街">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-diner.jpeg" title="擺攤餐車，販賣各式餐食">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-diner-firefox.jpeg" title="Firefox cookie">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-diner-in-rain.jpg" title="雨中的餐車街">}}
 
 ## 風景 📸
 
-{{<figure src="../images/fosdem-2024/fosdem2024-campus-doorway.jpeg" title="ULB 的校門口，開放自由的大門相較臺灣校園的圍牆友善許多">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-campus.jpeg" title="餐廳旁的校園景緻">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-j-building.jpeg" title="J 棟建築物，主議程廳">}}
-{{<figure src="../images/fosdem-2024/fosdem2024-road-outside.jpeg" title="校外道路，C 級路權讓路面電車、汽車、自行車共用道路">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-campus-doorway.jpeg" title="ULB 的校門口，開放自由的大門相較臺灣校園的圍牆友善許多">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-campus.jpeg" title="餐廳旁的校園景緻">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-j-building.jpeg" title="J 棟建築物，主議程廳">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-road-outside.jpeg" title="校外道路，C 級路權讓路面電車、汽車、自行車共用道路">}}
 
 ## 電梯
 在這裡有看到很酷的推拉門電梯，跟建築物本體很融合，我們好幾次沒有注意到這裡有電梯。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-elevator.jpeg" title="推拉門的電梯">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-elevator.jpeg" title="推拉門的電梯">}}
 
 # 觀察到的小地方
 
@@ -263,25 +263,25 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 例如綠色是影片相關；橘色則是一般志工；黃色則是主辦單位，所有 [Code of Conduct 事件](https://fosdem.org/2024/practical/conduct/)都找他們。
 
-![](../images/fosdem-2024/fosdem2024-closing-dancing.jpeg)
+![](r2:fosdem-2024/fosdem2024-closing-dancing.jpeg)
 
 ## 標誌、佈告
 
 我發現他們的會場佈置講求功能性為重，例如標誌系統製作成通用性的設計，臺灣則會做得比較精緻、吻合該處的指引。
 
-{{<figure src="../images/fosdem-2024/fosdem2024-signpost.jpeg" title="聰明的標誌系統，就算貼反也不用怕指錯路或難以閱讀">}}
+{{<figure src="r2:fosdem-2024/fosdem2024-signpost.jpeg" title="聰明的標誌系統，就算貼反也不用怕指錯路或難以閱讀">}}
 
 佈告欄也是用牛皮紙直接覆蓋原先的佈告欄，如此一來就可以張貼會場的文宣了。
 
-![](../images/fosdem-2024/fosdem2024-venue-bulletin-board.jpeg)
-![](../images/fosdem-2024/fosdem2024-venue-bulletin-board-2.jpeg)
-![](../images/fosdem-2024/fosdem2024-venue-bulletin-board-3.jpeg)
+![](r2:fosdem-2024/fosdem2024-venue-bulletin-board.jpeg)
+![](r2:fosdem-2024/fosdem2024-venue-bulletin-board-2.jpeg)
+![](r2:fosdem-2024/fosdem2024-venue-bulletin-board-3.jpeg)
 
 ## 公車轉彎死角貼紙
 
 布魯塞爾雙節公車，在車體貼貼紙示警危險範圍。
 
-![](../images/fosdem-2024/fosdem2024-bus-safe-distance-sticker.jpeg)
+![](r2:fosdem-2024/fosdem2024-bus-safe-distance-sticker.jpeg)
 
 # 花費
 
@@ -301,24 +301,24 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 我使用 [Google Travel](https://www.google.com/travel/explore) 快速彙整機票日期、降落地點對機票的影響。
 
-{{<figure src="../images/fosdem-2024/google-travel-overview.png" title="用 Google Travel 能快速瀏覽不同降落地點與日期對上的來回機票價格。">}}
+{{<figure src="r2:fosdem-2024/google-travel-overview.png" title="用 Google Travel 能快速瀏覽不同降落地點與日期對上的來回機票價格。">}}
 
 在瀏覽後，我快速選定了數個價格較低的城市，再分別使用日期表格比較最低價的日期與天數。
 
-{{<figure src="../images/fosdem-2024/google-travel-low-price-places.png" title="當時選定的低價城市，大城市比較有機會。">}}
+{{<figure src="r2:fosdem-2024/google-travel-low-price-places.png" title="當時選定的低價城市，大城市比較有機會。">}}
 
 ### 日期比較表格
 
 切換到該城市以「航班」搜尋後，可以展開「日期網格」的功能，這樣可以快速比較不同日期的價格。
 
-{{<figure src="../images/fosdem-2024/google-travel-flights-tpe-paris.png" title="切換到「航班」搜尋，使用「日期網格」功能">}}
+{{<figure src="r2:fosdem-2024/google-travel-flights-tpe-paris.png" title="切換到「航班」搜尋，使用「日期網格」功能">}}
 
 在表格中，可以快速得知去回程組合的機票最低價價格，當時比較了幾個城市，巴黎、阿姆斯特丹、科隆、法蘭克福。
 
-{{<figure src="../images/fosdem-2024/google-travel-price-compare-by-date-tpe-paris.png" title="臺北巴黎 9 天">}}
-{{<figure src="../images/fosdem-2024/google-travel-price-compare-by-date-tpe-amsterdam.png" title="臺北阿姆斯特丹 9 天">}}
-{{<figure src="../images/fosdem-2024/google-travel-price-compare-by-date-tpe-cologne.png" title="臺北科隆 9 天">}}
-{{<figure src="../images/fosdem-2024/google-travel-price-compare-by-date-tpe-frankfurt.png" title="臺北美因河畔法蘭克福 10 天">}}
+{{<figure src="r2:fosdem-2024/google-travel-price-compare-by-date-tpe-paris.png" title="臺北巴黎 9 天">}}
+{{<figure src="r2:fosdem-2024/google-travel-price-compare-by-date-tpe-amsterdam.png" title="臺北阿姆斯特丹 9 天">}}
+{{<figure src="r2:fosdem-2024/google-travel-price-compare-by-date-tpe-cologne.png" title="臺北科隆 9 天">}}
+{{<figure src="r2:fosdem-2024/google-travel-price-compare-by-date-tpe-frankfurt.png" title="臺北美因河畔法蘭克福 10 天">}}
 
 比較完後就能大致確認日期，只不過最低價的狀況，可能會遇到中國的航空公司的低價競爭，中國的航班可能需要在中國轉機和申辦台胞證，所以當時改挑了其他的航空公司。
 
@@ -326,7 +326,7 @@ FOSDEM 每年都有販賣主題酒，通常會在餐廳裡販賣各式各樣的�
 
 最後選擇國泰航空，來回機票價格約新台幣三萬元。
 
-{{<figure src="../images/fosdem-2024/google-travel-tpe-ams-cathaypacific.jpeg" title="">}}
+{{<figure src="r2:fosdem-2024/google-travel-tpe-ams-cathaypacific.jpeg" title="">}}
 
 ## 住宿
 

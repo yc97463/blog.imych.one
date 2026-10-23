@@ -31,10 +31,10 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 這次地震的規模 7.2，[921 地震規模 7.3](https://zh.wikipedia.org/zh-tw/921%E5%A4%A7%E5%9C%B0%E9%9C%87)，夢中猝不及防真是驚險，不知道 921 的人們當時是不是也同樣感受。
 
-{{< figure src="../images/0403-earthquake-and-ndhu/cwb-earthquake-app-20240403.jpeg" title="中央氣象署地震測報 APP 內地震資訊及所在相對位置，我們就在離震央不遠處">}}
+{{< figure src="r2:0403-earthquake-and-ndhu/cwb-earthquake-app-20240403.jpeg" title="中央氣象署地震測報 APP 內地震資訊及所在相對位置，我們就在離震央不遠處">}}
 
 
-{{< figure src="../images/0403-earthquake-and-ndhu/dorm-open-space.jpeg" title="一早地震後，同學們到宿舍中庭避難，忙於確認消息與外界聯絡">}}
+{{< figure src="r2:0403-earthquake-and-ndhu/dorm-open-space.jpeg" title="一早地震後，同學們到宿舍中庭避難，忙於確認消息與外界聯絡">}}
 
 # 0403 強震後的東華 📸
 
@@ -48,7 +48,7 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 強震造成圖書館塔樓毀損，目測塔樓的外牆有裂縫。文章釋出前，塔樓附近已禁止進入。
 
-![](../images/0403-earthquake-and-ndhu/ndhu-library-tower-broken.jpeg)
+![](r2:0403-earthquake-and-ndhu/ndhu-library-tower-broken.jpeg)
 
 ## 資訊中心辦公室混亂
 
@@ -56,17 +56,17 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 我與計中老朋友一起快速幫忙整理現場，運出，工程師們也在簡單整理後回到位子上搶修校園網路。
 
-![](../images/0403-earthquake-and-ndhu/ndhu-information-office-orderless.jpeg)
+![](r2:0403-earthquake-and-ndhu/ndhu-information-office-orderless.jpeg)
 
 東華是花蓮區網，據 [iThome 粉專快訊](https://www.facebook.com/ithomeonline/posts/pfbid0FNAux5hGaahPaSoB6gAtwJbDU7hhzezxD1Svw8ycX9zTdzdgUahHizk3iqJiifyPl)，東華對外的三條骨幹光纖全斷，在搶修後恢復部分。做網路維運的朋友當時都在向我關心東華的對外網路狀況，因為他們都看到東華 0 流量出入。
 
-![](../images/0403-earthquake-and-ndhu/ithome-facebook-feed-tanat-network.jpg)
+![](r2:0403-earthquake-and-ndhu/ithome-facebook-feed-tanat-network.jpg)
 
 ## 理工一館發生火災
 
 我們當時從新宿區移動到舊宿區的大草地避難，路上有看到理工一館前停放多輛消防車輛，當時只覺得是因為地震而來，沒想到隨著濃煙越來越劇烈才知道理工一館實驗室發生火災，正在向空氣釋放有害物質。
 
-![](../images/0403-earthquake-and-ndhu/ndhu-science-building-dark-smoke.jpeg)
+![](r2:0403-earthquake-and-ndhu/ndhu-science-building-dark-smoke.jpeg)
 
 ## 學生會辦公室櫃子倒塌
 
@@ -74,7 +74,7 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 我們決定離開大草地，回到學生會辦公室，門意外地無法打開，派了瘦子穿過門縫進入辦公室後發現門前櫃子倒塌，書籍和物品散落一地。
 
-![](../images/0403-earthquake-and-ndhu/ndhu-student-associations-office-shelves-landside.jpeg)
+![](r2:0403-earthquake-and-ndhu/ndhu-student-associations-office-shelves-landside.jpeg)
 
 # 我們的理工一館
 
@@ -102,11 +102,11 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。照片均於封鎖線及建築物外拍攝。
 
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-1-classroom.jpeg" title="理工一館內側教室">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-2-hallway.jpeg" title="理工一館內側走廊">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-3-hallway.jpeg" title="理工一館內側走廊">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-4-stairs-fire-extinguisher.jpeg" title="理工一館內側階梯與滅火器">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-5-waterline.jpeg" title="理工一館內側地板上的水管">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-1-classroom.jpeg" title="理工一館內側教室">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-2-hallway.jpeg" title="理工一館內側走廊">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-3-hallway.jpeg" title="理工一館內側走廊">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-4-stairs-fire-extinguisher.jpeg" title="理工一館內側階梯與滅火器">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-inside-5-waterline.jpeg" title="理工一館內側地板上的水管">}}
 
 ### 實驗室
 
@@ -114,15 +114,15 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 以下照片由第 13 屆東華學生自治會會長（現任）潘芊妤提供。照片均於封鎖線及建築物外拍攝。
 
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-1-combine.jpeg" title="理工一館 D 側側拍">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-2-lab.jpeg" title="理工一館 D 側實驗室">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-3-lab.jpeg" title="理工一館 D 側實驗室">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-4-lab.jpeg" title="理工一館 D 側實驗室">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-5-lab.jpeg" title="理工一館 D 側實驗室">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-1-combine.jpeg" title="理工一館 D 側側拍">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-2-lab.jpeg" title="理工一館 D 側實驗室">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-3-lab.jpeg" title="理工一館 D 側實驗室">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-4-lab.jpeg" title="理工一館 D 側實驗室">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/20240406-science-building-fire-damage-outside-5-lab.jpeg" title="理工一館 D 側實驗室">}}
 
 社群媒體上也有實驗室燒毀後的照片分享，載自 [@minrhome 在 Threads 上的串文](https://www.threads.net/@minrhome/post/C5V834SPGrf)。
 
-![](../images/0403-earthquake-and-ndhu/threads-minrhome-20240404-ndhu-science-building-after-fire.jpeg)
+![](r2:0403-earthquake-and-ndhu/threads-minrhome-20240404-ndhu-science-building-after-fire.jpeg)
 
 ## 0407 宣布遠距教學至 4/26
 
@@ -130,13 +130,13 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 [國立東華大學公告 -【緊急通知】因地震損壞校園硬體設備4月10日至4月26日全校採線上上課](https://announce.ndhu.edu.tw/mail_display.php?timestamp=1712464172)
 
-![](../images/0403-earthquake-and-ndhu/ndhu-announcement-0407-remote-teaching.jpeg)
+![](r2:0403-earthquake-and-ndhu/ndhu-announcement-0407-remote-teaching.jpeg)
 
 ## 0407 宣布化學館預定地
 
 [東華大學粉絲專頁 2024/04/07 16:38 宣布](https://www.facebook.com/ndhu.page/posts/pfbid0gFAbFdvieXcPAG8owKe7zMhAgRw92LBd2bxxrqqv6B39BToxZqfLLYAKyDtQNTUol)，將在東華學生活動中心及理工二館間空地，異地重建理工學院化學館，預定於明年 9 月落成啟用。
 
-![](../images/0403-earthquake-and-ndhu/facebook-ndhu-20240407-new-chemical-building.jpeg)
+![](r2:0403-earthquake-and-ndhu/facebook-ndhu-20240407-new-chemical-building.jpeg)
 
 ## 我日常的理工一館 📸
 
@@ -146,16 +146,16 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 這是一些 2022 到 2024 年間拍攝的照片，我想剛好藉這一次機會，好好分享我曾經拍攝的理工一館日常。
 
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-1.jpeg" title="理工一館 D 側旁的吳全道">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-2.jpeg" title="理工一館 A 側與 D 側轉角旁的吳全道，可以清楚看到燒毀前的建築物 D 側">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-3.jpeg" title="理工一館 C 側的物理系">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-4.jpeg" title="理工一館 A 側 4 樓應用數學系實驗室拍出去的風景，是東華早期建築物的歲月痕跡">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-5.jpeg" title="理工一館 D 側旁的吳全道，上課時面對的山景十分美麗">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-6.jpeg" title="理工一館 A 側靠近湖畔，當時秋季的落葉灑滿地">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-7.jpeg" title="理工一館外觀，從理工二館拍攝">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-8.jpeg" title="理工一館 C 側與 D 側銜接走廊">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-9.jpeg" title="理工一館 A 側與圖書館間的行人徒步區">}}
-{{<figure src="../images/0403-earthquake-and-ndhu/ndhu-science-building-yc97463-10.jpeg" title="理工一館 A 側高處眺望（左）與教室走廊（右）">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-1.jpeg" title="理工一館 D 側旁的吳全道">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-2.jpeg" title="理工一館 A 側與 D 側轉角旁的吳全道，可以清楚看到燒毀前的建築物 D 側">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-3.jpeg" title="理工一館 C 側的物理系">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-4.jpeg" title="理工一館 A 側 4 樓應用數學系實驗室拍出去的風景，是東華早期建築物的歲月痕跡">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-5.jpeg" title="理工一館 D 側旁的吳全道，上課時面對的山景十分美麗">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-6.jpeg" title="理工一館 A 側靠近湖畔，當時秋季的落葉灑滿地">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-7.jpeg" title="理工一館外觀，從理工二館拍攝">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-8.jpeg" title="理工一館 C 側與 D 側銜接走廊">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-9.jpeg" title="理工一館 A 側與圖書館間的行人徒步區">}}
+{{<figure src="r2:0403-earthquake-and-ndhu/ndhu-science-building-yc97463-10.jpeg" title="理工一館 A 側高處眺望（左）與教室走廊（右）">}}
 
 # 東華重建捐款專戶
 
@@ -169,7 +169,7 @@ images: ["images/0403-earthquake-and-ndhu/20240406-science-building-fire-damage-
 
 我決定將我從系辦領到的部分薪水捐給災後重建，感謝這裡栽培我們的學術知識和人格修養，也希望這裡能早日重建，讓我們能再次回到這裡學習和生活。
 
-![](../images/0403-earthquake-and-ndhu/yc-20240403-ndhu-earthquake-donation.jpeg)
+![](r2:0403-earthquake-and-ndhu/yc-20240403-ndhu-earthquake-donation.jpeg)
 
 # 參考資料
 

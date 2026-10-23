@@ -29,7 +29,7 @@ images: ["images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png"]
 
 參與者也有機會成為現場的一日志工。此次，OCF 不僅期望在議程中獲得新知，還計畫申請攤位，開放臺灣在地的開源社群進行寄攤宣傳，希望與台灣的社群夥伴一起，在現場推廣及介紹臺灣的開源活動與相關組織的發展。
 
-![](../images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png)
+![](r2:apply-ocf-international-conference-grants-program/ocftw-2024intldonate-introduction-screenshot.png)
 
 # 申請本獎助計畫
 
@@ -59,7 +59,7 @@ images: ["images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png"]
     - 💡 免費公開釋出
 5. 核銷補助
 
-![](../images/fosdem-2024/ocftw-2024intldonate-obligation-screenshot.png)
+![](r2:apply-ocf-international-conference-grants-program/ocftw-2024intldonate-obligation-screenshot.png)
 
 ## 申請表單
 
@@ -83,7 +83,7 @@ images: ["images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png"]
 
 > 所屬社群不一定是指技術社群，也可以是其他社群，例如學校社團、志工團體、工作團隊等等。
 
-![申請表單動機截圖](../images/fosdem-2024/ocftw-2024intldonate-application-form-screenshot-motivation.png)
+![申請表單動機截圖](r2:apply-ocf-international-conference-grants-program/ocftw-2024intldonate-application-form-screenshot-motivation.png)
 
 ### 3. 會議參與 規劃與產出
 
@@ -99,7 +99,7 @@ images: ["images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png"]
 
 會後的分享發表活動，除了自身所屬社群，也可以考慮投稿到 [SITCON 學生計算機年會](https://sitcon.org)（3 月）、[COSCUP 開源人年會](https://coscup.org)（7 月底）等等，只要是公開發表的場合都可以。
 
-![申請表單會議預想規劃截圖](../images/fosdem-2024/ocftw-2024intldonate-application-form-screenshot-expectation.png)
+![申請表單會議預想規劃截圖](r2:apply-ocf-international-conference-grants-program/ocftw-2024intldonate-application-form-screenshot-expectation.png)
 
 ### 表單總結
 
@@ -120,7 +120,7 @@ images: ["images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png"]
 
 我們受獎助者可以會前提出一些問題，領航員會在會議交流中回答，例如我因為第一次出國，所以問了關於飛行、當地生活、交通、攜帶文件，以及趣事分享等等的問題。
 
-{{<figure src="../images/fosdem-2024/ocftw-2024intldonate-pilot-yannest-fosdem2023-outline.png" title="雁子簡報大綱">}}
+{{<figure src="r2:apply-ocf-international-conference-grants-program/ocftw-2024intldonate-pilot-yannest-fosdem2023-outline.png" title="雁子簡報大綱">}}
 
 ### 這一趟的任務
 
@@ -141,17 +141,17 @@ images: ["images/fosdem-2024/ocftw-2024intldonate-introduction-screenshot.png"]
 
 由於我們的出訪意義是把歐洲的開源文化帶回臺灣，特別是 FOSDEM 有不少社群經營的議程，因此去聽一場指定社群經營議程也是我們的任務之一。
 
-{{<figure src="../images/fosdem-2024/ocftw-2024intldonate-pre-departure-community-session.png" title="">}}
+{{<figure src="r2:apply-ocf-international-conference-grants-program/ocftw-2024intldonate-pre-departure-community-session.png" title="">}}
 
 ### 社群攤位
 
 OCF 在今年也在 [FOSDEM 擺攤](https://fosdem.org/2024/stands/)，所以在工作會議也有介紹今年的文宣品策略、逛攤位攻略。
 
-{{<figure src="../images/fosdem-2024/ocftw-2024intldonate-pre-departure-interact-guideline.png" title="逛攤位攻略，主打多跟外國人會眾互動">}}
+{{<figure src="r2:apply-ocf-international-conference-grants-program/ocftw-2024intldonate-pre-departure-interact-guideline.png" title="逛攤位攻略，主打多跟外國人會眾互動">}}
 
 OCF 準備發放的文宣也有小巧思，文宣模仿租屋廣告的小紙條，讓人看到能撕了就走。
 
-{{<figure src="../images/fosdem-2024/ocftw-2024intldonate-pre-departure-poster.png" title="到處張貼的文宣做成可以撕的小紙條，方便大家拿取 → 時常需要補 ⇒ 成效不彰">}}
+{{<figure src="r2:apply-ocf-international-conference-grants-program/ocftw-2024intldonate-pre-departure-poster.png" title="到處張貼的文宣做成可以撕的小紙條，方便大家拿取 → 時常需要補 ⇒ 成效不彰">}}
 
 逛攤位總結：
 

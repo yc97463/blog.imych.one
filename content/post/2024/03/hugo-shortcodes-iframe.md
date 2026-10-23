@@ -50,7 +50,7 @@ iframe 標籤在還沒有被定義前的編譯結果：shortcode "iframe" not fo
 # ⭡空格去掉              ⭡空格去掉
 ```
 
-![](../images/hugo-shortcodes-iframe/SCR-20240302-mgpa.png)
+![](r2:hugo-shortcodes-iframe/SCR-20240302-mgpa.png)
 
 ## 套用美美的 CSS
 
@@ -74,7 +74,7 @@ iframe {
 
 如此一來就能得到符合容器寬度且 16:9 比例的內嵌視窗了！
 
-![](../images/hugo-shortcodes-iframe/SCR-20240302-mneb.jpeg)
+![](r2:hugo-shortcodes-iframe/SCR-20240302-mneb.jpeg)
 
 
 

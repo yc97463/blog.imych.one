@@ -11,7 +11,7 @@ images: ["SCR-20251024-peke.png"]
 哭啊！學校信箱又爆了。<!--more-->這次不忍了，來寫個 Google Apps Script 自動清理舊信件的 script。
 （拜託學校別再寄不緊急又大包附件的~~公告~~垃圾信到信箱了😭，學生只有 2GB 可以用RRRR）
 
-![](./SCR-20251024-peke.png)
+![](r2:purge-old-mails-google-apps-script/SCR-20251024-peke.png)
 
 # 使用方式
 

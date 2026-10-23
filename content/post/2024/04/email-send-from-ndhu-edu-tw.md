@@ -23,7 +23,7 @@ tags: ["Google Workspace"]
 目前統一使用 Google 提供的 Gmail 信箱，使用 `xxx@gms.ndhu.edu.tw` 網域帳號登入 Google，俗稱 gms 帳號。
 
 
-{{<figure src="../images/email-send-from-ndhu-edu-tw/google-login-at-gms-ndhu-edu-tw.jpeg" title="登入 gms 帳號即可使用東華的信箱">}}
+{{<figure src="r2:email-send-from-ndhu-edu-tw/google-login-at-gms-ndhu-edu-tw.jpeg" title="登入 gms 帳號即可使用東華的信箱">}}
 
 如果你也想要用漂亮簡潔的 `@ndhu.edu.tw` 電子郵件地址寄信，而非長長醜醜的 `@gms.ndhu.edu.tw`，那麼請繼續看下去。
 
@@ -82,11 +82,11 @@ tags: ["Google Workspace"]
 
 在網頁版 Gmail 右上角齒輪，展開 Gmail 設定。
 
-![](../images/email-send-from-ndhu-edu-tw/gmail-go-setting.jpeg)
+![](r2:email-send-from-ndhu-edu-tw/gmail-go-setting.jpeg)
 
 在「帳戶」頁籤中，預設應該只有 `xxx@gms.ndhu.edu.tw` 帳號本人，我們點選「新增另一個電子郵件地址」。
 
-![](../images/email-send-from-ndhu-edu-tw/gmail-setting-account.jpeg)
+![](r2:email-send-from-ndhu-edu-tw/gmail-setting-account.jpeg)
 
 這時候會跳出新的視窗來「新增其他的電子郵件」，分別填入以下資料：
 
@@ -94,7 +94,7 @@ tags: ["Google Workspace"]
 - 電子郵件地址：`xxx@ndhu.edu.tw` 電子郵件地址，`xxx` 同你 gms 電子郵件的帳號名稱，學生是學號。
 - 視為別名：可勾可不勾。
 
-![](../images/email-send-from-ndhu-edu-tw/gmail-add-email-address.jpeg)
+![](r2:email-send-from-ndhu-edu-tw/gmail-add-email-address.jpeg)
 
 按「下一步」後，會因為是[帳號別名](#我可以也將-mailndhuedutw-加入嗎)而自動驗證通過。
 
@@ -104,11 +104,11 @@ tags: ["Google Workspace"]
 
 我們剛剛新增的 `@ndhu.edu.tw` 已經成功新增了✅。這時點按「設為預設值」，可以在收發電子郵件時，自動使用 `xxx@ndhu.edu.tw` 網域的信箱郵件地址。
 
-![](../images/email-send-from-ndhu-edu-tw/gmail-set-ndhuedutw-as-default-address.jpeg)
+![](r2:email-send-from-ndhu-edu-tw/gmail-set-ndhuedutw-as-default-address.jpeg)
 
 套用成功，你可以使用 `xxx@ndhu.edu.tw` 寄信了！🎉
 
-![](../images/email-send-from-ndhu-edu-tw/gmail-compose-use-ndhuedutw-address.jpeg)
+![](r2:email-send-from-ndhu-edu-tw/gmail-compose-use-ndhuedutw-address.jpeg)
 
 # @gms.ndhu.edu.tw 和 @ndhu.edu.tw 有什麼差別嗎？
 
@@ -122,7 +122,7 @@ tags: ["Google Workspace"]
 
 你可以挑你喜歡的別名加入，作為寄信的電子郵件地址。
 
-![](../images/email-send-from-ndhu-edu-tw/google-account-ndhu-alternate-alias.jpeg)
+![](r2:email-send-from-ndhu-edu-tw/google-account-ndhu-alternate-alias.jpeg)
 
 # 參考資料
 
