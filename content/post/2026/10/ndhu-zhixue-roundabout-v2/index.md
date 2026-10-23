@@ -55,7 +55,7 @@ images: ["ndhu-zhixue-roundabout-v2.jpg"]
 
 第一個分享的是「荷蘭阿姆斯特丹南區」的行人穿越道，這個路口位於商業區 Zuidas，附近有許多金融機構、辦公大樓、商店與大眾運輸停靠站，旁邊正是 Vrije Universiteit 呢！行人也是流量相當可觀。
 
-{{< figure src="/netherland-crosswalk/amsterdam-crosswalk@1x.jpg" title="荷蘭阿姆斯特丹行人穿越道 52°19\'51.6\"N 4°52\'46.2\"E" >}}
+{{< figure src="r2:netherland-crosswalk/amsterdam-crosswalk@1x.jpg" title="荷蘭阿姆斯特丹行人穿越道 52°19\'51.6\"N 4°52\'46.2\"E" >}}
 
 第二個分享的是稍微北一點的路中段的行人穿越道，這裡有路面電車停靠站，行人可以自由穿越。
 
@@ -63,7 +63,7 @@ images: ["ndhu-zhixue-roundabout-v2.jpg"]
 
 相較臺灣寬大的柏油馬路，這裡設計得很有禮貌，讓駕駛在經過路口、行穿線時自然願意放慢速度禮讓行人。如果相同場景在臺灣，絕對是插一組紅綠燈處理穿越的橫斷人流吧！xd
 
-{{< figure src="/netherland-crosswalk/amsterdam-centrum-edge-crosswalk.jpg" title="荷蘭阿姆斯特丹市中心邊緣區行人穿越道 52°20\'26.5\"N 4°52\'22.1\"E" >}}
+{{< figure src="r2:netherland-crosswalk/amsterdam-centrum-edge-crosswalk.jpg" title="荷蘭阿姆斯特丹市中心邊緣區行人穿越道 52°20\'26.5\"N 4°52\'22.1\"E" >}}
 
 {{< youtube s1ZEIJOqAN4 >}}
 
