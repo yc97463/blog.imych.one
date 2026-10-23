@@ -1,17 +1,17 @@
 ---
 title: "東華志學門圓環標線改善提案"
-date: 2025-10-04T23:27:51+08:00
+date: 2026-10-24T03:00:00+08:00
 draft: false
-build: 
-    list: never
 categories: [""]
 tags: [""]
 images: ["ndhu-zhixue-roundabout-v2.jpg"]
 ---
 
-東華在 2024 年 11 月竣工的圓環啟用快一週年了，一些如[公館圓環](https://youtu.be/HltUC0HLH4Y)動線不明確的問題逐漸浮出檯面，加上[中山大學校內啟用「新型標線圓環」](https://news.nsysu.edu.tw/p/406-1120-360982,r3979.php?Lang=zh-tw)，能看到完整設計的圓環座落在校園中，我很是羨慕。因此我也想提一些關於圓環的標線改善提案，不知道這學期有沒有機會推成呢？
+東華在 2024 年 11 月竣工的圓環啟用快兩週年了，一些如[公館圓環](https://youtu.be/HltUC0HLH4Y)動線不明確的問題逐漸浮出檯面，加上[中山大學校內啟用「新型標線圓環」](https://news.nsysu.edu.tw/p/406-1120-360982,r3979.php?Lang=zh-tw)，能看到完整設計的圓環座落在校園中，我很是羨慕。因此我也想提一些關於圓環的標線改善提案，不知道這學期有沒有機會推成呢？
 
 <!--more-->
+
+> Note: 這篇文章原定在 2025 年 10 月 4 日發表，但中間的生活發生了好多事情，才讓這篇文章拖到 2026 年 10 月底才寫完。基本上就當作是篇筆記記錄的形式。
 
 # 志學門圓環分析
 
@@ -19,14 +19,14 @@ images: ["ndhu-zhixue-roundabout-v2.jpg"]
 
 志學門圓環是「2024/11 外環道整體規劃改善工程（第一期）」的一部分。這個圓環位於東華大學志學門入口處，連接校內外環道與校內道路，使用角色包含行人、自行車、機車與汽車等多種交通工具，尖峰時段進出校車輛的流量非常可觀。
 
-![](./ndhu-zhixue-intersection.png)
-![](./ndhu-zhixue-roundabout-v1.jpg)
+![](r2:ndhu-zhixue-roundabout-v2/ndhu-zhixue-intersection.png)
+![](r2:ndhu-zhixue-roundabout-v2/ndhu-zhixue-roundabout-v1.jpg)
 
 原正交路口空照圖來自於[「航遙測圖資供應服務平臺」](https://gis.asrs.gov.tw/atisweb/@121.53637961728539,23.903666423513613,20.00z)。
 
 ## 改善提案
 
-{{< figure src="./ndhu-zhixue-roundabout-v2.jpg" title="東華志學門圓環改善提案" >}}
+{{< figure src="r2:ndhu-zhixue-roundabout-v2/ndhu-zhixue-roundabout-v2.jpg" title="東華志學門圓環改善提案" >}}
 
 * **讓路提示更明確**：在左方來車之行穿線前調整為「讓路線」；環道以「白色短虛線」清楚描出圓環邊界，提供車輛判斷他向來車進入圓環與否。
 * **自行車道銜接至人行道**：此處分為兩個狀況，一為左方來車方向，自行車動線通常會右轉上人行道；二為現行行人與自行車通過路口時，需要一次穿越兩個車道，因此將自行車道直接銜接至人行道，可以避免行人於道路上暴露的時間，並且擴大人行道範圍。
@@ -72,68 +72,53 @@ images: ["ndhu-zhixue-roundabout-v2.jpg"]
 
 Guess what? 這是 N24 主要幹道，類似於臺灣的省道等級，車流量相當可觀，卻能做到這種人本設計，我真的好佩服。
 
-{{< figure src="./brussel-crosswalk.jpg" title="比利時布魯塞爾自由大學附近的行人穿越道 50°48\'49.7\"N 4°22\'40.8\"E" >}}
-
-
-
+{{< figure src="r2:ndhu-zhixue-roundabout-v2/brussel-crosswalk.jpg" title="比利時布魯塞爾自由大學附近的行人穿越道 50°48\'49.7\"N 4°22\'40.8\"E" >}}
 
 ### 分段行人穿越道文獻
-https://www.tandfonline.com/doi/full/10.1080/01944363.2024.2394610 （圖一）
 
-![](./rjpa_a_2394610_f0002_c.png)
-
-近期臺北市復興南路一段與忠孝東路三段（捷運忠孝復興站出來）路口，新做的
-https://therantyhighwayman.blogspot.com/2022/08/
-https://maps.app.goo.gl/4uk22m1qCucAtzkH6 （圖二）
-
-![](./taipei-fuxing-south-road-intersection-streetview.png)
+- https://www.tandfonline.com/doi/full/10.1080/01944363.2024.2394610
+  ![](r2:ndhu-zhixue-roundabout-v2/rjpa_a_2394610_f0002_c.png)
+- 近期臺北市復興南路一段與忠孝東路三段（捷運忠孝復興站出來）[路口](https://maps.app.goo.gl/4uk22m1qCucAtzkH6)
+  ![](r2:ndhu-zhixue-roundabout-v2/taipei-fuxing-south-road-intersection-streetview.png)
+- https://therantyhighwayman.blogspot.com/2022/08/
 
 ## 燈光照明
 
 燈光照明真的太重要了 QQQQ，尤其從新宿方向過來的自行車、內環出校自行車及行人仰賴這側的行穿線，更應該提升其安全。
 目前的日光燈根本不足以照亮路口，甚至接近時才得以觀察到行人與自行車動線，以及圓環位置。
 
-圖三：接近圓環於夜間之狀況
+- 接近圓環於夜間之狀況
+  ![](r2:ndhu-zhixue-roundabout-v2/view-from-east-dorm-to-zhixue-gate.jpg)
+- https://www.instagram.com/p/DE_jOjosnbM/?img_index=10
+  ![](r2:ndhu-zhixue-roundabout-v2/vision-zero-taiwan-safe-intersection.png)
 
-![](./view-from-east-dorm-to-zhixue-gate@1x.jpg)
-
-[🔍 高解析度照片](/ndhu-zhixue-roundabout-v2/view-from-east-dorm-to-zhixue-gate@2x.jpg)
-
-https://www.instagram.com/p/DE_jOjosnbM/?img_index=10 （圖四）
-
-![](./vision-zero-taiwan-safe-intersection.png)
-
-## 連續的車道邊線
+## 連續的車道引導線
 
 前陣子去臺南開車的時候注意到主要道路上基本上都做了這個設計，高雄近期在大立五福圓環新設計時也加入這種做法。
-https://www.facebook.com/photo/?fbid=1425058789144271&set=a.601575628159262
 
-![](./retwroad-lane-edge-design.jpeg)
+[![](r2:ndhu-zhixue-roundabout-v2/retwroad-lane-edge-design.jpeg)](https://www.facebook.com/photo/?fbid=1425058789144271&set=a.601575628159262)
 
-有助於駕駛判斷車道範圍及路口位置，支道讓路停等時也有邊線作為第二次停車位置的依據。
+有助於駕駛判斷車道範圍及路口位置，支道讓路停等時也有邊線作為第二次停車位置的依據。使用起來相當直覺，作為用路人，我很支持！
 
-我很喜歡！
-
-![](./kaohsiung-wufu-intersection-streetview.jpeg)
+{{< figure src="r2:ndhu-zhixue-roundabout-v2/kaohsiung-wufu-intersection-streetview.jpeg" title="高雄大立五福圓環，車道邊線使用引導線" >}}
 
 ## 「胖胖人行道」與「荷蘭式路口」
 
-胖胖人行道的概念也可以加入討論，但目前看起來圓環周遭沒有多餘的路肩，所以應該加不進來（？
+路口外推設計：
 
-自行車道的動線則直接整併到人行道上，走一個荷蘭式慢車道的概念，讓道路對自行車友善一點
+- https://www.planetizen.com/definition/traffic-calming 
+- https://nacto.org/publication/urban-street-design-guide/street-design-elements/curb-extensions/
+  {{< figure src="r2:ndhu-zhixue-roundabout-v2/curb-bulb-outs-at-midblock-crosswalk.png" title="路肩突出設計，縮短行人穿越距離，也避免停車遮蔽造成的死角" >}}
+- https://www.mobile01.com/topicdetail.php?f=294&t=7212958
+{{< figure src="r2:ndhu-zhixue-roundabout-v2/SCR-20261024-ebdh.png" title="民眾對於轉角突出設計感到困惑" >}}
 
-https://www.planetizen.com/definition/traffic-calming 圖一
-https://nacto.org/publication/urban-street-design-guide/street-design-elements/curb-extensions/
+荷蘭式保護路口設計：
 
+https://www.youtube.com/watch?v=FlApbxLz6pA
+{{< figure src="r2:ndhu-zhixue-roundabout-v2/dutch-protected-intersection-design.png" title="荷蘭式保護路口設計" >}}
 
-![](./curb-bulb-outs-at-midblock-crosswalk.png)
+{{< figure src="r2:ndhu-zhixue-roundabout-v2/kaohsiung-wufu-intersection-aerial.jpeg" title="高雄大立五福圓環" >}}
 
-https://www.youtube.com/watch?v=FlApbxLz6pA 圖二
-![](./dutch-protected-intersection-design.png)
-
-圖三 五福大立圓環
-
-![](./kaohsiung-wufu-intersection-aerial.jpeg)
 
 # 參考資料
 
